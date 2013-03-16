@@ -3,6 +3,7 @@ body {
 }
 #hello-content {
 	padding: 15px 0 0 0;
+	white-space:nowrap;
 }
 #about {
 	z-index:1;
