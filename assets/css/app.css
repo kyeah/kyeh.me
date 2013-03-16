@@ -1,0 +1,11 @@
+body {
+	background: #EAEAEA; /*#6C615C*/ /*#4e3a3a*/
+}
+#hello-content {
+	padding: 15px 0 0 0;
+}
+#about {
+	z-index:1;
+	margin: 3px 0 0 0;
+	position:absolute;
+}
