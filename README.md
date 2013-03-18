@@ -1,6 +1,9 @@
 kyeh.me
 =======
 
-This is the source code for my WIP site, which can currently be viewed at http://cs.utexas.edu/~kyeh.
+This is the source code for my WIP site, which can currently be viewed at:
+
+* http://cs.utexas.edu/~kyeh
+* http://fast-gorge-6136.herokuapp.com/ (for the adventurous.)
 
 Don't try to view this in mobile...ever.
