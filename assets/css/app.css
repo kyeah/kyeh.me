@@ -1,12 +1,42 @@
 body {
-	background: #EAEAEA; /*#6C615C*/ /*#4e3a3a*/
+    background: #EAEAEA; /*#6C615C*/ /*#4e3a3a*/
 }
+#sidebar {
+    top:0;
+    left:0;
+    height:100%;
+    width:20%;
+    background: black;
+    position:fixed;
+}
+#rightbar {
+    height:100%;
+    width:21.5%;
+    right:0;
+    background: black;
+    position:fixed;
+}
+#menu {
+    position:fixed;
+    right:80%;
+    padding: 10px 15px 0 0;
+    overflow-x:hidden;
+    overflow-y:auto;
+
+}
+#main-content {
+    left:20%;
+    padding: 0 20px;
+    position:absolute;
+    overflow-x:auto;
+}
+
 #hello-content {
-	padding: 15px 0 0 0;
-	white-space:nowrap;
+    padding: 15px 0 0 0;
+    white-space:nowrap;
 }
 #about {
-	z-index:1;
-	margin: 3px 0 0 0;
-	position:absolute;
+    z-index:1;
+    margin: 3px 0 0 0;
+    position:absolute;
 }

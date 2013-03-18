@@ -20,22 +20,24 @@
 
 <body>
 	<!-- Nav and Banner -->
- 
- <div class="row">
-    <div style="position:fixed;top:0;bottom:0;left:290px;overflow-x:hidden;overflow-y:auto;">
-      <ul class="side-nav" style="text-align:right">
-        <li><a href="#">Kevin Yeh</a></li>
-        <li><a href="#code">Code</a></li>
-        <li><a href="#design" >Design</a></li>
-        <li><a href="#blog" >Blog</a></li>
-      </ul>
-    </div>
+ <div id="sidebar">
+     <div id="menu">
+       <ul class="side-nav" style="text-align:right">
+         <li><a href="#">Kevin Yeh</a></li>
+         <li><a href="#code">Code</a></li>
+         <li><a href="#design" >Design</a></li>
+         <li><a href="#blog" >Blog</a></li>
+       </ul>
+     </div>
  </div>
-   
-   <div class="row" id="hello-content">
-     <a href="#code"><img src="assets/images/photos/swipespin.png" /> </a>	
-	 <a href="#design"><img src="assets/images/photos/cctv.png" /> </a>
-     <a href="#blog"><img src="assets/images/photos/hello.png" /> </a>
+
+ <!--div id="rightbar"></div-->
+
+ <div id="main-content">
+    <div class="row" id="hello-content">
+     <a href="#code"><img src="assets/images/photos/swipespin.png"/> </a>
+	 <a href="#design"><img src="assets/images/photos/cctv.png"/> </a>
+     <a href="#blog"><img src="assets/images/photos/hello.png"/> </a>
    </div>
    <div class="row">
        <div id="about">
@@ -96,7 +98,7 @@
       </div>
     </div> 
   </footer>
-  
+ </div>
   <!-- Included javascript files -->
   <script src="assets/js/vendor/jquery.js"></script>
   <script src="assets/js/foundation/foundation.min.js"></script>
