@@ -1,40 +1,10 @@
 body {
     background: #EAEAEA; /*#6C615C*/ /*#4e3a3a*/
 }
-#sidebar {
-    top:0;
-    left:0;
-    height:400%;
-    width:20%;
-    padding-right:20px;
-    background: black;
-    position:fixed;
-}
-#rightbar {
-    height:100%;
-    width:21.5%;
-    right:0;
-    background: black;
-    position:fixed;
-}
 #topbar {
     height:45px;
     background:black;
 }
-/*#menu {
-    position:fixed;
-    right:80%;
-    padding: 10px 15px 0 0;
-    overflow-x:hidden;
-    overflow-y:auto;
-
-}*/
-#main-content {
-    /* left:20%;*/
-/*    padding-left:20px;*/
-/*    overflow-x:auto;*/
-}
-
 #hello-content {
     padding-top: 15px;
     white-space:nowrap;
