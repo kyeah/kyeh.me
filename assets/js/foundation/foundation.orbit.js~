@@ -80,8 +80,8 @@
     },
 
     _next_html: function() {
-	var self = this;
-	return '<a href="#" class="' + self.settings.next_class + '">Next <span></span></a>';
+      var self = this;
+      return '<a href="#" class="' + self.settings.next_class + '">Next <span></span></a>';
     },
 
     _prev_html: function() {

@@ -18,8 +18,7 @@ body {
     position:fixed;
 }
 #topbar {
-    height:50px;
-    background:black;
+    height:30px;
 }
 /*#menu {
     position:fixed;
