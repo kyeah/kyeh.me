@@ -24,7 +24,7 @@
   <!-- Nav -->
   <section id="topbar" data-magellan-expedition="fixed">
     <dl class="sub-nav">
-      <dd data-magellan-arrival="about" class="active"><a href="#">Kevin Yeh</a></dd>
+      <dd data-magellan-arrival="about" class="active"><a href="#main-content">Kevin Yeh</a></dd>
       <dd data-magellan-arrival="code"><a href="#code">Code</a></dd>
       <dd data-magellan-arrival="design"><a href="#design" >Design</a></dd>
       <dd data-magellan-arrival="blog"><a href="blog.html" >Blog</a></dd>
@@ -32,11 +32,11 @@
   </section>
 
   <!-- Main Content -->
-  <section id="main-content">
+  <section class="section" id="main-content">
     <div class="row" id="hello-content">
       <a href="#code"><img src="images/photos/swipespin.png"/></a>
       <a href="#design"><img src="images/photos/cctv.png"/></a>
-      <a href="blog.html"><img src="images/photos/hello.png"/></a>
+      <a href="blog"><img src="images/photos/hello.png"/></a>
     </div>
     
     <div class="row">
@@ -63,26 +63,28 @@
       <hr />    
     </div>
 
-  <div class="row">
-  <h6>This is where pretty pictures of my projects would go if I had fed and nurtured my website today.</h6>
+    <section data-magellan-destination="code">
+      <div class="row">
+        <h6>This is where pretty pictures of my projects would go if I had fed and nurtured my website today.</h6>
 
-  <!-- CODE -->
-  <div class="imageRow" data-magellan-destination="code">
-        <div class="set">
-        <div class="single first">
-            <a href="images/examples/image-3.jpg" rel="lightbox[plants]" title="Look at this pretty example image!"><img src="images/examples/thumb-3.jpg" alt="Plants: image 1 0f 4 thumb" /></a>
+        <!-- CODE -->
+        <div class="imageRow">
+          <div class="set">
+            <div class="single first">
+              <a href="images/examples/image-3.jpg" rel="lightbox[plants]" title="Look at this pretty example image!"><img src="images/examples/thumb-3.jpg" alt="Plants: image 1 0f 4 thumb" /></a>
             </div>
-      <div class="single">
-          <a href="images/examples/image-4.jpg" rel="lightbox[plants]" title="WOW. Look at that." ><img src="images/examples/thumb-4.jpg" alt="Plants: image 2 0f 4 thumb" /></a>
-      </div>
-      <div class="single">
-          <a href="images/examples/image-5.jpg" rel="lightbox[plants]" title="I took these photos. Yep. Took them right off an example page."><img src="images/examples/thumb-5.jpg" alt="Plants: image 3 0f 4 thumb" /></a>
-      </div>
-      <div class="single last">
-          <a href="images/examples/image-6.jpg" rel="lightbox[plants]" title="Last image, sucka."><img src="images/examples/thumb-6.jpg" alt="Plants: image 4 0f 4 thumb" /></a>
-      </div>
-      </div>
-  </div>
+            <div class="single">
+              <a href="images/examples/image-4.jpg" rel="lightbox[plants]" title="WOW. Look at that." ><img src="images/examples/thumb-4.jpg" alt="Plants: image 2 0f 4 thumb" /></a>
+            </div>
+            <div class="single">
+              <a href="images/examples/image-5.jpg" rel="lightbox[plants]" title="I took these photos. Yep. Took them right off an example page."><img src="images/examples/thumb-5.jpg" alt="Plants: image 3 0f 4 thumb" /></a>
+            </div>
+            <div class="single last">
+              <a href="images/examples/image-6.jpg" rel="lightbox[plants]" title="Last image, sucka."><img src="images/examples/thumb-6.jpg" alt="Plants: image 4 0f 4 thumb" /></a>
+            </div>
+          </div>
+        </div>
+    </section>
 
   <!-- Footer -->
   <footer class="row">
@@ -111,6 +113,7 @@
  <script src="js/jquery-1.7.2.min.js"></script>
  <script src="js/foundation/foundation.min.js"></script>
  <script src="js/foundation/jquery.offcanvas.js"></script>
+ <script src="js/jquery.smooth-scroll.min.js"></script>
  <script src="js/lightbox.js"></script>
  <script src="js/vendor/app.js"></script>
 
