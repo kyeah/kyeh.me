@@ -7,7 +7,7 @@
 		<!-- Set the viewport width to device width for mobile -->
   		<meta name="viewport" content="width=device-width" />
 		
-		<title>Kevin Yeh</title>
+		<title>Kevin Yeh: Blog</title>
 		
 		<!-- Included CSS Files -->
 		<link rel="stylesheet" href="css/foundation.min.css">
@@ -41,7 +41,7 @@
       </p>
       
       <div class="large-10 large-centered columns">
-        <h5 style="color:#EEEEEE">I recently switched over to Android Studio after months of frustratingly sitting back in my chair while Eclipse plinked around, trying to clean and build the project for 5 minutes, every time I changed a few lines of code. 
+        <h5 style="color:#EEEEEE">I recently switched over to Android Studio after months of frustratingly sitting back in my chair while Eclipse plinked around trying to clean and build the project every time I changed a few lines of code. 
 </br></br>
 Thank god. 
 </br></br>
