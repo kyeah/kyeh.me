@@ -31,7 +31,7 @@
   <section class="section">
     <!-- Main Content -->
     <div class="row">
-      <h2>Getting Intimate with Android Studio</h2>
+      <h2>Getting Cozy with Android Studio</h2>
       <p style="color:#999999">
         Posted
         <time class="timeago"
@@ -41,15 +41,15 @@
       </p>
       
       <div class="large-10 large-centered columns">
-        <h5 style="color:#FFFFFF">I recently switched over to Android Studio after four months of frustratingly sitting back in my chair watching Eclipse plink around, trying to clean and build the project for 5 minutes every time I changed a few lines of code. 
+        <h5 style="color:#EEEEEE">I recently switched over to Android Studio after months of frustratingly sitting back in my chair while Eclipse plinked around, trying to clean and build the project for 5 minutes, every time I changed a few lines of code. 
 </br></br>
 Thank god. 
 </br></br>
-This is my first encounter with an IDE from JetBrains. It's cleaner, faster, and it just feels good to work in. <i>It feels right.</i> I don't have to tinker around with the 3 perspectives I want and the 15 others that get in the way. I don't have to slow my IDE down with plugins for vital functionality. I don't have to wade through menus to fix dependencies and all the other miscellaneous things that go wrong in Eclipse. Android Studio comes in hot. It does what you want, when you want. It makes sense.
+This is my first encounter with an IDE from JetBrains. It's cleaner, faster, and it just feels good to work with. <i>It feels right.</i> I don't have to tinker around with the 3 perspectives I want and the 15 others that get in the way. I don't have to slow my IDE down with plugins for vital functionality. I don't have to wade through menus to fix dependencies and all the other miscellaneous things that go wrong in Eclipse. Android Studio comes in hot. It does what you want, when you want. It makes sense.
 </br></br>
-Android Studio is a joint effort between Google and JetBrains, and is built on JetBrain's IntelliJ IDEA. In spite of being in early access preview, it manages to be better than Eclipse in just about every way possible. It's like that new kid in school with a fresh leather jacket and well-trimmed pompadour who manages to steal all the popular kids' crewmates and girlfriends before simultaneously revealing his 1964 Aston Martin and dropping the pants of everyone in a 5-mile radius.
+Android Studio is a joint effort between Google and JetBrains, and is built on JetBrain's IntelliJ IDEA. Despite being in early access preview, it manages to be better than Eclipse in just about every way possible. It's like that new kid in school with a fresh leather jacket and well-trimmed pompadour who manages to steal all the popular kids' crewmates and girlfriends before simultaneously revealing his 1964 Aston Martin and dropping the pants of everyone in a 5-mile radius.
 </br></br>
-One of my favorite things about AS is how dynamic it is: color previews appear instantaneously and you can view the layout of your app on a number of different devices without ever compiling the project. I often found myself waiting for Eclipse every 5 minutes when trying to test and compare different colors and positions, and I've probably wasted hours nudging padding and weights. While I enjoy getting paid to reddit during compilation, sometimes an OCD techie just needs to see the damn thing work so he can move on to more important matters.
+One of my favorite things about AS is how dynamic it is: color previews appear instantaneously and you can view the layout of your app on a number of different devices without ever compiling the project. I often found myself waiting for Eclipse whenever I wanted to test and compare different colors and positions, and I've probably wasted several hours nudging padding and weights to make it perfect. While I enjoy getting paid to reddit during compilation, sometimes an OCD techie just needs to see the damn thing work so he can move on to more important matters.
 </br></br>
 My only complaint is the Logcat viewer. The only way to stop auto-scrolling to the most recent log is to click your way through an error, which automatically opens up the offending file. While I do appreciate the effort, it ends up being a nuisance to work with. There also appears to be some slowdown when attaching the debugger, which wasn't there when using Eclipse. Hopefully we'll see some improvements with Logcat going forward, but Android Studio manages to blow Eclipse away so completely in every other category that it's hard to imagine going back. 
 </br></br>
@@ -71,7 +71,7 @@ In Google and JetBrains I believe.
 
 
       <div class="large-10 large-centered columns">
-        <h5 style="color:#FFFFFF">Hello, blog. After months of neglecting my side-projects, I found myself wrapped up in my headphones at four o'clock in the morning, questioning the past two weeks of stewing in my own pity and despair and coming down with a severe urge to make something respectable of myself before the sun rose. 
+        <h5 style="color:#EEEEEE">Hello, blog. After months of neglecting my side-projects, I found myself wrapped up in my headphones at four o'clock in the morning, questioning the past two weeks of stewing in my own pity and despair and coming down with a severe urge to make something respectable of myself before the sun rose. 
 </br></br>
 Well, here I am. Two hours later and I've managed to fool around with the Foundation javascript files and import lightboxes, albeit with that familiar moral crisis of how much example code should find its way into my own codebase. I had originally planned a black-and-white layout for my personal site, but this dark checkerboard pattern seems quite nice and homely -- looking at a white background in total darkness is never pleasant. The green font colors may need to be changed, but overall, the example CSS is a good base for variation. I try to stray from simply importing and using code -- learn it, understand it, and modify it to fit your needs, or rebuild it entirely if it's just not malleable enough, because sometimes building your own damn tools is a lot easier than working with a pre-made one.
 </br></br>

@@ -27,7 +27,7 @@
       <dd data-magellan-arrival="about" class="active"><a href="#main-content">Kevin Yeh</a></dd>
       <dd data-magellan-arrival="code"><a href="#code">Code</a></dd>
       <dd data-magellan-arrival="design"><a href="#design" >Design</a></dd>
-      <dd data-magellan-arrival="blog"><a href="blog.html" >Blog</a></dd>
+      <dd data-magellan-arrival="blog"><a href="#blog" >Blog</a></dd>
     </dl>
   </section>
 
@@ -63,8 +63,7 @@
       <hr />    
     </div>
 
-    <section data-magellan-destination="code">
-      <div class="row">
+    <section class="row" id="code" data-magellan-destination="code">
         <h6>This is where pretty pictures of my projects would go if I had fed and nurtured my website today.</h6>
 
         <!-- CODE -->
@@ -83,7 +82,16 @@
               <a href="images/examples/image-6.jpg" rel="lightbox[plants]" title="Last image, sucka."><img src="images/examples/thumb-6.jpg" alt="Plants: image 4 0f 4 thumb" /></a>
             </div>
           </div>
-        </div>
+    </section>
+
+    <!-- DON'T JUDGE ALL THIS NASTY HARD-CODING. I'M BETTER THAN THAT I PROMISE -->
+    <section class="row" id="blog" data-magellan-destination="blog">
+      <hr />
+      <h3>Newest Blog Post: Getting Cozy with Android Studio</h3>
+      <div class="large-10 large-centered columns" style="margin-top:5px">
+        <h5 style="color:#EEEEEE">I recently switched over to Android Studio after months of frustratingly sitting back in my chair while Eclipse plinked around, trying to clean and build the project for 5 minutes, every time I changed a few lines of code. <a href="blog">Read More...</a>
+        </h5>
+      </div>
     </section>
 
   <!-- Footer -->

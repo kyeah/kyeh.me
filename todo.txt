@@ -1,8 +1,7 @@
-? swap black sidebar for vertical separator
-? change bg to black
 ? fade icon colors and saturate on hover
 fade main images on hover with text (code/design/blog)
-add code/design/blog sections
-change side-nav font and highlight current section
-fix spacing between intro bar and icons
+design
 make intro bar orbit through different messages (vertical orbit anim)
+lastfm ticker
+blog post database and query db for newest post on main page
+project descriptions
