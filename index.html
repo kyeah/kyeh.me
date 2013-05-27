@@ -56,7 +56,7 @@
     <!-- ABOUT -->
     <div class="row">
       
-      <div class="large-8 columns">    
+      <div class="large-8 columns">
         <p>The man with the plan has a cat. He also has <a href="kyehresume.pdf" target="_blank">my resume</a>.</p>
       </div>
       
@@ -89,7 +89,7 @@
       <hr />
       <h3>Newest Blog Post: Getting Cozy with Android Studio</h3>
       <div class="large-10 large-centered columns" style="margin-top:5px">
-        <h5 style="color:#EEEEEE">"I recently switched over to Android Studio after months of frustratingly sitting back in my chair while Eclipse plinked around trying to clean and build the project every time I changed a few lines of code. </br></br>Thank God." <a href="blog">&nbspRead more</a>
+        <h5 style="color:#EEEEEE">"I recently switched over to Android Studio after months of frustratingly sitting back in my chair while Eclipse plinked around, trying to clean and build the project every time I changed a few lines of code. </br></br>Thank god." <a href="blog">&nbspRead more</a>
         </h5>
       </div>
     </section>
@@ -100,7 +100,8 @@
       <hr />
       <div class="row">
         <div class="large-6 columns">
-          <p>&copy; 2013 KY</p>
+          <p>&copy; 2013 KY</br>
+          This site is for TESTING. <a href="http://kyeh.me">Please visit kyeh.me.</a></p>
         </div>
         <div class="large-6 columns">
           <ul class="inline-list right">
@@ -121,9 +122,16 @@
  <script src="js/jquery-1.7.2.min.js"></script>
  <script src="js/foundation/foundation.min.js"></script>
  <script src="js/foundation/jquery.offcanvas.js"></script>
- <script src="js/jquery.smooth-scroll.min.js"></script>
  <script src="js/lightbox.js"></script>
  <script src="js/vendor/app.js"></script>
+ <script>
+   $('a').click(function(){
+   $('html, body').animate({
+   scrollTop: $( $.attr(this, 'href') ).offset().top
+   }, 500);
+   return false;
+   });
+</script>
 
 </body>
 </html>
