@@ -6,11 +6,21 @@ body {
     background:black;
 }
 #hello-content {
-    padding-top: 15px;
+    padding-top: 27px;
     white-space:nowrap;
 }
 #hello-slider {
-    padding-top:3px;
+    padding:3px 0 0 15px;
+    float:left;
+}
+#icons {
+    margin-top:3px;
+    padding:20px 0 0 40px;
+    background:url('../images/black-bg.png') repeat-x;
+}
+#footer {
+  margin-left:15px;
+  width:96%;
 }
 .wide {
     width:80%;
