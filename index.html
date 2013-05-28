@@ -22,17 +22,18 @@
 <body>
 
   <!-- Nav -->
-  <section id="topbar" data-magellan-expedition="fixed">
+  <nav class="fixed" id="topbar" data-magellan-expedition="fixed">
     <dl class="sub-nav">
       <dd data-magellan-arrival="about" class="active"><a href="#main-content">Kevin Yeh</a></dd>
       <dd data-magellan-arrival="code"><a href="#code">Code</a></dd>
       <dd data-magellan-arrival="design"><a href="#design" >Design</a></dd>
       <dd data-magellan-arrival="blog"><a href="#blog" >Blog</a></dd>
     </dl>
-  </section>
+  </nav>
 
   <!-- Main Content -->
-  <section class="section" id="main-content">
+  <section class="section" id="main-content" 
+data-magellan-destination="about">
     <div class="row" id="hello-content">
       <a href="#code"><img src="images/photos/swipespin.png"/></a>
       <a href="#design"><img src="images/photos/cctv.png"/></a>
@@ -100,8 +101,7 @@
       <hr />
       <div class="row">
         <div class="large-6 columns">
-          <p>&copy; 2013 KY</br>
-          This site is for TESTING. <a href="http://kyeh.me">Please visit kyeh.me.</a></p>
+          <p>&copy; 2013 KY</p>
         </div>
         <div class="large-6 columns">
           <ul class="inline-list right">
@@ -121,7 +121,6 @@
   <!-- Included javascript files -->
  <script src="js/jquery-1.7.2.min.js"></script>
  <script src="js/foundation/foundation.min.js"></script>
- <script src="js/foundation/jquery.offcanvas.js"></script>
  <script src="js/lightbox.js"></script>
  <script src="js/vendor/app.js"></script>
  <script>

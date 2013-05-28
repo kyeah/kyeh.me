@@ -5,3 +5,4 @@ make intro bar orbit through different messages (vertical orbit anim)
 lastfm ticker
 blog post database and query db for newest post on main page
 project descriptions
+reorganize file structure
