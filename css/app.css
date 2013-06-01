@@ -10,7 +10,8 @@ body {
     white-space:nowrap;
 }
 #hello-slider {
-    padding:3px 0 0 15px;
+    padding-left:15px;
+    padding-top:3px;
     float:left;
 }
 #icons {
@@ -29,4 +30,37 @@ body {
 .orbit-container {
     width:65%;
     float:left;
+}
+.image-box {
+    box-shadow: -2px 2px 3px #111111;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.image-box:hover {
+    opacity:0.6;
+}
+
+@media only screen and (max-device-width: 720px) {
+    #hello-slider {
+        padding-left:0;
+    }
+    #icons {
+	padding-left:20px;
+    }
+    #code-welcome {
+	display:none;
+    }
+    #design-welcome {
+	display:none;
+    }
+    #hello-welcome {
+        margin-left:auto;
+	margin-right:auto;
+	width:100%;
+    }
+    .image-box:hover {
+	opacity:1;
+    }
 }
