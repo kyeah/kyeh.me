@@ -1,5 +1,7 @@
-body {
-    background: #EAEAEA; /*#6C615C*/ /*#4e3a3a*/
+h1 {
+    font-family:arial,helvetica;
+    font-size:70px;
+    font-weight:300;
 }
 #topbar {
     height:45px;
