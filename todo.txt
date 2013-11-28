@@ -1,3 +1,5 @@
+move this todo list into github issues list
+
 ? fade icon colors and saturate on hover
 fade main images on hover with text (code/design/blog)
 make intro bar orbit through different messages (vertical orbit anim)
