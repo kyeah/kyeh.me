@@ -1,0 +1,13 @@
+.navbar-inner {
+  background-color: #ffffff; /* fallback color, place your own */
+}
+
+form {
+        /*border: 1px solid #E8D2C0;*/
+        border: 0px;
+        width: 89%;
+        padding: 3px;
+        /*font-family: Georgia, "Times New Roman", Serif;*/
+        box-shadow: inset 0px 2px 4px #000;
+        border-radius: 3px;
+}
