@@ -1,22 +1,52 @@
 doctype html
 html(lang='en')
 head
-  title Kevin Yeh
+  title Home | Kevin Yeh
   include ../_includes/header.jade
 body
     
     // Nav 
-    nav#topbar.fixed(data-magellan-expedition='fixed')
-      dl.sub-nav
-        dd.active(data-magellan-arrival='about')
-          a(href='#main-content') Kevin Yeh
-        dd(data-magellan-arrival='code')
-          a(href='#code') Code
-        dd(data-magellan-arrival='design')
-          a(href='#design') Design
-        dd(data-magellan-arrival='blog')
-          a(href='#blog') Blog
+      nav#topbar.fixed(data-magellan-expedition='fixed')
+        dl.sub-nav
+          dd.active(data-magellan-arrival='about')
+            a(href='#main-content') Kevin Yeh
+          dd(data-magellan-arrival='code')
+            a(href='#code') Code
+          dd(data-magellan-arrival='design')
+            a(href='#design') Design
+          dd(data-magellan-arrival='blog')
+            a(href='#blog') Blog
+
+    div.am-content-header-container.am-light
+      div.am-content-container
+        header.pure-g-r
+          div.pure-u-1-3
+            div.pure-g
+              div.pure-u-4-5
+                Kevin Yeh
+              div.pure-u-1-5
+                a.am-visible-phone.am-open-menu(href='#')
+                  i.icon-menu
     
+          nav.pure-u-2-3.am-collapsed-phone-menu
+            div.pure-menu.pure-menu-open.pure-menu-horizontal
+              ul
+                li
+                  a(href='#main-content') Kevin Yeh
+                li
+                  a(href='#code') Code
+                li
+                  a(href='#design') Design
+                li
+                  a(href='#blog') Blog
+                
+
+    section#hero.am-hero.am-hero-large.am-hero-cover(style='background-image:url(/images/photos/cctv.png)')
+      div.am-content-container
+        div.pure-g
+          div.pure-u
+            h1 HELLO TESTING KEVIN YEH
+
     // Main Content 
     section#main-content.section(data-magellan-destination='about')
       #hello-content.row
