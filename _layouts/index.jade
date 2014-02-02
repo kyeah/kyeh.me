@@ -1,171 +1,130 @@
-doctype html
-html(lang='en')
-head
+extends layout
+
+block title
   title Home | Kevin Yeh
-  include ../_includes/header.jade
-body
+
+block content
+  section#hero.am-hero.am-hero-med.am-hero-cover(style='background-image:url(http://kingsmin1994.files.wordpress.com/2013/02/android_samsung_galaxy_mobile_phone_touch_screen_57580_1920x10802.jpg)' data-bg2x='http://wallpaperscraft.com/image/android_samsung_galaxy_mobile_phone_touch_screen_57580_3840x2160.jpg?orig=1')
+    div.am-content-container
+      div.pure-g
+        div.pure-u
+          h1 HELLO TESTING KEVIN YEH
+
+  // Main Content 
+  section#main-content.section(data-magellan-destination='about')
+    #hello-content.row
+      .large-12.columns
+        a(href='#code')
+          img#code-welcome.image-box(src='images/photos/swipespin.png')
+        a(href='#design')
+          img#design-welcome.image-box(src='images/photos/cctv.png')
+        a(href='#blog')
+          img#hello-welcome.image-box(src='images/photos/hello4.png')
     
-    // Nav 
-      nav#topbar.fixed(data-magellan-expedition='fixed')
-        dl.sub-nav
-          dd.active(data-magellan-arrival='about')
-            a(href='#main-content') Kevin Yeh
-          dd(data-magellan-arrival='code')
-            a(href='#code') Code
-          dd(data-magellan-arrival='design')
-            a(href='#design') Design
-          dd(data-magellan-arrival='blog')
-            a(href='#blog') Blog
-
-    div.am-content-header-container.am-light
-      div.am-content-container
-        header.pure-g-r
-          div.pure-u-1-3
-            div.pure-g
-              div.pure-u-4-5
-                Kevin Yeh
-              div.pure-u-1-5
-                a.am-visible-phone.am-open-menu(href='#')
-                  i.icon-menu
+    // Welcome bar 
+    .row
+      img#hello-slider(src='images/captions/hello-opaque.png')
+      #icons.large-4.columns
+        ul.small-block-grid-3
+          li
+            a(href='http://www.github.com/kyeah')
+              img(src='images/logos/octocat.png' title='My Github')
+          li
+            a(href='http://www.linkedin.com/profile/view?id=205992470')
+              img(src='images/logos/linkedin-60.png' title='My LinkedIn')
+          li
+            a(href='http://www.last.fm/user/k-yeah')
+              img(src='images/logos/lastfm-60.png' title='Music on Last.fm')
     
-          nav.pure-u-2-3.am-collapsed-phone-menu
-            div.pure-menu.pure-menu-open.pure-menu-horizontal
-              ul
-                li
-                  a(href='#main-content') Kevin Yeh
-                li
-                  a(href='#code') Code
-                li
-                  a(href='#design') Design
-                li
-                  a(href='#blog') Blog
-                
-
-    section#hero.am-hero.am-hero-large.am-hero-cover(style='background-image:url(/images/photos/cctv.png)')
-      div.am-content-container
-        div.pure-g
-          div.pure-u
-            h1 HELLO TESTING KEVIN YEH
-
-    // Main Content 
-    section#main-content.section(data-magellan-destination='about')
-      #hello-content.row
-        .large-12.columns
-          a(href='#code')
-            img#code-welcome.image-box(src='images/photos/swipespin.png')
-          a(href='#design')
-            img#design-welcome.image-box(src='images/photos/cctv.png')
-          a(href='#blog')
-            img#hello-welcome.image-box(src='images/photos/hello4.png')
+    // ABOUT 
+    .row
+      .large-12.columns
+        p(style='margin-left: 15px;')
+          | "How do I love thee? Let me count the ways / that I may dissect 
+          a(href='kyehresume.pdf', target='_blank') thy resume
+          | ."
+    .row
+      .large-12.columns
+        hr
+        h5(style='color: #EEEEEE;')
+          | I'm a New York native and Austin enthusiast who's studied at Stuyvesant H.S. and the University of Texas at Austin.
+          | I've recently worked for 
+          a(href='http://www.blastronetworks.com') Blastro Networks
+          | , developing and orchestrating a simultaneous release of their three flagship Android apps.
+          br
+          br
+          | I'm an Android developer with 
+          a(href='https://www.hackerleague.org/users/kyeahokay') hacker experience 
+          | in Java, Node.js, and postgreSQL. I've also done Systems work in C, Graphics work and research in C++ and OpenGL,
+          | and an assortment of scripting and web development work in Perl, Ruby, and Rails.
+          br
+          br
+          | If you'd like to gossip with me about Android development, Computer graphics, or that one movie where Audrey Hepburn plays a blind woman,
+          | contact me at 
+          a(href='mailto:kevinyeah@utexas.edu') kevinyeah@utexas.edu
+          | .
       
-      // Welcome bar 
-      .row
-        img#hello-slider(src='images/captions/hello-opaque.png')
-        #icons.large-4.columns
-          ul.small-block-grid-3
-            li
-              a(href='http://www.github.com/kyeah')
-                img(src='images/logos/octocat.png' title='My Github')
-            li
-              a(href='http://www.linkedin.com/profile/view?id=205992470')
-                img(src='images/logos/linkedin-60.png' title='My LinkedIn')
-            li
-              a(href='http://www.last.fm/user/k-yeah')
-                img(src='images/logos/lastfm-60.png' title='Music on Last.fm')
+    // CODE 
+    section#code.row(data-magellan-destination='code')
+      .large-12.columns
+        hr
+        h6
+          | Take a glance at some of my recent projects below, then head over to 
+          a(href='http://github.com/kyeah') github.com/kyeah 
+          | for an in-depth look at the logic behind the scenes.
+            
+      .large-12.columns
+        .imageRow
+          .set
+            
+            // 3D Engine 
+            .single.first
+              a(href='images/code/gouraud.gif' rel='lightbox[code]' title="An animation generated by a jAva 3D Graphics Engine and defined by an MDL script. <a href='https://github.com/kyeah/3D-Engine') (L)")
+                img(src='images/code/thumb-small-gouraud.gif' alt='Java 3D Graphics Engine')
+              
+            // Blastro 
+            .single
+              a(href='images/code/blastro.png' rel='lightbox[code]' title="Blastro's flagship Android apps, now available in <a href='https://play.google.com/store/apps/details?id=com.blastro.android'>the</a> <a href='https://play.google.com/store/apps/details?id=com.roxwel.android'>Play</a> <a href='https://play.google.com/store/apps/details?id=com.yallwire.android'>Store.</a> <br><h6>Read more about my experience working with Blastro&nbsp<a href='blog'>here.</a><h6>")
+                img(src='images/code/thumb-blastro.png' alt='Blastro Android App')
+              
+            // Baconator 
+            .single
+              a(href='images/code/bacon.gif' rel='lightbox[code]' title="Six Degrees of Winston Churchill. <a href='https://github.com/kyeah/Six-Degrees-of-Kevin-Bacon'>(L)</a>")
+                img(src='images/code/thumb-bacon.png' title='test' alt='Baconifier')
+              
+            // Fractals 
+            .single
+              a(href='images/code/fractal.gif' rel='lightbox[code]' title="In Progress: Genetic Reproduction of Aesthetically-Pleasing Attractor Fractals. <a href='https://github.com/kyeah/Genetic-Fractals'>(L)</a><br><h6>With Tyler Yates (UT Freshman Research Initiative: Computational Intelligence)</h6>")
+                img(src='images/code/thumb-fractal.png' alt='The Graphinator')
+              
+            // Billiards 
+            .single
+              a(href='images/code/billiards.gif' rel='lightbox[code]' title="A billiards game implemented in C++ and OpenGL. <a href='https://github.com/kyeah/notBilliards'>(L)</a>")
+                img(src='images/code/thumb-billiards.gif' alt='Billiards')
+              
+            // Graphinator 
+            .single
+              a(href='images/code/graph.png' rel='lightbox[code]' title="A Graph Theory learning tool. <a href='https://github.com/kyeah/Graphinator'>(L)</a><br><h6>With Tyler Yates, Claudio Wilson, Kevin Lin (Hack TX 2012)</h6>")
+                img(src='images/code/thumb-graph.png' alt='The Graphinator')
+              
+            // Donation Z 
+            .single.last
+              a(href='images/code/donation.png' rel='lightbox[code]' title="Donation Z: A charity fundraising game powered by PayPal's Adaptive Payments API. <a href='https://github.com/kyeah/Donation-Z'>(L)</a><br><h6>With Tyler Yates, Claudio Wilson, Kathy Spradlin (Ebay Hackathon 2012, 3rd place)</h6>")
+                img(src='images/code/thumb-donation.png' alt='Donation-Z')
       
-      // ABOUT 
-      .row
-        .large-12.columns
-          p(style='margin-left: 15px;')
-            | "How do I love thee? Let me count the ways / that I may dissect 
-            a(href='kyehresume.pdf', target='_blank') thy resume
-            | ."
-      .row
-        .large-12.columns
-          hr
+    // DON'T JUDGE ALL THIS NASTY HARD-CODING. I'M BETTER THAN THAT I PROMISE 
+    section#blog.row(data-magellan-destination='blog')
+      .large-12.columns
+        hr
+        h3 Newest Blog Post: Seeing Threes at the End of the Road
+        .large-10.large-centered.columns(style='margin-top: 5px;')
           h5(style='color: #EEEEEE;')
-            | I'm a New York native and Austin enthusiast who's studied at Stuyvesant H.S. and the University of Texas at Austin.
-            | I've recently worked for 
-            a(href='http://www.blastronetworks.com') Blastro Networks
-            | , developing and orchestrating a simultaneous release of their three flagship Android apps.
-            br
-            br
-            | I'm an Android developer with 
-            a(href='https://www.hackerleague.org/users/kyeahokay') hacker experience 
-            | in Java, Node.js, and postgreSQL. I've also done Systems work in C, Graphics work and research in C++ and OpenGL,
-            | and an assortment of scripting and web development work in Perl, Ruby, and Rails.
-            br
-            br
-            | If you'd like to gossip with me about Android development, Computer graphics, or that one movie where Audrey Hepburn plays a blind woman,
-            | contact me at 
-            a(href='mailto:kevinyeah@utexas.edu') kevinyeah@utexas.edu
-            | .
-      
-      // CODE 
-      section#code.row(data-magellan-destination='code')
-        .large-12.columns
-          hr
-          h6
-            | Take a glance at some of my recent projects below, then head over to 
-            a(href='http://github.com/kyeah') github.com/kyeah 
-            | for an in-depth look at the logic behind the scenes.
+            | "We made it. It's happening. Blastro Networks is finally ready
+            | to release their redesigned, rejuvenated android apps, due in large part to the work I did over
+            | the summer, and also to the less frequent work I've done over the last few school months.
+            | Although I have my reservations about a few of the design choices made by the company, I
+            | understand the immense amount of planning that occurs behind the scenes to keep all of their web
+            | and mobile apps behaving homogeneously and at a high level of polish. Nevertheless..." 
+            a(href='blog') &nbspRead more
 
-        .large-12.columns
-          .imageRow
-            .set
-              
-              // 3D Engine 
-              .single.first
-                a(href='images/code/gouraud.gif' rel='lightbox[code]' title="An animation generated by a jAva 3D Graphics Engine and defined by an MDL script. <a href='https://github.com/kyeah/3D-Engine') (L)")
-                  img(src='images/code/thumb-small-gouraud.gif' alt='Java 3D Graphics Engine')
-              
-              // Blastro 
-              .single
-                a(href='images/code/blastro.png' rel='lightbox[code]' title="Blastro's flagship Android apps, now available in <a href='https://play.google.com/store/apps/details?id=com.blastro.android'>the</a> <a href='https://play.google.com/store/apps/details?id=com.roxwel.android'>Play</a> <a href='https://play.google.com/store/apps/details?id=com.yallwire.android'>Store.</a> <br><h6>Read more about my experience working with Blastro&nbsp<a href='blog'>here.</a><h6>")
-                  img(src='images/code/thumb-blastro.png' alt='Blastro Android App')
-              
-              // Baconator 
-              .single
-                a(href='images/code/bacon.gif' rel='lightbox[code]' title="Six Degrees of Winston Churchill. <a href='https://github.com/kyeah/Six-Degrees-of-Kevin-Bacon'>(L)</a>")
-                  img(src='images/code/thumb-bacon.png' title='test' alt='Baconifier')
-              
-              // Fractals 
-              .single
-                a(href='images/code/fractal.gif' rel='lightbox[code]' title="In Progress: Genetic Reproduction of Aesthetically-Pleasing Attractor Fractals. <a href='https://github.com/kyeah/Genetic-Fractals'>(L)</a><br><h6>With Tyler Yates (UT Freshman Research Initiative: Computational Intelligence)</h6>")
-                  img(src='images/code/thumb-fractal.png' alt='The Graphinator')
-              
-              // Billiards 
-              .single
-                a(href='images/code/billiards.gif' rel='lightbox[code]' title="A billiards game implemented in C++ and OpenGL. <a href='https://github.com/kyeah/notBilliards'>(L)</a>")
-                  img(src='images/code/thumb-billiards.gif' alt='Billiards')
-              
-              // Graphinator 
-              .single
-                a(href='images/code/graph.png' rel='lightbox[code]' title="A Graph Theory learning tool. <a href='https://github.com/kyeah/Graphinator'>(L)</a><br><h6>With Tyler Yates, Claudio Wilson, Kevin Lin (Hack TX 2012)</h6>")
-                  img(src='images/code/thumb-graph.png' alt='The Graphinator')
-              
-              // Donation Z 
-              .single.last
-                a(href='images/code/donation.png' rel='lightbox[code]' title="Donation Z: A charity fundraising game powered by PayPal's Adaptive Payments API. <a href='https://github.com/kyeah/Donation-Z'>(L)</a><br><h6>With Tyler Yates, Claudio Wilson, Kathy Spradlin (Ebay Hackathon 2012, 3rd place)</h6>")
-                  img(src='images/code/thumb-donation.png' alt='Donation-Z')
-            // Set 
-          // ImageRow 
-        // Columns 
-      // Code 
-      
-      // DON'T JUDGE ALL THIS NASTY HARD-CODING. I'M BETTER THAN THAT I PROMISE 
-      section#blog.row(data-magellan-destination='blog')
-        .large-12.columns
-          hr
-          h3 Newest Blog Post: Seeing Threes at the End of the Road
-          .large-10.large-centered.columns(style='margin-top: 5px;')
-            h5(style='color: #EEEEEE;')
-              | "We made it. It's happening. Blastro Networks is finally ready
-              | to release their redesigned, rejuvenated android apps, due in large part to the work I did over
-              | the summer, and also to the less frequent work I've done over the last few school months.
-              | Although I have my reservations about a few of the design choices made by the company, I
-              | understand the immense amount of planning that occurs behind the scenes to keep all of their web
-              | and mobile apps behaving homogeneously and at a high level of polish. Nevertheless..." 
-              a(href='blog') &nbspRead more
-
-      include ../_includes/footer.jade
+        include ../_includes/footer.jade

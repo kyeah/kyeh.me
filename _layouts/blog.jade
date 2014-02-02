@@ -1,9 +1,9 @@
-doctype html
-html(lang='en')
-  head
-    title Blog | Kevin Yeh
-    include ../_includes/header.jade
-  body
+extends layout
+
+block title 
+  title Blog | Kevin Yeh
+
+block content
     // Nav
     section#topbar.fixed(data-magellan-expedition='fixed')
       dl.sub-nav
