@@ -52,4 +52,9 @@
         jQuery("time.timeago").timeago();
     });
 
+    $.stellar({
+        horizontalScrolling: false,
+        verticalOffset: 950
+    });
+
 })(jQuery, this);

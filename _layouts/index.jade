@@ -3,14 +3,17 @@ extends layout
 block title
   title Home | Kevin Yeh
 
-block content
-  section#hero.am-hero.am-hero-med.am-hero-cover(style='background-image:url(http://kingsmin1994.files.wordpress.com/2013/02/android_samsung_galaxy_mobile_phone_touch_screen_57580_1920x10802.jpg)' data-bg2x='http://wallpaperscraft.com/image/android_samsung_galaxy_mobile_phone_touch_screen_57580_3840x2160.jpg?orig=1')
-    div.am-content-container
-      div.pure-g
-        div.pure-u
-          h1 HELLO TESTING KEVIN YEH
+block cover
+  +cover(class='mountainside')
 
-  // Main Content 
+block cover-text
+  h1.text-shadowed(style='color: #3776DB') Kevin Yeh
+  h2.text-shadowed 
+    | I am a student and developer from New York City 
+  h2.text-shadowed(style='color: #DB6837') 
+    | studying Computer Science at the University of Texas at Austin.
+
+block content
   section#main-content.section(data-magellan-destination='about')
     #hello-content.row
       .large-12.columns

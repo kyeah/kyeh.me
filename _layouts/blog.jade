@@ -3,12 +3,13 @@ extends layout
 block title 
   title Blog | Kevin Yeh
 
+block cover
+  +cover()(class='mountainside')
+
+block cover-text
+  h1.text-shadowed The Blog
+
 block content
-    // Nav
-    section#topbar.fixed(data-magellan-expedition='fixed')
-      dl.sub-nav
-        dd.active(data-magellan-arrival='about')
-          a(href='/') Kevin Yeh
     section#main-content.section(style='margin-top:25px')
       .row(style='border-bottom:1px solid #aaa')
         h1(style='text-align:center')
@@ -196,10 +197,3 @@ block content
                   a(href='#') Don&apos;t leave me
                 li
                   a(href='#') Goodbye
-
-    // Included javascript files
-    script(src='js/jquery-1.7.2.min.js')
-    script(src='js/jquery.timeago.js')
-    script(src='js/foundation/foundation.min.js')
-    script(src='js/lightbox.js')
-    script(src='js/vendor/app.js')

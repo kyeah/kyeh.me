@@ -1,11 +1,23 @@
 h1 {
-    font-family:arial,helvetica;
-    font-size:70px;
-    font-weight:300;
+    font-family:helvetica;
+    font-size:27px;
+    font-weight:500;
+    color: #ffffff;
 }
 #topbar {
     height:45px;
-    background:black;
+
+}
+.text-shadowed {
+    text-shadow: 3px 3px 3px #141414;    
+}
+.cover {
+    background-size:cover; 
+    background-attachment:fixed;
+}
+.mountainside {
+    background-image:url('../images/photos/cover-mountainside.png');
+    
 }
 #hello-content {
     padding-top: 27px;
