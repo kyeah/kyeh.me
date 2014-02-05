@@ -23,7 +23,7 @@ h2 {
 }
 h2-dark {
     font-family: 'Roboto Slab', serif;
-    font-size:20px;
+    font-size:27px;
     font-weight:500;
     line-height: 30px;
     color: #585858;
@@ -45,6 +45,12 @@ h4 {
 }
 h4-dark {
     font-size:17px;
+    color: #585858;
+    text-shadow: none;
+}
+h5-dark {
+    font-family: sans-serif;
+    font-size:15px;
     color: #585858;
     text-shadow: none;
 }
@@ -85,7 +91,7 @@ h4-dark {
     background-image:url('../images/photos/cover-bluesky.png');
 }
 .rock {
-    background-image:url('../images/photos/cover-rock.png');    
+    background-image:url('../images/photos/cover-rock-2.png');    
 }
 .about-avatar {
 	position: relative;
@@ -121,7 +127,9 @@ h4-dark {
 .image-box:hover {
     opacity:0.6;
 }
-
+.slight-gray-bg {
+    background: #EEEEEE;
+}
 #intro {
     text-align: center;
     background: #141414;

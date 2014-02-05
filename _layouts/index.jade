@@ -3,6 +3,9 @@ extends layout
 block title
   title Home | Kevin Yeh
 
+block extra-menu
+  li: a(href='#code') Code + Design              
+
 block cover
   +cover(class='mountainside')
 
@@ -56,7 +59,7 @@ block content
                 
               // Blastro 
               .image-link.top-aligned
-                a(href='images/code/blastro.png' data-lightbox='lightbox[code]' title="Blastro's flagship Android apps, now available in <a href='https://play.google.com/store/apps/details?id=com.blastro.android'>the</a> <a href='https://play.google.com/store/apps/details?id=com.roxwel.android'>Play</a> <a href='https://play.google.com/store/apps/details?id=com.yallwire.android'>Store.</a> <br><h6>Read more about my experience working with Blastro&nbsp<a href='blog'>here.</a><h6>")
+                a(href='images/code/blastro.png' data-lightbox='lightbox[code]' title="Blastro's flagship Android apps, now available in <a href='https://play.google.com/store/apps/details?id=com.blastro.android'>the</a> <a href='https://play.google.com/store/apps/details?id=com.roxwel.android'>Play</a> <a href='https://play.google.com/store/apps/details?id=com.yallwire.android'>Store.</a> <br><h5 style='padding:0;margin:0'>Read more about my experience working with Blastro&nbsp; <a href='blog'>here.</a></h5>")
                   img(src='images/code/thumb-blastro.png' alt='Blastro Android App')
                 
               // Baconator 
@@ -66,7 +69,7 @@ block content
                 
               // Fractals 
               .image-link.top-aligned
-                a(href='images/code/fractal.gif' data-lightbox='lightbox[code]' title="In Progress: Genetic Reproduction of Aesthetically-Pleasing Attractor Fractals. <a href='https://github.com/kyeah/Genetic-Fractals'>(L)</a><br><h6>With Tyler Yates (UT Freshman Research Initiative: Computational Intelligence)</h6>")
+                a(href='images/code/fractal.gif' data-lightbox='lightbox[code]' title="In Progress: Genetic Reproduction of Aesthetically-Pleasing Attractor Fractals. <a href='https://github.com/kyeah/Genetic-Fractals'>(L)</a><br><h5 style='padding:0;margin:0'>With Tyler Yates (UT Freshman Research Initiative: Computational Intelligence)</h5>")
                   img(src='images/code/thumb-fractal.png' alt='The Graphinator')
                 
               // Billiards 
@@ -76,17 +79,17 @@ block content
                 
               // Graphinator 
               .image-link
-                a(href='images/code/graph.png' data-lightbox='lightbox[code]' title="A Graph Theory learning tool. <a href='https://github.com/kyeah/Graphinator'>(L)</a><br><h6>With Tyler Yates, Claudio Wilson, Kevin Lin (Hack TX 2012)</h6>")
+                a(href='images/code/graph.png' data-lightbox='lightbox[code]' title="A Graph Theory learning tool. <a href='https://github.com/kyeah/Graphinator'>(L)</a><br><h5 style='padding:0;margin:0'>With Tyler Yates, Claudio Wilson, Kevin Lin (Hack TX 2012)</h5>")
                   img(src='images/code/thumb-graph.png' alt='The Graphinator')
                 
               // Donation Z 
               .image-link
-                a(href='images/code/donation.png' data-lightbox='lightbox[code]' title="Donation Z: A charity fundraising game powered by PayPal's Adaptive Payments API. <a href='https://github.com/kyeah/Donation-Z'>(L)</a><br><h6>With Tyler Yates, Claudio Wilson, Kathy Spradlin (Ebay Hackathon 2012, 3rd place)</h6>")
+                a(href='images/code/donation.png' data-lightbox='lightbox[code]' title="Donation Z: A charity fundraising game powered by PayPal's Adaptive Payments API. <a href='https://github.com/kyeah/Donation-Z'>(L)</a><br><h5 style='padding:0;margin:0'>With Tyler Yates, Claudio Wilson, Kathy Spradlin (Ebay Hackathon 2012, 3rd place)</h5>")
                   img(src='images/code/thumb-donation.png' alt='Donation-Z')
                     
               // CCTV Model
               .image-link
-                a(href='images/photos/CCTV-large.png' data-lightbox='lightbox[code]' title='CCTV Model: Two feet, four inches, made with foamboard and acrylic-painted balsa wood.')
+                a(href='images/photos/CCTV-large.png' data-lightbox='lightbox[code]' title="CCTV Model: Scale model of the CCTV Building in Beijing, China.<br><h5 style='padding:0;margin:0'>Foamboard and acrylic-painted balsa wood. 2 feet, 4 inches.</h5>")
                   img(src='images/photos/thumb-cctv.png' alt='CCTV 2-Foot Model')
 
             h3-dark.text-centered
@@ -100,7 +103,7 @@ block content
     .content
       .am-content-container
         .pure-g.hcentered
-          .pure-u.hcentered(style='margin-bottom:10px'): h2-dark(style='color: #3776DB') 
+          .pure-u.hcentered(style='margin-bottom:10px'): h3-dark(style='color: #3776DB') 
             a(href='blog') Newest Blog Post: Seeing Threes at the End of the Road
             br
         .pure-g.hcentered
