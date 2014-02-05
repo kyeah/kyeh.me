@@ -16,11 +16,3 @@ footer.row
           li
             a(href='https://www.hackerleague.org/users/kyeahokay')
               img(src='images/logos/hackerleague.png' title='My Hacker League')
-
-script.
-  $('a').click(function(){
-  $('html, body').animate({
-  scrollTop: $( $.attr(this, 'href') ).offset().top
-  }, 500);
-  return false;
-  });

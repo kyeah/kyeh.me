@@ -54,7 +54,7 @@
 
     $.stellar({
         horizontalScrolling: false,
-        verticalOffset: 950
+        verticalOffset:0
     });
 
 })(jQuery, this);

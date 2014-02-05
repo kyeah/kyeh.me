@@ -1,5 +1,11 @@
+.lb-image {
+    max-width:inherit;  /* Allow lightbox images to expand when clicked on */
+}
 body {
-    background: white;
+    background: white;  
+}
+a:hover {
+  color: #59ffeb;
 }
 h1 {
     font-family:helvetica;
@@ -7,16 +13,70 @@ h1 {
     font-weight:500;
     color: #ffffff;
 }
+h1-alt {
+    font-family:helvetica;
+    font-size:40px;
+    font-weight:500;
+}
+h2 {
+    text-transform:none;
+}
+h2-dark {
+    font-family: 'Roboto Slab', serif;
+    font-size:20px;
+    font-weight:500;
+    line-height: 30px;
+    color: #585858;
+    text-shadow: none;
+}
+h3 {
+    text-transform:none;
+}
+h3-dark {
+    font-family: 'Roboto Slab', serif;
+    font-size:20px;
+    font-weight:500;
+    line-height: 30px;
+    color: #585858;
+    text-shadow: none;
+}
+h4 {
+    text-transform:none;
+}
+h4-dark {
+    font-size:17px;
+    color: #585858;
+    text-shadow: none;
+}
 .text-shadowed {
     text-shadow: 3px 3px 3px #141414;    
 }
+.text-upper {
+    text-transform:uppercase;
+}
+.text-lower {
+    text-transform:lowercase;
+}
+.text-centered  {
+    text-align:center;
+}
+.text-left  {
+    text-align:left;
+}
+.text-right  {
+    text-align:right;
+}
+.text-justified  {
+    text-align:justify;
+}
 .cover {
-    background-size:cover; 
-    background-attachment:fixed;
+    background-size:cover;
+/*    background-attachment:fixed;*/
+/*    background-position: 0 -80px;*/
     box-shadow: 0px -4px 4px -2px #141414 inset;
 }
 .mountainside {
-    background-image:url('../images/photos/cover-mountainside.png');    
+    background-image:url('../images/photos/cover-mountainside-2.png');    
 }
 .waterfall {
     background-image:url('../images/photos/cover-waterfall.png');    
@@ -27,27 +87,21 @@ h1 {
 .rock {
     background-image:url('../images/photos/cover-rock.png');    
 }
-#intro {
-    text-align: center;
-    background: #141414;
+.about-avatar {
+	position: relative;
+	margin-top: -140px;
+	border: 4px solid #ffffff;
+	width: 180px;
+	height: 180px;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+.top-aligned {
+    vertical-align:top;
 }
 .hcentered {
     margin-left:auto;
     margin-right:auto;
-}
-#hello-slider {
-    padding-left:15px;
-    padding-top:3px;
-    float:left;
-}
-#icons {
-    margin-top:3px;
-    padding:20px 0 0 40px;
-    background:url('../images/black-bg.png') repeat-x;
-}
-#footer {
-  margin-left:15px;
-  width:96%;
 }
 .wide {
     width:80%;
@@ -68,12 +122,111 @@ h1 {
     opacity:0.6;
 }
 
+#intro {
+    text-align: center;
+    background: #141414;
+    padding: 40px;
+}
+#code {
+    text-align: center;
+    padding: 40px;
+    background: #EEEEEE;
+}
+#blog {
+    padding: 20px;
+}
+#hello-slider {
+    padding-left:15px;
+    padding-top:3px;
+    float:left;
+}
+#icons {
+    margin-top:3px;
+    padding:20px 0 0 40px;
+    background:url('../images/black-bg.png') repeat-x;
+}
+#footer {
+  margin-left:15px;
+  width:96%;
+}
+
+/* Social Media icons */
+i.inline {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.icon,
+a .icon {
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #ffffff;
+    background: #1a1a1a;
+    margin: auto 3px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+a .icon:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background: #bba454;
+}
+
+.icon.small {
+    font-size: 12px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+}
+
+.icon.medium {
+    font-size: 14px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.icon.big {
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.icon.white {
+    color: #1a1a1a;
+    background: #ffffff;
+}
+
+/* Fixing lineheights */
+.icon.outline {
+    line-height: 36px;
+}
+
+.icon.small.outline {
+    line-height: 21px;
+}
+
+.icon.medium.outline {
+    line-height: 26px;
+}
+
+.icon.big.outline {
+    line-height: 46px;
+}
+
 /* Lightbox CSS */ 
 
 /* line 180, ../sass/screen.sass */
 .image-row {
   *zoom: 1;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 /* line 38, ../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
@@ -83,8 +236,8 @@ h1 {
   clear: both;
 }
 
-/* line 184, ../sass/screen.sass */
-.example-image-link {
+.image-link {
+  float:left;
   display: inline-block;
   margin: 0 10px 20px 10px;
   line-height: 0;
@@ -99,8 +252,7 @@ h1 {
   -o-transition: all 0.1s ease-out;
   transition: all 0.1s ease-out;
 }
-/* line 191, ../sass/screen.sass */
-.example-image-link:hover {
+.image-link:hover {
   border: 4px solid #00bfa8;
 }
 
