@@ -1,5 +1,5 @@
 build:
-	jade -o . _layouts/* 
+	jade -o . _layouts/index.jade _layouts/blog.jade 
 	jekyll build
 	rm _site/Makefile
 
