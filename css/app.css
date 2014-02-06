@@ -4,6 +4,12 @@
 body {
     background: white;  
 }
+img {
+    max-width:100%;
+    height:auto;
+    -ms-interpolation-mode:bicubic;
+    display:inline-block;
+}
 a:hover {
   color: #59ffeb;
 }
@@ -82,16 +88,16 @@ h5-dark {
     box-shadow: 0px -4px 4px -2px #141414 inset;
 }
 .mountainside {
-    background-image:url('../images/photos/cover-mountainside-2.png');    
+    background-image:url('../img/covers/cover-mountainside.png');    
 }
 .waterfall {
-    background-image:url('../images/photos/cover-waterfall-2.png');    
+    background-image:url('../img/covers/cover-waterfall.png');    
 }
 .bluesky {
-    background-image:url('../images/photos/cover-bluesky.png');
+    background-image:url('../img/covers/cover-bluesky.png');
 }
 .rock {
-    background-image:url('../images/photos/cover-rock-2.png');    
+    background-image:url('../img/covers/cover-rock.png');    
 }
 .about-avatar {
 	position: relative;
