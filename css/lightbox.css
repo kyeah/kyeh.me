@@ -1,6 +1,6 @@
 /* line 7, ../sass/lightbox.sass */
 body:after {
-  content: url(../img/lightbox/close.png) url(../img/lightbox/loading.gif) url(../img/lightbox/prev.png) url(../img/lightbox/next.png);
+/*  content: url(../img/lightbox/close.png) url(../img/lightbox/loading.gif) url(../img/lightbox/prev.png) url(../img/lightbox/next.png); */
   display: none;
 }
 
@@ -81,10 +81,13 @@ body:after {
 /* line 56, ../sass/lightbox.sass */
 .lb-cancel {
   display: block;
+  width:;
+  height:auto;
   width: 32px;
   height: 32px;
   margin: 0 auto;
   background: url(../img/lightbox/loading.gif) no-repeat;
+  background: url(../img/projects/cctv.png) no-repeat;
 }
 
 /* line 63, ../sass/lightbox.sass */
