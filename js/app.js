@@ -1,4 +1,4 @@
-;(function ($, window, undefined) {
+(function ($, window, undefined) {
     'use strict';
 
     var $doc = $(document),
@@ -55,29 +55,31 @@
         verticalOffset:0
     });
 
-    $(".fancybox").fancybox({
-        padding : 0,
-        helpers: {
-            overlay : {
-                closeClick : true,
-                showEarly : true
-            },
-            title : {
-                type : 'float'
-            },
-            thumbs : {
-                width : 40,
-                height : 40,
-                position : 'top'
-            },
-            media : {
-                youtube : {
-                    params : {
-                        autoplay : 0                        
+    jQuery(function() {
+        $(".fancybox").fancybox({
+            padding : 0,
+            helpers: {
+                overlay : {
+                    closeClick : true,
+                    showEarly : true,
+                },
+                title : {
+                    type : 'float'
+                },
+                thumbs : {
+                    width : 40,
+                    height : 40,
+                    position : 'top'
+                },
+                media : {
+                    youtube : {
+                        params : {
+                            autoplay : 0
+                        }
                     }
                 }
             }
-        }
+        });
     });
 
 })(jQuery, this);
