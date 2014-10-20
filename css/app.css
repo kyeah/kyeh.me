@@ -99,6 +99,9 @@ h5-dark {
 .rock {
     background-image:url('../img/covers/cover-rock.png');    
 }
+.liteturn {
+    background-image:url('../img/covers/cover-liteturn.png');
+}
 .about-avatar {
 	position: relative;
 	margin-top: -140px;

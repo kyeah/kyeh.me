@@ -7,7 +7,7 @@ block extra-menu
   li: a(href='http://scriptogr.am/kyeah') Film Journal
 
 block cover
-  +cover()(class='rock')
+  +cover()(class='liteturn')
 
 block cover-text
   h1.text-shadowed The Blog
@@ -17,6 +17,7 @@ block content
   section#blog.content-wrapper
     .content
       .am-content-container
+        include ../_posts/4.jade
         include ../_posts/3.jade
         include ../_posts/2.jade
         include ../_posts/1.jade
