@@ -1,12 +1,10 @@
 kyeh.me
 =======
 
-This is the source code for my personal website, which can currently be viewed at:
+This is the source code for my personal website. Duh.
 
-* www.kyeh.me
-* http://cs.utexas.edu/~kyeh (testing server)
-* http://fast-gorge-6136.herokuapp.com/ (NO LONGER UPDATED)
+www.kyeh.me
 
 Frontend: Purecss (Previous: Foundation 4)
 
-Backend: Jekyll and Jade
+Backend: Jekyll and Jade Templating
