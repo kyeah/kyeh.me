@@ -14,11 +14,36 @@ block cover-text
   a(href='http://www.scriptogr.am/kyeah'): h2(style='color: #DB6837') Looking for my film journal?
 
 block content
-  section#blog.content-wrapper
-    .content
-      .am-content-container
-        include ../_posts/4.jade
-        include ../_posts/3.jade
-        include ../_posts/2.jade
-        include ../_posts/1.jade
-        include ../_posts/0.jade
+  section#blog
+    div(style="position:fixed;").
+      <ul>
+        {% for post in site.posts %}
+          <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+
+    .content-wrapper
+      .pure-g.hcentered
+        .pure-u-1-6
+        .pure-u-2-3
+          br
+          h2-dark(style='color: #3776DB')
+            div.
+              {{ page.title }}
+          h3-dark(style='color: #3776DB')
+            | Posted 
+            time.timeago(datetime="{{ page.date }}")
+            |  on {{ page.date | date_to_long_string }}
+            br
+            br
+      .pure.g.hcentered
+        .pure-u-5-24
+        .pure-u-7-12
+          h5-dark(style='color: #363636')
+            div.
+              {{ content }}
+            br
+            br
+            br
