@@ -9,7 +9,7 @@ I recently switched over to Android Studio after months of frustratingly sitting
 Thank god.
 
 
-This is my first encounter with an IDE from JetBrains. It&apos;s cleaner, faster, and it just feels good to work with. *It feels right.* I don't have to tinker around with the 3 perspectives I want and the 15 others that get in the way; I don't have to slow my IDE down with plugins for vital functionality; I don't have to wade through menus to fix dependencies and all the other miscellaneous things that go wrong in Eclipse. Android Studio comes in hot. It does what you want, when you want. It makes sense.
+This is my first encounter with an IDE from JetBrains. It&apos;s cleaner, faster, and it just feels good to work with. <i>It feels right.</i> I don't have to tinker around with the 3 perspectives I want and the 15 others that get in the way; I don't have to slow my IDE down with plugins for vital functionality; I don't have to wade through menus to fix dependencies and all the other miscellaneous things that go wrong in Eclipse. Android Studio comes in hot. It does what you want, when you want. It makes sense.
 
 
 Android Studio is a joint effort between Google and JetBrains, and is built on JetBrain's IntelliJ IDEA. Despite being in early access preview, it manages to be better than Eclipse in just about every way possible. It's like that new kid in school with a fresh leather jacket and well-trimmed pompadour who manages to steal all the popular kids' crewmates and girlfriends before simultaneously revealing his 1964 Aston Martin and dropping the pants of everyone in a 5-mile radius.

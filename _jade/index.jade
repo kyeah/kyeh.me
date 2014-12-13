@@ -147,16 +147,3 @@ block content
                 | the screen and have users interact with the physical world around them. This sentiment was only proven further with this year’s available hardware listing for HackTX: Arduinos, Spark Cores, Leap Motions, 
                 | Samsung wearables, Myos..."
                 a(href='blog') &nbspRead more
-
-  section#blog.content-wrapper
-    .content
-      .am-content-container
-        .pure-g.hcentered.
-          <h1>{{ site.time | date_to_xmlschema }}</h1>
-          <ul>
-            {% for post in site.posts %}
-              <li>
-                <a href="{{ post.url }}">{{ post.title }}</a>
-              </li>
-            {% endfor %}
-          </ul>
