@@ -18,7 +18,12 @@ function current_post_indicator() {
     }
  
     for (i = 0; i < links.length; i++) {
+        $(links[i]).removeClass('menu-active');
         if (i == post_index) {
+            $(links[i]).addClass('menu-active');
+        }
+
+        if (i == post_index || (i == post_index + 1 && post_index != links.length -1)) {
             var read_ratio = 1;
             if (!page_bottom) {                
                 var post_top = $(posts[i]).offset().top - 2;
@@ -39,10 +44,8 @@ function current_post_indicator() {
                 read_ratio = Math.min(top_read_ratio, bot_read_ratio);
             }
         
-            $(links[i]).addClass('menu-active');
             $(links[i]).css({ 'opacity' : Math.max(0.5, read_ratio)});
         } else {
-            $(links[i]).removeClass('menu-active');
             $(links[i]).css({ 'opacity' : 0.5});
         }
     }
