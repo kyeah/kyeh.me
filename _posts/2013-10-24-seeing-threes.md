@@ -6,8 +6,7 @@ title: Seeing Threes at the End of the Road
 ![Blastro Trio](/img/blog/blastro_trio.png)
 
 <h5-dark style='border-bottom:1px solid #aaa'>
-    </br>
-    __Update:__ The [Blastro](https://play.google.com/store/apps/details?id=com.blastro.android) Blastro, [Roxwel](https://play.google.com/store/apps/details?id=com.roxwel.android), and [Yallwire](https://play.google.com/store/apps/details?id=com.yallwire.android) apps have been released. Come celebrate with us.
+    __Update:__ The [Blastro](https://play.google.com/store/apps/details?id=com.blastro.android), [Roxwel](https://play.google.com/store/apps/details?id=com.roxwel.android), and [Yallwire](https://play.google.com/store/apps/details?id=com.yallwire.android) apps have been released. Come celebrate with us.
 </h5>
 
 

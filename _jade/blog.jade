@@ -47,7 +47,7 @@ block content
               h3-dark(style='color: #3776DB')
                 | Posted 
                 time.timeago(datetime="{{ post.date }}")
-                |  on {{ post.date | date_to_long_string }}
+                |  on {{ post.date | date: '%b %d, %Y' }}
                 br
                 br
           .pure.g.hcentered

@@ -33,6 +33,12 @@ img {
     -ms-interpolation-mode:bicubic;
     display:inline-block;
 }
+p {
+    line-height:1.8em;
+    padding-top:0.6em;
+    padding-bottom:0.6em;
+    font-size:15px;
+}
 a:hover {
   color: #59ffeb;
 }
