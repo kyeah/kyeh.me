@@ -27,9 +27,9 @@ block content
             <a href="{{ '#post' | append:forloop.index }}">{{ post.title }}</a>
           </li>
         {% endfor %}
-        {% for post in site.posts offset:6 %}
+        {% for post in site.posts offset:5 %}
           <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
+            <a href="{{ post.url }}" class="menu-inactive">{{ post.title }}</a>
           </li>
         {% endfor %}
 
