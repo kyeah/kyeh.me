@@ -1,3 +1,8 @@
+.sticky {
+    position: fixed !important;
+    top: 0;
+    z-index: 10000;
+}
 .lb-image {
     max-width:inherit;  /* Allow lightbox images to expand when clicked on */
 }
@@ -274,6 +279,9 @@ a .icon:hover {
 }
 
 @media only screen and (max-device-width: 720px) {
+    #posts {
+        visibility: hidden !important;
+    }
     #icons {
 	padding-left:20px;
     }

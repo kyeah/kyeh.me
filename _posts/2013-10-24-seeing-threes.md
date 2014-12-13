@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Seeing Threes at the End of the Road
 ---
 
