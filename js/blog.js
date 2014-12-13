@@ -66,7 +66,7 @@ function on_scroll() {
     current_post_indicator();
 }
 
-$(function () {
+function animate_menu() {
     var delay = 0.0;
     $('#posts li').each(function(i) {
         $(this).addClass('animated fadeInDown');
@@ -74,6 +74,10 @@ $(function () {
         $(this).css("animation-delay", delay + "s");
         delay += 0.2;
     });
+}
+
+$(function () {
+    animate_menu();
     $(window).scroll(on_scroll);
     on_scroll();
 });

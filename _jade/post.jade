@@ -16,32 +16,41 @@ block cover-text
 block content
   section#blog
     #posts_anchor
-    ul#posts(style="position:absolute;").
-      {% for post in site.posts %}
-        <li id="{{ forloop.index }}">
-          <a href="{{ post.url }}">{{ post.title }}</a>
+    .blog-nav
+      ul#posts(style="position:absolute;").
+        <li class="animated fadeInDown">
+          <a href='/blog'><h2-dark style='color: #DB6837;'>The Blog</h2-dark></a>
         </li>
-      {% endfor %}
 
-    .content-wrapper
-      .pure-g.hcentered
-        .pure-u-1-6
-        .pure-u-2-3
+        {% for post in site.posts %}
+          <li>
+            <a href="{{ '#post' | append:forloop.index }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+
+    .content
+      .am-content-container
+        .content-wrapper
+          .pure-g.hcentered
+            .pure-u-1-6
+            .pure-u-2-3
+              br
+              h2-dark(style='color: #3776DB')
+                div.
+                  <a href="{{ page.url }}">{{ page.title }}</a>
+              h3-dark(style='color: #3776DB')
+                | Posted 
+                time.timeago(datetime="{{ post.date }}")
+                |  on {{ page.date | date: '%b %d, %Y' }}
+                br
+                br
+          .pure.g.hcentered
+            .pure-u-5-24
+            .pure-u-7-12
+              h5-dark(style='color: #363636')
+                div.
+                  {{ content }}
+                br
+                br
+          hr
           br
-          h2-dark(style='color: #3776DB')
-            | {{ page.title }}
-          h3-dark(style='color: #3776DB')
-            | Posted 
-            time.timeago(datetime="{{ page.date }}")
-            |  on {{ page.date | date_to_long_string }}
-            br
-            br
-      .pure.g.hcentered
-        .pure-u-5-24
-        .pure-u-7-12
-          h5-dark(style='color: #363636')
-            | {{ content }}
-            br
-            br
-            br
-      hr
