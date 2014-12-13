@@ -4,7 +4,9 @@ function current_post_indicator() {
     var posts = $('.post');
     var links = $('.link a');
 
-    if(window_top + $(window).height() == $(document).height()) {
+    var page_bottom = window_top + $(window).height() == $(document).height();
+
+    if(page_bottom) {
         post_index = links.length - 1;
     } else {
         for (i = 1; i < posts.length; i++) {
@@ -17,14 +19,26 @@ function current_post_indicator() {
  
     for (i = 0; i < links.length; i++) {
         if (i == post_index) {
-            var post_top = $(posts[i]).offset().top - 2;
-            var read_location = window_top - post_top;
-
-            var opacity_cutoff = Math.min($(posts[i]).height(), 400);
-            var top_read_ratio =  read_location / opacity_cutoff;
-            var bot_read_ratio = ($(posts[i]).height() - read_location) / opacity_cutoff;
-            var read_ratio = Math.min(top_read_ratio, bot_read_ratio);
-
+            var read_ratio = 1;
+            if (!page_bottom) {                
+                var post_top = $(posts[i]).offset().top - 2;
+                var post_bot = $(posts[i]).offset().top + $(posts[i]).height() - 2;
+                var top_location = post_top - window_top;
+                var bot_location = post_bot - window_top;
+                
+                var height = $(window).height();
+                var top_read_ratio =  1 - (top_location / height);
+                if (i == 0) {
+                    top_read_ratio = 1;
+                }
+                var bot_read_ratio = bot_location / height;
+                if (i == links.length - 1) {
+                    bot_read_ratio = 1;
+                }
+                console.log(top_read_ratio);
+                read_ratio = Math.min(top_read_ratio, bot_read_ratio);
+            }
+        
             $(links[i]).addClass('menu-active');
             $(links[i]).css({ 'opacity' : Math.max(0.5, read_ratio)});
         } else {
