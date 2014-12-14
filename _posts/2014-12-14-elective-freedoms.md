@@ -78,7 +78,7 @@ The course was refreshingly practical and an unexpected eye-opener. The computer
        <source src="/img/projects/fluids.webm" type="video/webm"></source>
 </video>
 </br>
-<b><a href="https://github.com/kyeah/Cloth-Fluid-Solver">Physical Simulation</a>: Solving Cloth and Fluid Systems.</b> 
+<b><a href="https://github.com/kyeah/Cloth-Fluids-Solver">Physical Simulation</a>: Solving Cloth and Fluid Systems.</b> 
 </center>
 
 Heavily related to the Pixar dream, yet much more difficult to conceptualize, is physical simulation. This is simultaneously one of the most rewarding and frustrating topics in computer science, because many physical equations are derived using lies, estimations, and assumptions, leading to program instabilities and a reliance on questionable eye tests to determine whether the simulation is "right enough."
