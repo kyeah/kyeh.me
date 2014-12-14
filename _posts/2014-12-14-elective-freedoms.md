@@ -81,7 +81,7 @@ The course was refreshingly practical and an unexpected eye-opener. The computer
 <b><a href="https://github.com/kyeah/Cloth-Fluids-Solver">Physical Simulation</a>: Solving Cloth and Fluid Systems.</b> 
 </center>
 
-Heavily related to the Pixar dream, yet much more difficult to conceptualize, is physical simulation. This is simultaneously one of the most rewarding and frustrating topics in computer science, because many physical equations are derived using lies, estimations, and assumptions, leading to program instabilities and a reliance on questionable eye tests to determine whether the simulation is "right enough."
+Heavily related to the Pixar dream, yet much more difficult to conceptualize, is physical simulation. This is simultaneously one of the most rewarding and frustrating topics in computer science, because many physical equations are derived using estimations, assumptions, and lies, leading to program instabilities and a reliance on questionable eye tests to determine whether the simulation is "right enough."
 
 
 Nevertheless, the magic of Hamilton's Principle, combined with a good intuition for developing physical energy models and discretizing surfaces, will lead you well into the realm of stable realistic simulations that are also <i>incredibly fun to look at.</i> Just make sure you triple check your derivations, and try not to make any coding mistakes.
@@ -96,7 +96,7 @@ __[Atlas](https://github.com/kyeah/Watson-Code-Search-Intellij): An industrial Q
 A major highlight of this semester was the Automated Q&A course taught by CS departmental chair Bruce Porter, one of several courses sponsored by IBM Watson amongst seven different universities. The results speak for themselves: a mobile 211 service backed by United Way/HHSC and slated for Austin and Texas state pilots, and an industrial technical documentation system backed and funded by Atlassian. 
 
 
-With IBM Watson experts and startup moguls from the Austin tech scene providing constant feedback, criticism, and technical knowledge regarding consumer applications, business plans, effective marketing and execution, and the Watson system, the class evolved into an unexpected crash course on building certified UT startups.
+With IBM Watson experts and startup moguls from the Austin tech scene providing constant feedback, criticism, and technical knowledge regarding consumer applications, business plans, effective marketing and execution strategies, and Watson system insights, the class evolved into an unexpected crash course on building certified UT startups.
 
 
 <h3-dark style="color: #DB6837">Wireless Networking</h3-dark>
