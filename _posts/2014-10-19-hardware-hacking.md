@@ -41,4 +41,4 @@ The hack as a whole turned out quite well, with our only regret being the lack o
 
 Come check out our hack at [LiteTurn](https://github.com/kyeah/LiteTurn)! We'd love to hear your feedback.
   </br>
-CS 386W Best Research Project: [Research Paper](/img/projects/liteturn-final.pdf) and [Presentation](/img/projects/liteturn-pres.pdf).
+__Update:__ CS 386W Best Research Project: [Research Paper](/img/projects/liteturn-final.pdf) and [Presentation](/img/projects/liteturn-pres.pdf).
