@@ -41,10 +41,14 @@ img {
     display:inline-block;
 }
 p {
-    line-height:1.8em;
-    padding-top:0.6em;
-    padding-bottom:0.6em;
-    font-size:15px;
+    font-family: "freight-text-pro",Georgia,Cambria,"Times New Roman",Times,serif;
+    line-height: 1.8em;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    font-size: 18px;
+    letter-spacing: 0.01rem;
+    font-weight: 400;
+    font-style: normal;
 }
 a:hover {
   color: #59ffeb;
@@ -96,6 +100,14 @@ h5-dark {
     font-size:15px;
     color: #585858;
     text-shadow: none;
+}
+ul {
+    font-family: "freight-text-pro",Georgia,Cambria,"Times New Roman",Times,serif;
+    line-height: 1.8em;
+}
+nav ul {
+    font-family: inherit;
+    line-height: inherit;
 }
 .text-shadowed {
     text-shadow: 3px 3px 3px #141414;    
