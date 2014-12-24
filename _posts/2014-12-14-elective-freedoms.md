@@ -3,8 +3,9 @@ layout: post
 title: Elective Freedoms
 ---
 
-->![Rainbows and Happiness](http://blog.mailchimp.com/wp-content/uploads/2011/03/happy-rainbow.jpg)<-
 <center>
+<img src="http://blog.mailchimp.com/wp-content/uploads/2011/03/happy-rainbow.jpg" alt="Rainbows and Happiness">
+</br>
 <b>Pictured: How I feel right about now.</b>
 </center>
 
@@ -91,8 +92,8 @@ Nevertheless, the magic of Hamilton's Principle, combined with a good intuition 
 <h3-dark style="color: #DB6837">Automated Q&A with IBM Watson</h3-dark>
 
 
-->![Atlas Q&A Poster](/img/projects/atlas.png)<-
 <center>
+<img src="/img/projects/atlas.png" alt="Atlas Q&A Poster">
 <b><a href="https://github.com/kyeah/Watson-Code-Search-Intellij">Atlas</a>: An industrial Q&A backend serving precise, natural-language answers on technical documentation for company developers.</b>
 </center>
 
@@ -104,8 +105,8 @@ With IBM Watson experts and startup moguls from the Austin tech scene providing 
 
 <h3-dark style="color: #DB6837">Wireless Networking</h3-dark>
 
-->![Liteturn Splash](/img/projects/liteturn-splash.png)<-
 <center>
+<img src="/img/projects/liteturn-splash.png" alt="Liteturn Splash">
 <b><a href="https://github.com/kyeah/liteturn">Liteturn</a>: Automated, Gesture-Controlled Cyclist Turn Lights using Cheap and Efficient Consumer Devices.</b>
 </center>
 
@@ -113,7 +114,6 @@ This course marked my introduction into the world of hardware and wearable techn
 
 
 <h3-dark style="color: #DB6837">Saying Goodbye</h3-dark>
-
 
 As I look ahead to my final undergraduate semester, I find myself with more elective bliss:
 

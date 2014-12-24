@@ -6,7 +6,7 @@ title: Evolving Fractals
 In the Spring of 2013, I took a research course on Computational Intelligence in Games as part of the Freshman Research Initiative program at UT. Recently, I was invited back by the professor to present as a guest speaker, showing off a project my partner and I started in the advanced course and have continued developing over the last few months. I say invited, because I ended up in class on the other side of campus while my partner presented to a room full of young, impressionable college freshmen. Nevertheless, the reception of our research was reportedly positive, and the first-year students were eager to ask questions about our motivations for the project, as well as implementation decisions regarding its structure. 
 
 
-But what is the project? Well, let's back up a bit.
+But what was the project? Well, let's back up a bit.
 
 
 <h3-dark style="color: #DB6837">Human-Guided Evolution of Aesthetically-Pleasing Fractals</h3-dark>
@@ -59,20 +59,26 @@ In approaching the problem of filtering, we established two criteria on what con
   
 In explaining our thought process for filtering, Tyler says it best:
   
-  <h6 style="font-size: 13px; color: #3776DB">
-  "Initially, our first approach was to create a set of point objects representing all the distinct pixels drawn on the fractal's image. The final size of the set after all points had been drawn was then used to determine if the fractal was sparse or not. This method worked well for determining the first criterion because all that is needed is a numeric threshold for determining the minimum number of distinct points in a non-sparse fractal. This method was not very useful in determining the second criterion however as there was no efficient way to determine the linearity of the figure from just the set of points.
-  
+<h6 style="font-size: 13px; color: #3776DB">
+
+"Initially, our first approach was to create a set of point objects representing all the distinct pixels drawn on the fractal's image. The final size of the set after all points had been drawn was then used to determine if the fractal was sparse or not. This method worked well for determining the first criterion because all that is needed is a numeric threshold for determining the minimum number of distinct points in a non-sparse fractal. This method was not very useful in determining the second criterion however as there was no efficient way to determine the linearity of the figure from just the set of points.  
+
+</br></br>
 
   Our next approach was to divide the image into square regions and count how many regions the fractal intersected. This method worked well for determining the second criterion as curves would intersect more regions than a straight line. Determining the first criterion however was difficult as a sparse fractal could have few points but still intersect many regions if the points were far enough apart.
 
+</br></br>
 
   The final method we devised was able to determine both criterion with a high rate of success and did not require much computation. Rather than look at the individual pixels in the image of a fractal, the program looks at the image file itself, specifically at how large the image file is in bytes. To understand this methodology, we need to describe the format of the images created by the program.
-  
+
+</br></br>
 
   Our program uses the PNG image format for saving images of the generated fractals. PNG is a lossless image format, meaning no data is lost when saving the image (compare this to the JPG image format where data can be lost for the sake of smaller image sizes). Thus, the only way PNG encoders can reduce the sizes the output file is to perform lossless compression techniques. One technique that PNG encoders use is to find large regions of one color and reduce that region to a single block of information in the output. This technique works remarkably well for reducing the sizes of images that are composed only of lines because the encoder only needs to save the endpoints of each line in the output file. This compression technique also works well for images that have very few points that are different in color than the background as only a few points need to be saved in the output. 
-  
 
-  Thus, PNG encoders are able to compress sparse fractal images very well because they are well suited to the lossless compression algorithms used in encoding PNG images. Exploiting this fact, we were able to define a size threshold for the PNG files of sparse fractals. For fractals rendered at a resolution of 640x360 pixels we defined the cutoff as 1 kilobyte, such that any fractal whose PNG file was smaller than this cutoff was marked as sparse. Thus, any fractal whose image file has a size of less than 1 kilobyte is marked as sparse and is not shown to the user. Instead, a new fractal is generated to replace it. Through manual testing we have found that this size threshold has a high rate of success for correctly determining the sparsity of a fractal."</h6>  
+</br></br>
+  
+  Thus, PNG encoders are able to compress sparse fractal images very well because they are well suited to the lossless compression algorithms used in encoding PNG images. Exploiting this fact, we were able to define a size threshold for the PNG files of sparse fractals. For fractals rendered at a resolution of 640x360 pixels we defined the cutoff as 1 kilobyte, such that any fractal whose PNG file was smaller than this cutoff was marked as sparse. Thus, any fractal whose image file has a size of less than 1 kilobyte is marked as sparse and is not shown to the user. Instead, a new fractal is generated to replace it. Through manual testing we have found that this size threshold has a high rate of success for correctly determining the sparsity of a fractal."
+</h6>  
 
 
 <h3-dark style="color: #DB6837">A Beautiful World</h3-dark>

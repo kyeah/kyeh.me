@@ -41,11 +41,11 @@ img {
     display:inline-block;
 }
 p {
-    font-family: "freight-text-pro",Georgia,Cambria,"Times New Roman",Times,serif;
+    font-family: Palatino, "freight-text-pro",Georgia,Cambria,"Times New Roman",Times,serif;
     line-height: 1.8em;
     padding-top: 0.6em;
     padding-bottom: 0.6em;
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 0.01rem;
     font-weight: 400;
     font-style: normal;
@@ -108,6 +108,9 @@ ul {
 nav ul {
     font-family: inherit;
     line-height: inherit;
+}
+#blog-nav ul {
+    line-height: 1.8em;
 }
 .text-shadowed {
     text-shadow: 3px 3px 3px #141414;    
