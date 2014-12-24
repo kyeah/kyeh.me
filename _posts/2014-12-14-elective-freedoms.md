@@ -3,9 +3,10 @@ layout: post
 title: Elective Freedoms
 ---
 
-->![Rainbows and Happiness](http://blog.mailchimp.com/wp-content/uploads/2011/03/happy-rainbow.jpg)
-</br>
-__Pictured: How I feel right about now.__<-
+->![Rainbows and Happiness](http://blog.mailchimp.com/wp-content/uploads/2011/03/happy-rainbow.jpg)<-
+<center>
+<b>Pictured: How I feel right about now.</b>
+</center>
 
 I've reached the Promised Land. I've seen the skies at the top of the mountain and felt the eager sun on my skin, where once there lay only the cold.  I've climbed the peaks and looked down from where I fought, finding nothing but heavy hearts and sorrowed minds from those who now follow in my footsteps.
 
@@ -90,8 +91,10 @@ Nevertheless, the magic of Hamilton's Principle, combined with a good intuition 
 <h3-dark style="color: #DB6837">Automated Q&A with IBM Watson</h3-dark>
 
 
-->![Atlas Q&A Poster](/img/projects/atlas.png)
-__[Atlas](https://github.com/kyeah/Watson-Code-Search-Intellij): An industrial Q&A backend serving precise, natural-language answers on technical documentation for company developers.__<-
+->![Atlas Q&A Poster](/img/projects/atlas.png)<-
+<center>
+<b><a href="https://github.com/kyeah/Watson-Code-Search-Intellij">Atlas</a>: An industrial Q&A backend serving precise, natural-language answers on technical documentation for company developers.</b>
+</center>
 
 A major highlight of this semester was the Automated Q&A course taught by CS departmental chair Bruce Porter, one of several courses sponsored by IBM Watson amongst seven different universities. The results speak for themselves: a mobile 211 service backed by United Way/HHSC and slated for Austin and Texas state pilots, and an industrial technical documentation system backed and funded by Atlassian. 
 
@@ -101,8 +104,10 @@ With IBM Watson experts and startup moguls from the Austin tech scene providing 
 
 <h3-dark style="color: #DB6837">Wireless Networking</h3-dark>
 
-->![](/img/projects/liteturn-splash.png)
-__[Liteturn](https://github.com/kyeah/liteturn): Automated, Gesture-Controlled Cyclist Turn Lights using Cheap and Efficient Consumer Devices.__<-
+->![Liteturn Splash](/img/projects/liteturn-splash.png)<-
+<center>
+<b><a href="https://github.com/kyeah/liteturn">Liteturn</a>: Automated, Gesture-Controlled Cyclist Turn Lights using Cheap and Efficient Consumer Devices.</b>
+</center>
 
 This course marked my introduction into the world of hardware and wearable technology, sparking an interest in the combination of hardware and software in physical, real-world scenarios. You can read my previous post, [Hardware Hacking](/2014/10/19/hardware-hacking/), for my initial thoughts on the other side of the proverbial coin.
 
