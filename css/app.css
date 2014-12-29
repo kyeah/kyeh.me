@@ -28,6 +28,9 @@
     font-weight: 400;
     text-shadow: 2px 2px 0 rgba(0,0,0,.15);
 }
+.am-hero-cover h1, .am-hero-cover h2 {
+    text-shadow: 2px 2px 3px #141414;
+}
 .lb-image {
     max-width:inherit;  /* Allow lightbox images to expand when clicked on */
 }
