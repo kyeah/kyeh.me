@@ -1,6 +1,11 @@
 ---
 layout: post
 title: Hardware Hacking
+excerpt: "
+
+Ever notice an odd trend when watching hackathon closing ceremonies? Hardware hacks dominate the domain. With four of the top five hacks at BoilerMake ‘14 involving a heavy dosage of physical hardware, along with the majority of the HackTX top 10 winners, it seems more and more people are looking at mobile and wearables as the next pervasive technology of the future -- finding ways to take the experience out of the screen and have users interact with the physical world around them. This sentiment was only proven further with this year’s available hardware listing for HackTX: Arduinos, Spark Cores, Leap Motions, Samsung wearables, Myos, and Oculus Rifts all made it out to Austin’s favorite annual hackathon. With this in mind, a large number of hackers made it their duty to utilize these products in the hacks they put out on Sunday, and three big hardware teams came out on top, including mine -- LiteTurn, the gesture-controlled cyclist turn lights with Myo, Spark Core, and Android GPS bearings.
+
+"
 ---
 
 ![HackTX 3rd Place Medal](/img/blog/hacktx-medal.png)

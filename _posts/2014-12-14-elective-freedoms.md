@@ -1,6 +1,14 @@
 ---
 layout: post
 title: Elective Freedoms
+excerpt: "
+
+I've reached the Promised Land. I've seen the skies at the top of the mountain and felt the eager sun on my skin, where once there lay only the cold.  I've climbed the peaks and looked down from where I fought, finding nothing but heavy hearts and sorrowed minds from those who now follow in my footsteps.
+</br>
+</br>
+I've reached the last year of my bachelor's degree.
+
+"
 ---
 
 <center>

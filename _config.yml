@@ -1,7 +1,7 @@
-name: "Kevin Yeh"
-description: "A virtual portfolio"
+name: Kevin Yeh
+description: A virtual portfolio
 
-url: "http://localhost:4000"
+url: http://kyeh.me
 
 markdown: rdiscount
 permalink: pretty
