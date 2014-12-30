@@ -328,7 +328,7 @@ a .icon:hover {
   border: 4px solid #00bfa8;
 }
 
-@media only screen and (max-device-width: 720px) {
+@media only all and (max-width: 980px) {
     #posts {
         visibility: hidden !important;
     }
