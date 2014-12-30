@@ -13,6 +13,9 @@ block cover-text
   h1.text-shadowed The Blog
   a(href='http://www.scriptogr.am/kyeah'): h2(style='color: #DB6837') Looking for my film journal?
 
+block scripts
+  script(src='/js/blog.js')
+
 block content
   section#blog
     #posts_anchor
@@ -53,8 +56,14 @@ block content
             h5-dark(style='color: #363636')
               div.
                 {{ post.content }}
-              br
-              br
+            | {% capture url %}{{ site.url }}{{ post.url }}{% endcapture %}
+            a(href='/feed.xml' target='_blank' title='Retrieve RSS feed'): i.fa.fa.fa-rss.icon
+            a(href='http://www.linkedin.com/shareArticle?mini=true&title={{ page.title }}&url={{ url }}&source={{ site.url }}' target='_blank' title='Share on Linkedin'): i.fa.fa.fa-linkedin.icon
+            a(href='https://www.facebook.com/sharer/sharer.php?t={{ page.title }}&u={{ url }}' target='_blank' title='Share on Facebook'): i.fa.fa.fa-facebook.icon
+            a(href='https://plus.google.com/share?url={{ url }}' target='_blank' title='Share on Google Plus'): i.fa.fa.fa-google-plus.icon
+            a(href='https://twitter.com/intent/tweet?text={{ page.title }}&url={{ url }}&via=KYeahokay' target='_blank' title='Share on Twitter'): i.fa.fa.fa-twitter.icon
+            br
+            br
         hr
         br
         | </div>
