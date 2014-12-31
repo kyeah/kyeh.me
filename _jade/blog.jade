@@ -39,31 +39,9 @@ block content
     .content
       .am-content-container
         | {% for post in site.posts limit:5 %}
+        | {% assign content = post.content %}
         | <div class="content-wrapper post" id="{{ 'post' | append:forloop.index }}">
-        .pure-g.hcentered
-          .pure-u-1-6
-          .pure-u-2-3
-            br
-            h2-dark(style='color: #3776DB')
-              div.
-                <a href="{{ post.url }}">{{ post.title }}</a>
-            h3-dark(style='color: #3776DB')
-              | Posted 
-              time.timeago(datetime="{{ post.date }}")
-              |  on {{ post.date | date: '%b %d, %Y' }}
-              br
-              br
-            h5-dark(style='color: #363636')
-              div.
-                {{ post.content }}
-            | {% capture url %}{{ site.url }}{{ post.url }}{% endcapture %}
-            a(href='/feed.xml' target='_blank' title='Retrieve RSS feed'): i.fa.fa.fa-rss.icon
-            a(href='http://www.linkedin.com/shareArticle?mini=true&title={{ page.title }}&url={{ url }}&source={{ site.url }}' target='_blank' title='Share on Linkedin'): i.fa.fa.fa-linkedin.icon
-            a(href='https://www.facebook.com/sharer/sharer.php?t={{ page.title }}&u={{ url }}' target='_blank' title='Share on Facebook'): i.fa.fa.fa-facebook.icon
-            a(href='https://plus.google.com/share?url={{ url }}' target='_blank' title='Share on Google Plus'): i.fa.fa.fa-google-plus.icon
-            a(href='https://twitter.com/intent/tweet?text={{ page.title }}&url={{ url }}&via=KYeahokay' target='_blank' title='Share on Twitter'): i.fa.fa.fa-twitter.icon
-            br
-            br
+        include ./post_content.jade
         hr
         br
         | </div>
