@@ -43,6 +43,10 @@ img {
     -ms-interpolation-mode:bicubic;
     display:inline-block;
 }
+video {
+    max-width:100%;
+    height:auto;
+}
 p {
     font-family: Palatino, "freight-text-pro",Georgia,Cambria,"Times New Roman",Times,serif;
     line-height: 1.8em;
