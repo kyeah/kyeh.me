@@ -35,6 +35,12 @@ block content
           div
             h3-dark(style='color: #3376DB')
               | {{ post.title }}
+            br
+            h4-dark(style='color: #3776DB')
+              | Posted 
+              time.timeago(datetime="{{ post.date }}")
+              |  on {{ post.date | date: '%b %d, %Y' }}
+            br
             h5-dark(style='color: #363636; text-align:justify')
               | <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
           | </a>
