@@ -44,7 +44,8 @@ img {
     display:inline-block;
 }
 video {
-    max-width:100%;
+    max-width:100% !important;
+    display:inline-block;
 }
 p {
     font-family: Palatino, "freight-text-pro",Georgia,Cambria,"Times New Roman",Times,serif;
@@ -336,6 +337,12 @@ a .icon:hover {
 }
 .image-link:hover {
   border: 4px solid #00bfa8;
+}
+
+@media only all and (max-device-width: 780px) {
+    video {
+        autoplay:false;
+    }
 }
 
 @media only all and (max-width: 980px) {
