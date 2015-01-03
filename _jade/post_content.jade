@@ -2,18 +2,21 @@
   .pure-u-1-6
   .pure-u-2-3
     br
-    h2-dark(style='color: #3776DB')
-      | <a href="{{ post.url }}">{{ post.title }}</a>
     br
-    h3-dark(style='color: #3776DB')
-      | Posted 
-      time.timeago(datetime="{{ post.date }}")
-      |  on {{ post.date | date: '%b %d, %Y' }}
+    center
+      h2-dark(style='color: #3776DB')
+        | <a href="{{ post.url }}">{{ post.title }}</a>
+      br
+      h3-dark(style='color: #3776DB')
+        | Posted 
+        time.timeago(datetime="{{ post.date }}")
+        |  on {{ post.date | date: '%b %d, %Y' }}
       br
       br
-    h5-dark(style='color: #363636')
+    h5-dark(style='color: #363636; text-align:justify;')
       | {{ content }}
     | {% capture url %}{{ site.url }}{{ post.url }}{% endcapture %}
+    br
     a(href='/feed.xml' target='_blank' title='Retrieve RSS feed'): i.fa.fa.fa-rss.icon
     a(href='http://www.linkedin.com/shareArticle?mini=true&title={{ page.title }}&url={{ url }}&source={{ site.url }}' target='_blank' title='Share on Linkedin'): i.fa.fa.fa-linkedin.icon
     a(href='https://www.facebook.com/sharer/sharer.php?t={{ page.title }}&u={{ url }}' target='_blank' title='Share on Facebook'): i.fa.fa.fa-facebook.icon

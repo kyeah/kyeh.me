@@ -59,7 +59,7 @@ In approaching the problem of filtering, we established two criteria on what con
   
 In explaining our thought process for filtering, Tyler says it best:
   
-<h6 style="font-size: 13px; color: #3776DB">
+<blockquote>
 
 "Initially, our first approach was to create a set of point objects representing all the distinct pixels drawn on the fractal's image. The final size of the set after all points had been drawn was then used to determine if the fractal was sparse or not. This method worked well for determining the first criterion because all that is needed is a numeric threshold for determining the minimum number of distinct points in a non-sparse fractal. This method was not very useful in determining the second criterion however as there was no efficient way to determine the linearity of the figure from just the set of points.  
 
@@ -78,7 +78,7 @@ In explaining our thought process for filtering, Tyler says it best:
 </br></br>
   
   Thus, PNG encoders are able to compress sparse fractal images very well because they are well suited to the lossless compression algorithms used in encoding PNG images. Exploiting this fact, we were able to define a size threshold for the PNG files of sparse fractals. For fractals rendered at a resolution of 640x360 pixels we defined the cutoff as 1 kilobyte, such that any fractal whose PNG file was smaller than this cutoff was marked as sparse. Thus, any fractal whose image file has a size of less than 1 kilobyte is marked as sparse and is not shown to the user. Instead, a new fractal is generated to replace it. Through manual testing we have found that this size threshold has a high rate of success for correctly determining the sparsity of a fractal."
-</h6>  
+</blockquote>  
 
 
 <h3-dark style="color: #DB6837">A Beautiful World</h3-dark>
