@@ -10,7 +10,8 @@ block cover
   +cover()(class='liteturn')
 
 block cover-text
-  h1.text-shadowed Questionable Hacks
+  a(href='/blog')
+    h1.text-shadowed Questionable Hacks
   a(href='http://www.scriptogr.am/kyeah')
     h2(style='color: #A93504') goto > 
      span(style='color: #DB6837;') film journal
@@ -20,19 +21,8 @@ block scripts
 
 block content
   section#blog
-    #posts_anchor
-    .blog-nav
-      ul#posts(style="position:absolute;").
-        <li class="animated fadeInDown">
-          <a href='/blog'><h2-dark style='color: #DB6837;'>Q.H.</h2-dark></a>
-        </li>
-
-        {% for post in site.posts %}
-          <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-          </li>
-        {% endfor %}
-
+    include ./blog_nav.jade
+    
     .content
       .am-content-container
         .content-wrapper

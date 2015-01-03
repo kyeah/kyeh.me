@@ -135,7 +135,7 @@ block content
       .am-content-container
         .pure-g.hcentered          
           .pure-u.hcentered(style='margin-bottom:10px'): h3-dark(style='color: #3776DB') 
-            | <a href='blog'>Newest Blog Post: {{ site.posts.first.title}} </a>
+            | <a href='{{ site.posts.first.url }}'>Newest Blog Post: {{ site.posts.first.title}} </a>
             br
         .pure-g.hcentered
           .pure-u-1-12
@@ -143,4 +143,4 @@ block content
             p(style='margin:0;')
               h4-dark
                 | {{ site.posts.first.excerpt | remove: '<p>' | remove: '</p>' }}
-                a(href='blog') &nbspRead more
+                | <a href='{{ site.posts.first.url }}'>&nbspRead more</a>

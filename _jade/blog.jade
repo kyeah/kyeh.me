@@ -10,7 +10,8 @@ block cover
   +cover()(class='liteturn')
 
 block cover-text
-  h1.text-shadowed Questionable Hacks
+  a(href='/blog')
+    h1.text-shadowed Questionable Hacks
   a(href='http://www.scriptogr.am/kyeah')
     h2(style='color: #A93504') goto > 
      span(style='color: #DB6837;') film journal
@@ -22,29 +23,21 @@ block content
   section#blog
     #posts_anchor
     .blog-nav
-      ul#posts(style="position:absolute;").
-        <li class="animated fadeInDown">
-          <a href='#hero'><h2-dark style='color: #DB6837;'>Q.H.</h2-dark></a>
-        </li>
+      include ./blog_nav.jade
 
-        {% for post in site.posts limit:5 %}
-          <li class="link">
-            <a href="{{ '#post' | append:forloop.index }}">{{ post.title }}</a>
-          </li>
-        {% endfor %}
-        {% for post in site.posts offset:5 %}
-          <li>
-            <a href="{{ post.url }}" class="menu-inactive">{{ post.title }}</a>
-          </li>
-        {% endfor %}
-
-    .content
-      .am-content-container
-        | {% for post in site.posts limit:5 %}
-        | {% assign content = post.content %}
-        | <div class="content-wrapper post" id="{{ 'post' | append:forloop.index }}">
-        include ./post_content.jade
-        hr
-        br
-        | </div>
-        | {% endfor %}
+    .content: .am-content-container: .content-wrapper
+      .pure-g.hcentered
+        .pure-u-md-1-12
+        .pure-u-1.pure-u-md-5-6
+          br
+          | {% for post in site.posts %}
+          | <a href="{{ post.url }}">
+          div
+            h3-dark(style='color: #3376DB')
+              | {{ post.title }}
+            h5-dark(style='color: #363636; text-align:justify')
+              | <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+          | </a>
+          hr
+          br
+          | {% endfor %}
