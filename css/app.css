@@ -366,4 +366,7 @@ a .icon:hover {
     .image-box:hover {
 	opacity:1;
     }
+    .about-avatar {
+	margin-top: 0;
+    }
 }
