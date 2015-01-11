@@ -4,16 +4,16 @@
     br
     br
     center
-      h2-dark(style='color: #3776DB')
+      h2-dark.blue
         | <a href="{{ post.url }}">{{ post.title }}</a>
       br
-      h3-dark(style='color: #3776DB')
+      h3-dark.blue
         | Posted 
         time.timeago(datetime="{{ post.date }}")
         |  on {{ post.date | date: '%b %d, %Y' }}
       br
       br
-    h5-dark(style='color: #363636; text-align:justify;')
+    h5-dark.dark-gray(style='text-align:justify;')
       | {{ content }}
     | {% capture url %}{{ site.url }}{{ post.url }}{% endcapture %}
     br

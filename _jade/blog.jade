@@ -13,8 +13,8 @@ block cover-text
   a(href='/blog')
     h1.text-shadowed Questionable Hacks
   a(href='http://www.scriptogr.am/kyeah')
-    h2(style='color: #A93504') goto > 
-     span(style='color: #DB6837;') film journal
+    h2.dark-orange goto > 
+     span.burnt-orange film journal
 
 block scripts
   script(src='/js/blog.js')
@@ -33,15 +33,15 @@ block content
           | {% for post in site.posts %}
           | <a href="{{ post.url }}">
           div
-            h3-dark(style='color: #3376DB')
+            h3-dark.blue
               | {{ post.title }}
             br
-            h4-dark(style='color: #3776DB')
+            h4-dark.blue
               | Posted 
               time.timeago(datetime="{{ post.date }}")
               |  on {{ post.date | date: '%b %d, %Y' }}
             br
-            h5-dark(style='color: #363636; text-align:justify')
+            h5-dark.dark-gray(style='text-align:justify')
               | <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
           | </a>
           hr

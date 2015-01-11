@@ -10,10 +10,10 @@ block cover
   +cover(class='mountainside')
 
 block cover-text
-  h1.text-shadowed(style='color: #3776DB') Kevin Yeh
+  h1.text-shadowed.blue Kevin Yeh
   h2.text-shadowed 
     | A student and developer from New York City 
-  h2.text-shadowed(style='color: #DB6837') 
+  h2.text-shadowed.burnt-orange 
     | studying Computer Science at the University of Texas at Austin.
 
 block content
@@ -23,10 +23,10 @@ block content
         .pure-g.hcentered
           .pure-u.hcentered
             img.about-avatar(src='img/personal/avatar.png')
-            h1-alt(style='color: #DB6837'): i "How do I love thee? Let me count the ways,
+            h1-alt.burnt-orange: i "How do I love thee? Let me count the ways,
             h3.text-upper: i
               a(href='kyehresume.pdf' target='_blank') that I may dissect thy resume."
-            h4.text-centered(style='color: #EEEEEE')
+            h4.text-centered.light-gray
               br
               | I am a New York native, Austin developer, and Stuyvesant H.S. Alumnus studying at the University of Texas at Austin.
               | I've recently worked for 
@@ -134,7 +134,7 @@ block content
     .content
       .am-content-container
         .pure-g.hcentered          
-          .pure-u.hcentered(style='margin-bottom:10px'): h3-dark(style='color: #3776DB') 
+          .pure-u.hcentered(style='margin-bottom:10px'): h3-dark.blue 
             | <a href='{{ site.posts.first.url }}'>Newest Blog Post: {{ site.posts.first.title}} </a>
             br
         .pure-g.hcentered

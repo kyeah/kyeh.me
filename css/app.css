@@ -286,6 +286,21 @@ a .icon:hover {
     color: #1a1a1a;
     background: #ffffff;
 }
+.dark-orange {
+    color: #A93504 !important;
+}
+.burnt-orange {
+    color: #DB6837 !important;
+}
+.blue {
+    color: #3776DB !important;
+}
+.light-gray {
+    color: #EEEEEE !important;
+}
+.dark-gray {
+    color: #363636 !important;
+}
 
 /* Fixing lineheights */
 .icon.outline {
@@ -345,6 +360,12 @@ a .icon:hover {
     }
 }
 
+@media only all and (max-width: 780px) {
+    .about-avatar {
+	margin-top: 0;
+    }
+}
+
 @media only all and (max-width: 980px) {
     #posts {
         visibility: hidden !important;
@@ -365,8 +386,5 @@ a .icon:hover {
     }
     .image-box:hover {
 	opacity:1;
-    }
-    .about-avatar {
-	margin-top: 0;
     }
 }
