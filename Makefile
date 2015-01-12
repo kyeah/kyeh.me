@@ -1,12 +1,12 @@
 build:
 	jade -o _layouts _jade/post.jade _jade/index.jade _jade/blog.jade
 	jekyll build
-	rm _site/Makefile
+	rm _site/Makefile _site/README.md
 
 serve:
 	jade -o _layouts _jade/post.jade _jade/index.jade _jade/blog.jade
 	jekyll serve -w
-	rm _site/Makefile
+	rm _site/Makefile _site/README.md
 
 clean:
-	rm -rf *~ *# *.html _site/
+	rm -rf *~ *# _site/ _layouts/*
