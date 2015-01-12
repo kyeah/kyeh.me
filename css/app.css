@@ -356,6 +356,7 @@ a .icon:hover {
 
 @media only all and (max-device-width: 780px) {
     video {
+        preload: none;
         autoplay:false;
     }
 }
