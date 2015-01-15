@@ -367,10 +367,13 @@ a .icon:hover {
     }
 }
 
-@media only all and (max-width: 980px) {
+@media only all and (max-width: 1480px) {
     #posts {
         visibility: hidden !important;
     }
+}
+
+@media only all and (max-width: 980px) {
     #icons {
 	padding-left:20px;
     }
