@@ -37,7 +37,7 @@ Through my conversations with a host on the GCP team, I learned that the project
 
 Although Docker was exciting technology, I was disappointed by the limited scope of the project, especially having spent my last summer integrating a new technology into the RDS backend, as well as designing and implementing the groundwork for a new feature and database that would be expanded to cover all sensitive RDS data.
 
-There are no promises on the project that I will be working on in New York; it's unclear which startups will even be available when the matching process begins. At the same time, startups have developed a reputation for giving their interns more impacting work and free reins on the contributions that they make. I was willing to take that chance.
+There are no promises on the project that I will be working on in New York; at the same time, startups have developed a reputation for giving their interns more impacting work and free reins on the contributions that they make, and I was willing to take that chance.
 
 <h3-dark style="color: #DB6837">Work Culture</h3-dark>
 
