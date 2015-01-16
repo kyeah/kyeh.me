@@ -33,7 +33,7 @@ In the end, I realized that the decision to turn down Google was much more compl
 
 When speaking with a host at any potential employer, I'm always curious to know what types of projects I may be assigned to work on, and how the team approaches the integration of interns into their development environment. Having loosely followed Docker’s development pipeline, I knew that its infancy left a large number of features and issues that needed to be completed, and that the product was still in a state of constant flux.
 
-Through my conversations with a host on the GCP team, I learned that the project I would be working on would likely not involve cluster-level logic, ruling out any possible interaction with the Kubernetes and cAdvisor projects. In  further discussion, I learned that my project would also be unlikely to involve development on any core features of Docker, but would rather deal with container analytics.
+Through my conversations with a host on the GCP team, I learned that the project I would be working on would likely not involve cluster-level logic, ruling out any possible interaction with the Kubernetes and cAdvisor projects. In  further discussion, I learned that my project would also be unlikely to involve development on any core features of Docker, but would rather deal with monitoring.
 
 Although Docker was exciting technology, I was disappointed by the limited scope of the project, especially having spent my last summer integrating a new technology into the RDS backend, as well as designing and implementing the groundwork for a new feature and database that would be expanded to cover all sensitive RDS data.
 
@@ -63,4 +63,4 @@ It's also a program that encourages its students to be an active member of the t
  
 Location often shouldn't take precedence over the work you do, especially for an internship, but NYC has built a close community with a unique energy and evangelism about it. As a New York native who's had little interaction with this tech scene, I'm overdue for a lengthy return.
 
-There's a good chance that I'm crazy, illogical, or disillusioned; that I made the "wrong" choice. But I don't believe in wrong choices; I believe in choices you regret. I wanted to learn, not relive, and this was my last chance to do so before graduation. To me, everything fell into place to turn down Google's offer and come back home. 
+There's a good chance that I'm crazy, illogical, or disillusioned; that I made the "wrong" choice. But I don't believe in wrong choices; I believe in choices you regret. I wanted to learn, not relive, and this was my last chance to do so before graduation. To me, everything fell into place to turn down Google's offer and come back home.
