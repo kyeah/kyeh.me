@@ -5,12 +5,25 @@
     br
     center
       h2-dark.blue
-        | <a href="{{ post.url }}">{{ post.title }}</a>
+        | {% capture title %}{{ post.title }}{% if post.subtitle %}:{% endif%}{% endcapture %}
+        | <a href="{{ post.url }}">{{ title }}</a>
+      | {% if post.subtitle %}
+      br
+      h3-dark.blue
+        | {{ post.subtitle }}
+      br
+      br
+      h4-dark.blue
+        | Posted 
+        time.timeago(datetime="{{ post.date }}")
+        |  on {{ post.date | date: '%b %d, %Y' }}
+      | {% else %}
       br
       h3-dark.blue
         | Posted 
         time.timeago(datetime="{{ post.date }}")
         |  on {{ post.date | date: '%b %d, %Y' }}
+      | {% endif %}
       br
       br
     h5-dark.dark-gray(style='text-align:justify;')

@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Why I Turned Down Google
+title: Coming Home
+subtitle: Why I Turned Down Google
 
 excerpt: "
 
@@ -15,9 +16,9 @@ On the same day, I received an offer from the HackNY Fellows program, which I ha
 
 Along with my decision to turn down Google's offer, I lost the opportunity to work at Mountain View's Googleplex office: a glorified playground for adults that boasts free bikes, buses, massages, swimming pools, dance classes, nap pods, cruise parties, open kitchens, gourmet cafeterias, and on-demand cars and shuttles.
 
-Many people have asked me why I decided to turn down Google. To many students, interning at Google is their highest achievement — an opportunity to work on cutting-edge technology at one of the most recognized companies in the world. The Googleplex is well-advertised as one of the premier workplaces for new graduates, topping dozens of Top 10 lists every year in every conceivable category. 
+Several people have asked me about my decision to turn down Google. To many students, interning at Google is their highest achievement — an opportunity to work on cutting-edge technology at one of the most recognized companies in the world. The Googleplex is well-advertised as one of the premier workplaces for new graduates, topping dozens of Top 10 lists every year with an exhaustive list of eccentric perks and bonuses dedicated to maintaining a young and vibrant culture.
 
-An opportunity to learn modern methods of containerization and distributed management, all in a highly motivating environment using a fresh, specialized concurrency language (golang), is something that many students dream of, and when the offer dropped, I was the same as any of my peers. I thought of the boost it would be to my resume; I thought of working on the technology that would run and manage Google's server fleet in the near future; and I thought of having two feet firmly planted in the doors of many recruiters and interviewers, who would be swept off their feet with enough social competence to secure the job.
+An opportunity to learn modern methods of containerization and distributed management, all in a highly motivating environment using a fresh, specialized concurrency language (golang), is something that many students dream of, and when the offer dropped, I was the same as any of my peers. I thought of the boost it would be to my resume; I thought of working on the technology that would run and manage Google's server fleet in the near future; and I thought of having two feet firmly planted in the doors of many recruiters in an industry where being a Googler is a badge of honor.
 
 I was close to turning down the HackNY community, again, for a line on my resume and a cross off my bucket list.
 
@@ -25,9 +26,9 @@ When I stepped back and looked at my academic path, however, I asked myself why 
 
 After reflecting on my decision for several weeks, I noticed an emerging pattern in how I valued my offers at Google and HackNY. In evaluating Google, I focused entirely on their working value — the technology I got to work on, and the name recognition of Google and Docker that would inevitably lead to more willing employers in the future. In evaluating HackNY, I barely grazed the topic of work at all; I knew that no startup technology could interest me more than Docker, and so I looked past the lack of technical intrigue to find something wholly more valuable: a foreign, bootstrapped work culture, a lively community and nightlife, and ~35 wonderful students crammed into one NYU Palladium dorm. 
 
-Who wouldn’t want to live next to Trader Joe’s?
+That's right — we live next to _Trader Joe's_.
 
-In the end, I realized that the decision to turn down Google was much more complex than what my 2-day turnaround time implied, and I've attempted to break it down for everyone's sanity.
+In the end, I entered a much deeper introspection than I anticipated on my 2-day decision to turn down Google, and I've attempted to break it down for everyone's sanity.
 
 <h3-dark style="color: #DB6837">Project Scope</h3-dark>
 
@@ -35,15 +36,15 @@ When speaking with a host at any potential employer, I'm always curious to know 
 
 Through my conversations with a host on the GCP team, I learned that the project I would be working on would likely not involve cluster-level logic, ruling out any possible interaction with the Kubernetes and cAdvisor projects. In  further discussion, I learned that my project would also be unlikely to involve development on any core features of Docker, but would rather deal with monitoring.
 
-Although Docker was exciting technology, I was disappointed by the limited scope of the project, especially having spent my last summer integrating a new technology into the RDS backend, as well as designing and implementing the groundwork for a new feature and database that would be expanded to cover all sensitive RDS data.
+Although I was truly excited about working with the underlying components composing and surrounding Docker, I was partially disappointed by the limited scope of the project, especially having spent my last summer at AWS integrating a new technology into the RDS backend, as well as designing and implementing the infrastructure for a new database and deletion flow that would be expanded to cover all sensitive RDS data.
 
-There are no promises on the project that I will be working on in New York; at the same time, startups have developed a reputation for giving their interns more impacting work and free reins on the contributions that they make, and I was willing to take that chance.
+There are no promises on the project that I will be working on in New York. At the same time, startups have developed a reputation for giving their interns more impacting work and for casting a wider net on the contributions that they make, and I was willing to take that opportunity.
 
 <h3-dark style="color: #DB6837">Work Culture</h3-dark>
 
-Let’s be real: technologies change. From company to company, the technology stack and development environment will differ, and new employees will have to spend weeks learning the organization and functionality of their team’s code base. Although learning how components work and interact is vital to understanding the system and developing on it, the knowledge is often not directly applicable at other companies.
+Although projects are a large part of your internship, let’s be real: technologies change. From company to company, the technology stack and development environment will differ, and new employees will have to spend weeks learning the organization and functionality of their team’s code base. Although learning how components work and interact is vital to understanding the system and developing on it, the knowledge is often not directly applicable at other companies.
 
-In my experiences working on distributed servers through RDS and DynamoDB, I've found less value in the implementation of their systems, and much more value in the developmental process: understanding the methodologies of collaborative system design and team interaction, evaluating the technical and consumer costs and gains of implementing features, and finding the balance between leadership and apprenticeship within the bureaucratic structure of a large, multibillion dollar company.
+In my experiences working on distributed servers through RDS and DynamoDB, I've found less value in the implementation of their systems, and much more value in the developmental process: understanding the methodologies of collaborative system design and team interaction, evaluating the technical and consumer tradeoffs of implementing features with PMs, and finding the balance between leadership and apprenticeship within the bureaucratic structure of a large, multibillion dollar company.
 
 Though differences in culture are sure to exist between companies, and even between teams within a company, I suspected that the development process and work environment would feel familiar at Google or any other large company. Startups, on the other hand, generally have smaller teams and shorter organizational structures, thereby fostering a much more personal and energetic working culture.
 
@@ -51,7 +52,7 @@ Though differences in culture are sure to exist between companies, and even betw
 
 On the other side of the work-life spectrum, I found my time in Seattle to be generally underwhelming. Outside of work, I found a feeling of semi-isolation. In a city that closed its shops at 7, there was little incentive for me to go beyond the formula of work, dinner, and sleep, and though I made wonderful friends and had many weekend excursions, the fact was that I felt isolated for well over half the week, every week, for three months. Combined with the general sterility of the RDS office and the workaholic nature of many interns on weekdays, the days quickly devolved into mind-numbing office work and little activity afterwards. I would shut myself down mentally after work, and would likely have gone mad if I hadn't resolved myself to practicing new hobbies every night.
 
-In making my decision, I was worried that this mundane pattern of isolation and workday mentality would follow at any traditional internship that offered a job and a sparse calendar of intern events. 
+In making my decision, I was worried that this mundane pattern of isolation and workday mentality would follow at any traditional internship that offered a job and a sparse calendar of intern events. This was compounded by the Mountain View location, which teeters dangerously close to being a suburb and is at least an hour away from San Francisco by car.
 
 The project content for next summer was largely irrelevant in my decision, and even the work culture was limited in its effects — I turned down Google because I was interested in learning the <i>who's</i> and <i>hows</i> of the technical scene, not the <i>whats</i>, and HackNY's process of matching companies after offer acceptance was indicative, at least in part, of the program's focus. 
 
@@ -61,6 +62,8 @@ HackNY is fundamentally different from what I had experienced at Amazon, and it 
 
 It's also a program that encourages its students to be an active member of the tech community outside of their daily job, whether that means attending hackathons, mentoring others, presenting at technical meetups, or otherwise evangelizing the idea of being a developer for the community. It's a third layer that exists between the two extremes of work life and social events — one where the community comes together to share their love of technology with others. 
  
-Location often shouldn't take precedence over the work you do, especially for an internship, but NYC has built a close community with a unique energy and evangelism about it. As a New York native who's had little interaction with this tech scene, I'm overdue for a lengthy return.
+Location often shouldn't take precedence over the work you do, especially for an internship, but NYC has built a close, up-and-coming startup community with a unique energy and evangelism about it. As a New York native who's had little interaction with this tech scene, I'm overdue for a lengthy return.
 
-There's a good chance that I'm crazy, illogical, or disillusioned; that I made the "wrong" choice. But I don't believe in wrong choices; I believe in choices you regret. I wanted to learn, not relive, and this was my last chance to do so before graduation. To me, everything fell into place to turn down Google's offer and come back home.
+There's a good chance that I'm crazy, illogical, or disillusioned; that I made the "wrong" choice. But I don't believe in wrong choices; I believe in choices you regret. I wanted to learn, not relive, and this was my last chance to do so before graduation. 
+
+The longer I'm away from New York, the more I realize how much I need it. To me, everything fell into place to turn down Google's offer and come back home.
