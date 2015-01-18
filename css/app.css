@@ -1,3 +1,15 @@
+.image-link a img {
+    object-fit:cover;
+    -moz-object-fit:cover;
+    -ms-object-fit:cover;
+    -o-object-fit:cover;     
+}
+.image-link a video {
+    object-fit:cover;
+    -moz-object-fit:cover;
+    -ms-object-fit:cover;
+    -o-object-fit:cover; 
+}
 a:hover {
     color: #DB6837 !important;
 }
