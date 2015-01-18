@@ -1,3 +1,10 @@
+a:hover {
+    color: #DB6837 !important;
+}
+a .burnt-orange:hover {
+    color: #bba454 !important;
+}
+
 .videoWrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
@@ -61,11 +68,14 @@ a:hover {
   color: #59ffeb;
   opacity: 1.0 !important;
 }
+.transparent {
+    background:transparent !important;
+}
+.transparent:hover {
+    color:#bba454 !important;
+}
 h1 {
-    font-family:helvetica;
-    font-size:27px;
-    font-weight:500;
-    color: #ffffff;
+    font-family:'Bitter';
 }
 h1-alt {
     font-family:helvetica;
@@ -373,7 +383,7 @@ a .icon:hover {
     }
 }
 
-@media only all and (max-width: 980px) {
+@media only all and (max-width: 979px) {
     #icons {
 	padding-left:20px;
     }
@@ -390,5 +400,10 @@ a .icon:hover {
     }
     .image-box:hover {
 	opacity:1;
+    }
+    .am-hero-cover name, .am-hero-cover {
+        font-size: 36px;
+        line-height: 48px;
+        text-align: center;
     }
 }

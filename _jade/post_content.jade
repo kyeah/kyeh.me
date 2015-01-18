@@ -6,7 +6,7 @@
     center
       h2-dark.blue
         | {% capture title %}{{ post.title }}{% if post.subtitle %}:{% endif%}{% endcapture %}
-        | <a href="{{ post.url }}">{{ title }}</a>
+        | {{ title }}
       | {% if post.subtitle %}
       br
       h3-dark.blue
