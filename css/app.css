@@ -383,6 +383,12 @@ a .icon:hover {
     }
 }
 
+@media only all and (max-width: 622px) {
+    .image-link {
+        float: center;
+    }
+}
+
 @media only all and (max-width: 1480px) {
     #posts {
         visibility: hidden !important;
