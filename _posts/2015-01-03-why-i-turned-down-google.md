@@ -26,7 +26,7 @@ When I stepped back and looked at my academic path, however, I asked myself why 
 
 After reflecting on my decision for several weeks, I noticed an emerging pattern in how I valued my offers at Google and HackNY. In evaluating Google, I focused entirely on their working value — the technology I got to work on, and the name recognition of Google and Docker that would inevitably lead to more willing employers in the future. In evaluating HackNY, I barely grazed the topic of work at all; I knew that no startup technology could interest me more than Docker, and so I looked past the lack of technical intrigue to find something wholly more valuable: a foreign, bootstrapped work culture, a lively community and nightlife, and ~35 wonderful students crammed into one NYU Palladium dorm. 
 
-That's right — we live next to _Trader Joe's_.
+Who wouldn't want to live next to Trader Joe's?
 
 In the end, I entered a much deeper introspection than I anticipated on my 2-day decision to turn down Google, and I've attempted to break it down for everyone's sanity.
 
