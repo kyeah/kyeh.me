@@ -6,3 +6,6 @@ url: http://kyeh.me
 
 markdown: rdiscount
 permalink: pretty
+
+collections:
+- projects

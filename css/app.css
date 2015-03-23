@@ -1,3 +1,18 @@
+code {
+    -webkit-box-shadow: 0;
+    box-shadow: none;
+    background:none;
+    color: #3776DB;
+}
+p h5 {
+    font-family: Palatino, "freight-text-pro",Georgia,Cambria,"Times New Roman",Times,serif;
+}
+.og-grid {
+    padding:0;
+}
+.og-grid li {
+    margin:0;
+}
 .image-link a img {
     object-fit:cover;
     -moz-object-fit:cover;
@@ -69,7 +84,15 @@ p {
     letter-spacing: 0.01rem;
     font-weight: 400;
     font-style: normal;
+    text-shadow:none;
+    color:#585858 !important;
 }
+
+p p-dark {
+    color:#3776DB !important;
+    font-size:15px;
+}
+
 a:hover {
   color: #59ffeb;
   opacity: 1.0 !important;
@@ -101,6 +124,14 @@ h2-dark {
 }
 h3 {
     text-transform:none;
+    color: #3776DB !important;
+    text-shadow: 2px 2px 3px #141414;
+    font-family:helvetica;
+    font-weight:500;
+    margin:0;
+}
+.spaced {
+    margin:1em 0;
 }
 h3-dark {
     font-family: 'Roboto Slab', serif;
@@ -118,10 +149,13 @@ h4-dark {
     color: #585858;
     text-shadow: none;
 }
+h5 {
+    color: #3776DB !important;
+    margin:0;
+}
 h5-dark {
     font-family: sans-serif;
     font-size:15px;
-    color: #585858;
     text-shadow: none;
 }
 ul {
@@ -351,7 +385,6 @@ a .icon:hover {
 }
 
 .image-link {
-  float:left;
   display: inline-block;
   margin: 0 10px 20px 10px;
   line-height: 0;
