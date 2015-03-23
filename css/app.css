@@ -10,9 +10,6 @@ p h5 {
 .og-grid {
     padding:0;
 }
-.og-grid li {
-    margin:0;
-}
 .image-link a img {
     object-fit:cover;
     -moz-object-fit:cover;

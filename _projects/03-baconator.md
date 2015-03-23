@@ -5,6 +5,7 @@ img-thumb: 'img/projects/thumb-bacon.png'
 img-large: 'img/projects/bacon.gif'
 img-alt:   'The Baconator'
 anchorid:  '#cctv'
+li-style:  'margin-bottom: -1em'
 ---
 
 Six Degrees of Winston Churchill.

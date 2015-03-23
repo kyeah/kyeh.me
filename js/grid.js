@@ -491,8 +491,9 @@ var Grid = (function() {
 				itemHeight = settings.minHeight + this.$anchor.data( 'height' ) + marginExpanded;
 			}
 
+                        var padding = 20;
 			this.height = heightPreview;
-			this.itemHeight = itemHeight;
+			this.itemHeight = itemHeight + padding;
 
 		},
 		setHeights : function() {

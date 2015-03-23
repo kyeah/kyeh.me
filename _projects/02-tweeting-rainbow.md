@@ -1,10 +1,12 @@
 ---
+
 git:      'https://github.com/kyeah/Tweeting-Rainbow'
 title:     'Tweeting Rainbow'
 img-thumb: 'img/projects/thumb-tweets.jpg'
 img-large: 'img/projects/tweets.png'
 img-alt:   'Tweeting Rainbow'
 anchorid:  '#cctv'
+li-style:  'margin-bottom: -1em'
 ---
 
 Live-stream tweets, anywhere you go.
