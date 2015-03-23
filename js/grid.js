@@ -309,6 +309,7 @@ var Grid = (function() {
 			// same row
 			else {
 				preview.update( $item, $anchor );
+                                preview.setHeights();
 				return false;
 			}
 			
@@ -483,12 +484,12 @@ var Grid = (function() {
 		},
 		calcHeight : function() {
 
-			var heightPreview = winsize.height - this.$anchor.data( 'height' ) - marginExpanded,
+			var heightPreview = winsize.height - this.$item.data( 'height' ) - marginExpanded,
 				itemHeight = winsize.height;
 
 			if( heightPreview < settings.minHeight ) {
 				heightPreview = settings.minHeight;
-				itemHeight = settings.minHeight + this.$anchor.data( 'height' ) + marginExpanded;
+				itemHeight = settings.minHeight + this.$item.data( 'height' ) + marginExpanded;
 			}
 
                         var padding = 20;
@@ -538,7 +539,7 @@ var Grid = (function() {
 
 	return { 
 		init : init,
-		addItems : addItems
+		addItems : addItems,
 	};
 
 })();
