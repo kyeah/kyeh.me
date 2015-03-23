@@ -5,6 +5,7 @@ img-thumb: 'img/projects/thumb-watson.gif'
 img-large: 'img/projects/atlas.png'
 img-alt:   'Atlas Search'
 img-style: 'height:150px'
+anchorid:  '#cctv'
 ---
 
 An industrial Q&A backend for natural language internal documentation lookup and new-hire rampup for company developers. Consumer-facing products (Q&A WebApp, Intellij IDEA and Atlassian Confluence integrations) and Watson-specific pre- and post-processing tools for optimal supervised learning on technical documentation.

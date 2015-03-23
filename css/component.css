@@ -14,6 +14,7 @@
 .og-grid li {
 	display: inline-block;
 	vertical-align: top;
+        float: left;
 }
 
 .og-grid li > a,

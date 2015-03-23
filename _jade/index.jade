@@ -65,7 +65,7 @@ block content
               ul#og-grid.og-grid.
                 {% for proj in site.projects %}
                 <li>
-                  <a href='{{proj.link}}' data-git='{{proj.git}}' data-video='{{proj.video}}' data-largesrc='{{proj.img-large}}' data-title='{{proj.title}}' data-description='{{proj.content | markdownify}}'>
+                  <a href='{{proj.link}}' data-git='{{proj.git}}' data-video='{{proj.video}}' data-largesrc='{{proj.img-large}}' data-title='{{proj.title}}' data-description='{{proj.content | markdownify}}' id='{{proj.id}}' data-anchorid='{{proj.anchorid}}'>
                     <div class='image-link'>
                       {% if proj.img-thumb %}
                       <img src='{{proj.img-thumb}}' alt='{{proj.img-alt}}' style='{{proj.img-style}}'></img>

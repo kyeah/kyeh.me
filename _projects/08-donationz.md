@@ -4,6 +4,7 @@ title:     'Donation-Z'
 img-thumb: 'img/projects/thumb-donation.png'
 img-large: 'img/projects/donation.png'
 img-alt:   'Donation-Z'
+anchorid:  '#cctv'
 ---
 
 Gamble your money away...for charity. Users compete on a weekly leaderboard for the chance to donate all weekly profits to their charity of choice. Powered by PayPal&rsquo;s Adaptive Payments API.

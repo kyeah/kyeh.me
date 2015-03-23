@@ -4,6 +4,8 @@ title: Genetic Fractals
 vid: 'http://fat.gfycat.com/RadiantDeliciousDuckbillcat.webm'
 vid-poster: 'http://thumbs.gfycat.com/RadiantDeliciousDuckbillcat-poster.jpg'
 img-large: 'http://giant.gfycat.com/RadiantDeliciousDuckbillcat.gif'
+id: 'fractals'
+anchorid: '#fractals'
 ---
 
 Genetic Reproduction and Evolution of Aesthetically-Pleasing Attractor Fractals.

@@ -4,6 +4,8 @@ img-thumb: 'img/projects/thumb-blastro.png'
 img-large: 'img/projects/blastro.png'
 img-alt: 'Blastro Android App'
 img-style: 'width:501px; height:316px'
+id: 'blastro'
+anchorid: '#blastro'
 ---
 
 Blastro&rsquo;s flagship Android apps, now available in the Play Store.

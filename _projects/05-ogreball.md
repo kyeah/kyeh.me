@@ -5,6 +5,7 @@ title:     'SUPER Ogre Ball'
 img-thumb: 'img/projects/thumb-ogreball.png'
 img-large: 'img/projects/ogreball.png'
 img-alt:   'Atlas Search'
+anchorid:  '#cctv'
 ---
 
 A loving recreation of Super Monkey Ball in Ogre3D with 4-player networked matchmaking support, built in five weeks for UT Austin&rsquo;s Game Technology course.

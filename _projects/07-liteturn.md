@@ -5,6 +5,7 @@ title: Liteturn
 img-thumb: 'img/projects/thumb-liteturn.png'
 img-large: 'img/projects/liteturn.png'
 img-alt: 'Liteturn'
+anchorid:  '#cctv'
 ---
 
 A gesture recognition and automation system for cheap, accessible, and energy-efficient wireless turn lights. It combines generic accelerometer and gyroscope sensor information from wrist wearables, along with simple GPS localization, to detect user states and communicate with turn lights attached to the user or mounted on the bicycle.
