@@ -7,4 +7,4 @@ img-alt: 'Billiards'
 anchorid:  '#cctv'
 ---
 
-A billiards game implemented in C++ and OpenGL. No explanation necessary.
+A billiards game implemented in C++ and OpenGL. Duh
