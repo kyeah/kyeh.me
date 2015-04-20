@@ -30,30 +30,43 @@ block content
             h4.text-centered.light-gray
               br
               | I am a New York native, Austin developer, 
-              a(href='http://family.stuycs.org/pbs') StuyCS Alumnus 
+              a(href='http://family.stuycs.org/pbs' target='_blank') StuyCS Alumnus 
               | and 
-              a(href='http://hackny.org/a/fellows') hackNY Fellow 
+              a(href='http://hackny.org/a/fellows' target='_blank') hackNY Fellow 
               | studying at the University of Texas at Austin. 
               br
               br
               | I'm an Android developer for early-stage startup 
               a(href='http://cerebri.io') Cerebri 
               | and a Facebook Open Academy engineer on 
-              a(href='http://geotrellis.io/') GeoTrellis
+              a(href='http://geotrellis.io/' target='_blank') GeoTrellis
               | . I've recently worked for 
-              a(href='https://aws.amazon.com') Amazon AWS 
+              a(href='https://aws.amazon.com' target='_blank') Amazon AWS 
               | on their distributed RDS and DynamoDB technologies, and for local Austin company 
-              a(href='http://www.blastronetworks.com') Blastro Networks
+              a(href='http://www.blastronetworks.com' target='_blank') Blastro Networks
               | , developing and orchestrating a simultaneous release of their three flagship Android apps.
               br
               br
               | I'm an Android and Backend developer with 
-              a(href='https://www.hackerleague.org/users/kyeahokay') hacker experience 
+              a(href='https://www.hackerleague.org/users/kyeahokay' target='_blank') hacker experience 
               | using Node.js, Docker, PostgreSQL, Spark Cores, Myo Armbands, and an assortment of other technologies to create exciting tools. My team recently placed third at HackTX 2014 for our gesture-controlled 
-              a(href='https://github.com/kyeah/Liteturn') LiteTurn 
+              a(href='https://github.com/kyeah/Liteturn' target='_blank') LiteTurn 
               | hack. 
-              | I've worked at the systems level in C, done Graphics and Physical Simulation work and research in C++ and OpenGL,
-              | developed Computer Vision applications using OpenCV, and worked with an assortment of scripting and web development tools in Python, Perl, Ruby, Scala, and Golang.
+              | I've worked at the systems level in C, done 
+              a(href='https://github.com/kyeah/Genetic-Fractals' target='_blank') Graphics 
+              | and 
+              a(href='https://github.com/kyeah/Cloth-Fluids-Solver' target='_blank') Physical Simulation 
+              | work and research in C++ and OpenGL,
+              | developed 
+              a(href='https://github.com/kyeah/Nomad' target='_blank') Computer Vision 
+              | applications using OpenCV, and worked with an assortment of scripting and web development tools in 
+              a(href='https://github.com/kyeah/Tweeting-Rainbow' target='_blank') Python
+              | , 
+              a(href='https:/github.com/kyeah/Six-Degrees-of-Kevin-Bacon' target='_blank') Perl
+              | , Ruby, 
+              a(href='https://github.com/kyeah/geotrellis/tree/cassandra' target='_blank') Scala
+              | , and 
+              a(href='https://github.com/kyeah/Gohunt' target='_blank') Golang.
               br
               br
               | If you'd like to gossip with me about Android development, Distributed systems, Computer vision and graphics, or that one movie where Audrey Hepburn plays a blind woman,
@@ -76,7 +89,7 @@ block content
                       {% if proj.img-thumb %}
                       <img src='{{proj.img-thumb}}' alt='{{proj.img-alt}}' style='{{proj.img-style}}'></img>
                       {% else %}
-                      <video autoplay loop preload="auto" width="501px" height="278px" style="background:#000000;" poster="{{proj.vid-poster}}">
+                      <video autoplay loop preload="auto" width="501px" height="278px" style="background:#000000;{{proj.vid-style}}" poster="{{proj.vid-poster}}">
                         <source src='{{proj.vid}}' type="video/webm"/>
                       </video>
                       {% endif %}
