@@ -1,3 +1,8 @@
+.content-centered {
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
 code {
     -webkit-box-shadow: 0;
     box-shadow: none;
