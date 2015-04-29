@@ -1,5 +1,6 @@
 ---
 git: 'https://github.com/kyeah/genetic-fractals'
+link: 'http://tyler-yates.github.io/AestheticFractals'
 title: Genetic Fractals
 vid: 'http://fat.gfycat.com/RadiantDeliciousDuckbillcat.webm'
 vid-poster: 'http://thumbs.gfycat.com/RadiantDeliciousDuckbillcat-poster.jpg'
