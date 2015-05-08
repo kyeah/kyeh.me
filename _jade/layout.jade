@@ -41,13 +41,13 @@ head
         div.pure-u-1-3
         nav.pure-u-2-3
           div.home-menu.pure-menu.pure-menu-open.pure-menu-horizontal
-            ul
-              li: a(href='/') About
+            ul.pure-menu-list
+              li.pure-menu-item: a(href='/') About
               block extra-menu
-              li: a(href='/blog') Blog
+              li.pure-menu-item: a(href='/blog') Blog
                   
 mixin cover()
-  section#hero.am-hero.am-hero-med.am-hero-cover.cover(data-stellar-background-ratio='0.5' class!=attributes.class)
+  section#hero.am-hero.am-hero-cover.cover(data-stellar-background-ratio='0.5' class!=attributes.class)
     div(style='background-color: rgba(0,0,0,0.2)')
       .am-content-container
         .pure-g.content-centered

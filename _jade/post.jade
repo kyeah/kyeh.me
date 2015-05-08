@@ -1,13 +1,13 @@
 extends layout
 
 block title 
-  title Blog | Kevin Yeh
+  | <title> {{page.title}} </title>
 
 block extra-menu
-  li: a(href='http://scriptogr.am/kyeah') Film Journal
+  li.pure-menu-item: a(href='http://scriptogr.am/kyeah') Film Journal
 
 block cover
-  +cover()(class='liteturn')
+  +cover()(class='am-hero-small liteturn')
 
 block cover-text
   a(href='/blog')
@@ -17,6 +17,10 @@ block cover-text
 
 block scripts
   script(src="/js/blog.js")
+  script.
+    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+  script.
+    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
 
 block content
   section#blog
@@ -25,7 +29,20 @@ block content
     .content
       .am-content-container
         .content-wrapper
-          | {% assign post = page %}            
+          | {% assign post = page %}
           include ./post_content.jade
-          hr
-          br
+          .pure-g.hcentered
+            .pure-u-md-1-6
+            nav.pure-u-1.pure-u-md-2-3
+              #share(style='float:left; padding-top:10px')
+                a.twitter-share-button(href="https://twitter.com/share" data-via="kyeahokay") Tweet
+                a.twitter-follow-button(href="https://twitter.com/kyeahokay" data-show-count="false") Follow @kyeahokay
+                br
+                a(href='http://www.linkedin.com/shareArticle?mini=true&title={{ page.title }}&url={{ url }}&source={{ site.url }}' target='_blank' title='Share on Linkedin'): i.fa.fa.fa-linkedin.icon.transparent.dark-gray( style='padding-left:0')
+                a(href='https://www.facebook.com/sharer/sharer.php?t={{ page.title }}&u={{ url }}' target='_blank' title='Share on Facebook'): i.fa.fa.fa-facebook.icon.transparent.dark-gray
+                a(href='https://plus.google.com/share?url={{ url }}' target='_blank' title='Share on Google Plus'): i.fa.fa.fa-google-plus.icon.transparent.dark-gray
+              #footermenu.home-menu.pure-menu.pure-menu-open.pure-menu-horizontal
+                ul.pure-menu-list
+                  li.pure-menu-item: a(href='/') About
+                  block extra-menu
+                  li.pure-menu-item: a(href='/blog') Blog
