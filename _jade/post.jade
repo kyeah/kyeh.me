@@ -11,7 +11,13 @@ block cover
 
 block cover-text
   a(href='/blog')
-    h1.text-shadowed.burnt-orange Questionable Hacks
+    | {% capture title %}{{ page.title }}{% if page.subtitle %}:{% endif%}{% endcapture %}
+    | <h1 class="text-shadowed burnt-orange"> {{ page.title }} </h1>
+  h3.burnt-orange
+    | {% if page.subtitle %}
+    | {{ page.subtitle }}
+    br
+    | {% endif %}
   h2
     include ./social_layout.jade
 
@@ -46,3 +52,4 @@ block content
                   li.pure-menu-item: a(href='/') About
                   block extra-menu
                   li.pure-menu-item: a(href='/blog') Blog
+                br

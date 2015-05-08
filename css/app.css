@@ -1,3 +1,8 @@
+.postdate {
+    color: #9EABB3;
+    float: right;
+    padding-right: 30px;
+}
 #footermenu ul li a {
     color: #585858;
 }

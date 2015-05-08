@@ -1,31 +1,9 @@
 .pure-g.hcentered
   .pure-u-md-1-6
+    h5-dark.postdate
+      br
+      | {{ post.date | date: '%d %b %Y' }}
   .pure-u-1.pure-u-md-2-3
-    br
-    br
-    center
-      h2-dark.blue
-        | {% capture title %}{{ post.title }}{% if post.subtitle %}:{% endif%}{% endcapture %}
-        | {{ title }}
-      | {% if post.subtitle %}
-      br
-      h3-dark.blue
-        | {{ post.subtitle }}
-      br
-      br
-      h4-dark.blue
-        | Posted 
-        time.timeago(datetime="{{ post.date }}")
-        |  on {{ post.date | date: '%b %d, %Y' }}
-      | {% else %}
-      br
-      h3-dark.blue
-        | Posted 
-        time.timeago(datetime="{{ post.date }}")
-        |  on {{ post.date | date: '%b %d, %Y' }}
-      | {% endif %}
-      br
-      br
     h5-dark.dark-gray(style='text-align:justify;')
       | {{ content }}
     | {% capture url %}{{ site.url }}{{ post.url }}{% endcapture %}
