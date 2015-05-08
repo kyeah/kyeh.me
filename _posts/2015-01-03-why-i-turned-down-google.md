@@ -5,7 +5,7 @@ subtitle: Why I Turned Down Google
 
 excerpt: "
 
-A few weeks ago, I received an offer to work on GCP's Docker and Kubernetes team for the summer. For those unfamiliar with Docker, it's a lightweight, open-source virtualization technology for distributed applications that was released less than two years ago and has seen a massive adoption rate among companies, both small and large, that are looking to scale their applications and contribute back to the project. Although the core Docker team is approximately 70 developers, the Github project has over 700 contributors and has become...
+A few weeks ago, I received an offer to work on GCP's Docker and Kubernetes team for the summer. For those unfamiliar with Docker, it's a lightweight, open-source virtualization technology for distributed applications that was released less than two years ago and has seen a massive adoption rate among companies, both small and large, that are looking to scale their applications and contribute back to the project. 
 
 "
 ---
