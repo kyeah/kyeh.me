@@ -62,7 +62,7 @@
     });
 
     function react_to_window() {
-        if ($(window).width() <= 767) {
+        if ($(window).width() <= 967) {
             if (stellarActivated == true) {
                 $(window).data('plugin_stellar').destroy();
                 stellarActivated = false;
