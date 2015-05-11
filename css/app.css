@@ -458,6 +458,15 @@ a .icon:hover {
   border: 4px solid #00bfa8;
 }
 
+@media screen and (max-width: 767px) {
+    nav .pure-menu-horizontal li {
+        display: inline-block;
+    }
+    nav {
+        height: auto;
+    }
+}
+
 @media only all and (max-device-width: 780px) {
     video {
         preload: none;
