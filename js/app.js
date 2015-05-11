@@ -50,31 +50,36 @@
 
     jQuery("time.timeago").timeago();
 
-    var isMobile = {
-        Android: function() {
-            return navigator.userAgent.match(/Android/i);
-        },
-        BlackBerry: function() {
-            return navigator.userAgent.match(/BlackBerry/i);
-        },
-        iOS: function() {
-            return navigator.userAgent.match(/iPhone|iPad|iPod/i);
-        },
-        Opera: function() {
-            return navigator.userAgent.match(/Opera Mini/i);
-        },
-        Windows: function() {
-            return navigator.userAgent.match(/IEMobile/i);
-        },
-        any: function() {
-            return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+    $(document).ready(function() {
+        react_to_window();
+    });
+
+    //      only activate stellar for window widths above or equal to 1024
+    var stellarActivated = false;
+
+    $(window).resize(function() {
+        react_to_window();
+    });
+
+    function react_to_window() {
+        if ($(window).width() <= 767) {
+            if (stellarActivated == true) {
+                $(window).data('plugin_stellar').destroy();
+                stellarActivated = false;
+                $('#hero').removeAttr("style");
+            }
+        } else {
+            if (stellarActivated == false) {
+
+                $.stellar({
+                    horizontalScrolling: false,
+                    verticalOffset:0
+                });
+
+                $(window).data('plugin_stellar').init();
+                stellarActivated = true;
+            }
         }
-    };
-    if( !isMobile.any() ){
-        $.stellar({
-            horizontalScrolling: false,
-            verticalOffset:0
-        });
     }
 
     jQuery(function() {

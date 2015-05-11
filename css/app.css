@@ -8,6 +8,9 @@
     float: right;
     padding-right: 30px;
 }
+#footermenu ul li {
+    float: right;
+}
 #footermenu ul li a {
     color: #585858;
 }
