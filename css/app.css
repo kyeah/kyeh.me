@@ -1,3 +1,8 @@
+.valigned {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
 .postdate {
     color: #9EABB3;
     float: right;
@@ -464,6 +469,12 @@ a .icon:hover {
     }
     nav {
         height: auto;
+    }
+    /*.cover {
+        background-size:inherit;
+    }*/
+    .am-hero, .am-hero>div, .am-hero.am-hero-cover {
+        height:275px;
     }
 }
 
