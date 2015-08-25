@@ -38,7 +38,7 @@ I can't tell you why you should use Rust, but I can tell you why I use it, and w
 
 <b>WHY RUST?</b>
 </br>
-<a href="http://slides.com/kevinyeh-2/the-new-mongodb-rust-driver-3319f7bc-7ab5-4d4a-b602-dab0e8286c76/fullscreen">The New MongoDB Rust Driver @ Rust NYC (Extended)</a>
+<a href="http://kyeh.me/img/projects/mongo-rust-driver.html">The New MongoDB Rust Driver @ Rust NYC (Extended)</a>
 
 <b>JOIN THE MOVEMENT</b>
 </br>
