@@ -7,13 +7,13 @@ block extra-menu
   li.pure-menu-item: a(href='http://scriptogr.am/kyeah') Film Journal
 
 block cover
-  +cover()(class='am-hero-small liteturn')
+  +cover()(class='am-hero-med photon')
 
 block cover-text
   a(href='/blog')
     | {% capture title %}{{ page.title }}{% if page.subtitle %}:{% endif%}{% endcapture %}
-    | <h1 class="text-shadowed burnt-orange"> {{ page.title }} </h1>
-  h3-dark.burnt-orange
+    | <h1 class="text-shadowed white"> {{ page.title }} </h1>
+  h3-dark.white.text-shadowed
     | {% if page.subtitle %}
     | {{ page.subtitle }}
     br

@@ -276,6 +276,9 @@ blockquote {
 .liteturn {
     background-image:url('../img/covers/cover-liteturn.png');
 }
+.photon {
+    background-image:url('../img/covers/cover-photon.png');
+}
 .about-avatar {
 	position: relative;
 	margin-top: -140px;
@@ -417,6 +420,9 @@ a .icon:hover {
 }
 .golden {
     color: #bba454 !important;
+}
+.white {
+    color: white !important;
 }
 /* Fixing lineheights */
 .icon.outline {
