@@ -103,4 +103,4 @@ I hope that was helpful to some of you wandering souls out there. As a reward fo
 
 This video makes me happy.
 
-[Apply now](https://apply.hackny.org/), and maybe I'll see you back in [THE GREATEST CITY IN THE WORLD](https://www.youtube.com/watch?v=nMXh9XBhRAc).
+If you need more inspiration, check out [Simon's post](https://medium.com/@simonayzman/how-i-hacked-ny-5589ca50ccc3) and the many, many wonderful pieces of advice linked at [apply.hackny.org](https://apply.hackny.org/). Maybe I'll see you back in [THE GREATEST CITY IN THE WORLD](https://www.youtube.com/watch?v=nMXh9XBhRAc).
