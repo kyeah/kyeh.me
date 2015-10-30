@@ -9,7 +9,9 @@ Hi everyone! I talked quite a bit about why I chose to be a hackNY fellow [back 
 
 With applications for the next round of fellows rolling in, I've had a couple of queries about what type of mysterious voodoo magic was mixed into my application to get me to where I am. I'm happy to say that there is, in fact, no magic, and that anyone can become a hackNY fellow with the right attitude and a passion for learning and collaboration! 
 
-To prove this point, my high school SAT prep tells me that I should provide examples and primary sources to develop my argument. In particular, I resist my obsessive urge to revise and present, to you, my unedited 2015 hackNY application.
+To prove this point, my high school SAT prep tells me that I should provide examples and primary sources to develop my argument. To that effect, I resist my obsessive urge to revise and present, to you, my unedited 2015 hackNY application. 
+
+Please note that most applications aren't nearly as long or dense with information — but we'd always love to hear more about you!
 
 > <hr style="border-top: 2px solid #DB6837;"/>
 
@@ -103,4 +105,4 @@ I hope that was helpful to some of you wandering souls out there. As a reward fo
 
 This video makes me happy.
 
-If you need more inspiration, check out [Simon's post](https://medium.com/@simonayzman/how-i-hacked-ny-5589ca50ccc3) and the many, many wonderful pieces of advice linked at [apply.hackny.org](https://apply.hackny.org/). Maybe I'll see you back in [THE GREATEST CITY IN THE WORLD](https://www.youtube.com/watch?v=nMXh9XBhRAc).
+If you need more inspiration, check out [Simon's post](https://medium.com/@simonayzman/how-i-hacked-ny-5589ca50ccc3) and the many, many wonderful pieces of advice linked at [apply.hackny.org](https://apply.hackny.org/). Fellows come from a wide range of backgrounds, interests, and skill levels, and we'd love to get to know you. Maybe we'll see you back in [THE GREATEST CITY IN THE WORLD](http://www.buzzfeed.com/alexisnedd/things-that-are-actually-great-about-summer-in-new-york#.jeBO0PGRR).
