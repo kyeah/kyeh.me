@@ -84,6 +84,14 @@ a .burnt-orange:hover {
     color: #bba454 !important;
 }
 
+blockquote {
+    border: 0 !important;
+    padding: 0 !important;
+    background-color: transparent !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
 .videoWrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
