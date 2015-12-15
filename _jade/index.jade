@@ -125,7 +125,9 @@ block content
     .content
       .am-content-container
         .pure-g.hcentered
-          .pure-u.hcentered.text-centered(style='margin-bottom:10px'): h3-dark.blue 
+          .pure-u-1-12
+          .pure-u(style='margin-bottom:10px'): h3-dark.blue 
+            br
             | <a href='blog'>Newest Blog Post: {{ site.posts.first.title}} </a>
             br
         .pure-g.hcentered
@@ -141,18 +143,36 @@ block content
     .content
       .am-content-container
         .pure-g.hcentered
-          .pure-u.hcentered.text-centered: h3-dark.blue
-            | See some of my recent talks.
-            br
-        .pure-g.hcentered.text-centered
           .pure-u-1-12
-          .pure-u-5-6: h4-dark
-            | The New MongoDB Rust Driver @ Rust NYC (
-            a(href="/img/projects/mongo-rust-driver.html") Slides
-            | )
+          .pure-u(style='margin-bottom:10px'): h3-wide.blue
             br
-            | Liteturn (
+            | Recent talks and papers.
+            br
+        .pure-g
+          .pure-u-1-12
+          .pure-u-5-6: h4-dark(style='font-size:15px')
+            | The New MongoDB Rust Driver @ Rust NYC [
+            a(href="/img/projects/mongo-rust-driver.html") Slides
+            |  | 
+            a(href="https://github.com/mongodb-labs/mongo-rust-driver-prototype") Git
+            | ]
+            br
+            | Liteturn: Gesture-Controlled Cyclist Lights Using Cheap and Efficient Devices [
             a(href="/img/projects/liteturn-final.pdf") Paper
             |  | 
             a(href="/img/projects/liteturn-pres.pdf") Slides
-            | )
+            |  | 
+            a(href="https://github.com/kyeah/liteturn") Git
+            | ]
+            br
+            | Neural Style: The Genetic Evolution of Aesthetically-Pleasing Fractals [
+            a(href="/img/projects/cnn-final.pdf") Paper
+            |  | 
+            a(href="/img/projects/cnn-pres.pdf") Slides
+            |  | 
+            a(href="https://github.com/kyeah/genetic-fractals") Git
+            | ]
+            br
+            | A Gravity Compensation Controller and Keyframe Behavior for the NAO Robot [
+            a(href="/img/projects/nao-final.pdf") Paper
+            | ]
