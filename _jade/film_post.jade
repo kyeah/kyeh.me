@@ -51,19 +51,18 @@ html
                 li
                   a(href='/film') Archive
       section
-        | {% for film in site.films reversed %}
         article.index
           .content
             .title
               .date
-                | {{ film.date | date: '%b %d, %Y' }}
+                | {{ page.date | date: '%b %d, %Y' }}
                 br
                 | —
               // Post Title
-              h1: a(href='{{film.url}}') {{ film.title }}
+              h1: a(href='{{page.url}}') {{ page.title }}
             #body
-              img(src='{{film.img}}')
-        | {% endfor %}
+              img(src='{{page.img}}')
+              {{content | markdownify}}
       // Footer
       section#foot
         footer

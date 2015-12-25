@@ -1,4 +1,5 @@
 ---
+layout: film_post
 title: "Star Wars: The Force Awakens (2015)"
 slug: star-wars-the-force-awakens-2015
 date: 2015-12-24 00:00

@@ -1,4 +1,5 @@
 ---
+layout: film_post
 title: "Sunrise: A Song of Two Humans (1924)"
 date: 2015-09-09 19:02 
 img: "http://filmschoolrejects.com/images/Sunrise-A-Song-of-Two-Humans.jpg"

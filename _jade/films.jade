@@ -63,6 +63,7 @@ html
               h1: a(href='{{film.url}}') {{ film.title }}
             #body
               img(src='{{film.img}}')
+              {{film.content | markdownify}}
         | {% endfor %}
       // Footer
       section#foot

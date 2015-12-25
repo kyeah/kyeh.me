@@ -1,4 +1,5 @@
 ---
+layout: film_post
 title: "Latino Images in Film #5 - High Noon (1952)"
 date: 2014-03-28 19:38
 slug: high-noon

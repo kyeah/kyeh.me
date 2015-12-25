@@ -1,4 +1,5 @@
 ---
+layout: film_post
 slug: the-wrong-mans-series-2
 title: The Wrong Mans - Series 2 (2014)
 date: 2014-12-27 18:06 

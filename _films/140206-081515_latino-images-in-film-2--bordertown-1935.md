@@ -1,4 +1,5 @@
 ---
+layout: film_post
 title: "Latino Images in Film #2 - Bordertown (1935)"
 date: 2014-02-06 21:51
 slug: bordertown

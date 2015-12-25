@@ -1,4 +1,5 @@
 ---
+layout: film_post
 title: Latino Images in Film #3 - The Ox-Bow Incident (1943)
 date: 2014-02-13 18:36 
 slug: the-ox-bow-incident

@@ -1,4 +1,5 @@
 ---
+layout: film_post
 title: The Place Beyond the Pines (2012)
 date: 2014-01-20 21:20 
 slug: the-place-beyond-the-pines

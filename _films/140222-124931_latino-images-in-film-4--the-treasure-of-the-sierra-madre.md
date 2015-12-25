@@ -1,4 +1,5 @@
 ---
+layout: film_post
 title: "Latino Images in Film #4 - The Treasure of the Sierra Madre (1948)"
 date: 2014-03-24 23:49 
 slug: treasure-of-the-sierra-madre

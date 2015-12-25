@@ -1,4 +1,5 @@
 ---
+layout: film_post
 title: "Latino Images in Film #1 - Flying Down to Rio (1933)"
 date: 2014-01-30 21:43 
 slug: flying-down-to-rio

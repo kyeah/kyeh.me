@@ -1,4 +1,5 @@
 ---
+layout: film_post
 title: The Amazing Spider-Man 2 (2014)
 date: 2014-05-18 23:55 
 img: "http://efavata.com/CBM/wp-content/gallery/the-amazing-spider-man-2/amazing-spider-man-2-fire-spider.jpg"

@@ -1,4 +1,5 @@
 ---
+layout: film_post
 title: "Attack on Titan - Season 1 (2013)"
 date: 2014-01-24 02:13 
 slug: attack-on-titan

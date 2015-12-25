@@ -1,4 +1,5 @@
 ---
+layout: film_post
 title: "Bojack Horseman - Season 1 (2014)"
 date: 2014-11-01 00:12 
 slug: bojack-horseman
