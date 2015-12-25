@@ -1,9 +1,9 @@
 ---
 layout: film_post
-title: The Amazing Spider-Man 2 (2014)
+title: "The Amazing Spider-Man 2 (2014)"
+slug: the-amazing-spider-man-2-2014
 date: 2014-05-18 23:55 
 img: "http://efavata.com/CBM/wp-content/gallery/the-amazing-spider-man-2/amazing-spider-man-2-fire-spider.jpg"
-
 ---
 
 With Columbia Pictures recently announcing plans to expand the Spiderman universe with Venom and Sinister Six spinoffs, it's become increasingly clear that the new films aim to be big blockbuster cash grabs. The second film in Spidey's reboot certainly lives under that header, bringing fantastic visuals and digital effects to showcase its onslaught of action. 

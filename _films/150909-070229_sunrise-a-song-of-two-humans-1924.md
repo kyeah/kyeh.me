@@ -1,9 +1,9 @@
 ---
 layout: film_post
 title: "Sunrise: A Song of Two Humans (1924)"
+slug: sunrise-a-song-of-two-humans-1924
 date: 2015-09-09 19:02 
 img: "http://filmschoolrejects.com/images/Sunrise-A-Song-of-Two-Humans.jpg"
-
 ---
 
 I haven’t written in a while, but I want to write to you now. I’ve just gotten home after viewing this film, and I have an immense urge to write about it and find a copy so that I can rewatch it as soon as possible.
