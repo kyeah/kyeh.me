@@ -11,5 +11,6 @@ block content
           | —
         h1: a(href='{{film.url}}') {{ film.title }}
       #body
-        img(src='{{film.img}}')
+        a(href='{{film.url}}')
+          img(src='{{film.img}}')
   | {% endfor %}
