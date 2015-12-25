@@ -8,4 +8,8 @@ markdown: rdiscount
 permalink: pretty
 
 collections:
-- projects
+  projects:
+    output: false
+  films:
+    output: true
+    permalink: /:collection/:title/

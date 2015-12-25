@@ -140,6 +140,23 @@ block content
               h4-dark
                 | {{ site.posts.first.excerpt | remove: '<p>' | remove: '</p>' }}
                 | <a href='{{ site.posts.first.url }}'>&nbspRead more</a>
+            hr(style="margin-top:20px")
+
+  section#blog.content-wrapper
+    .content
+      .am-content-container
+        .pure-g.hcentered
+          .pure-u-1-12
+          .pure-u(style='margin-bottom:10px'): h3-dark.blue 
+            br
+            | <a href='film'>Newest Film Post: {{ site.films.last.title }} </a>
+            br
+        .pure-g.hcentered
+          .pure-u-1-12
+          .pure-u-5-6
+            p(style='margin:0;')
+              h4-dark
+                | {{ site.films.last.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
             hr(style="margin-top:20px")        
 
   section#talks.content-wrapper
