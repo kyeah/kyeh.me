@@ -1,7 +1,7 @@
 extends film_layout
 
 block content
-  | {% for film in site.films reversed %}
+  | {% for film in paginator.films %}
   article.index
     .content
       .title
