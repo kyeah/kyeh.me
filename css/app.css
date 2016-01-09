@@ -346,6 +346,8 @@ blockquote {
 }
 #blog {
     padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 #talks {
     padding: 20px;
