@@ -15,3 +15,29 @@ collections:
   films:
     output: true
     permalink: /:collection/:title/
+
+about: "
+
+I am a New York native, [StuyCS Alumnus](http://family.stuycs.org), and [hackNY Fellow](http://apply.hackny.org/) completing a Master's in CS and Film studies at the University of Texas at Austin. I'm the former Innovation director for [HackTX](http://hacktx.com/infographic), a past student organizer for [Global Hackathon Seoul](https://web.archive.org/web/20150402150056/https://globalhackathon.io/), and a future engineer at [Kickstarter](https://kickstarter.com).
+
+<br>
+<br>
+
+I am primarily an Android and backend systems developer, with a bit of Rust fanboyism thrown in. I've worked at the systems level in C, done [Graphics](https://github.com/kyeah/Genetic-Fractals) and [Physical Simulation](https://github.com/kyeah/Cloth-Fluids-Solver) work and research in C++ and OpenGL, developed [Computer Vision](https://github.com/kyeah/Nomad) applications using OpenCV, and worked on an assortment of projects in [Python](https://github.com/kyeah/Tweeting-Rainbow), [Perl](https://github.com/kyeah/Six-Degrees-of-Kevin-Bacon), Ruby, Java, Javascript, [Scala](https://github.com/kyeah/geotrellis/tree/feature/cassandra), [Golang](https://github.com/kyeah/Gohunt), [Rust](https://github.com/kyeah/kick-rs)...the works.
+
+<br>
+<br>
+
+In the past, I've worked as an Android developer for early-stage startup [Cerebri](http://cerebri.io/) and as a software engineering intern at [MongoDB](https://mongodb.com/), architecting their new [Rust driver](https://github.com/mongodb-labs/mongo-rust-driver-prototype). I've also worked for [GeoTrellis](http://geotrellis.io/) as a Facebook Open Academy engineer, for [Amazon AWS](https://aws.amazon.com/) on their distributed RDS and DynamoDB technologies, and for local Austin company [Blastro Networks](http://www.blastronetworks.com/), developing and orchestrating a simultaneous release of their three flagship Android apps.
+
+<br>
+<br>
+
+This past year, I was responsible for overseeing projects to improve the hacker experience at HackTX, including 3D-printed trophies, [a Slack mentorship system](https://github.com/hacktx/slack-mentorship), [a voting system for LEDs and the Hacker's Choice award](https://github.com/hacktx/particle-power), [an interactive infographic](https://github.com/hacktx/infographic), and [a hardware hack room](https://github.com/hacktx/hackroom).
+
+<br>
+<br>
+
+If you'd like to gossip with me about Android development, Distributed systems and Rust, Computer vision and graphics, or that one movie where Audrey Hepburn plays a blind woman, contact me at [kevinyeah@utexas.edu](mailto:kevinyeah@utexas.edu).
+
+"
