@@ -130,7 +130,7 @@ blockquote {
     text-shadow: 2px 2px 3px #141414;
 }
 .am-hero-cover hr {
-    margin-bottom: 5px;
+    margin-bottom: 0.3em;
     margin-left: auto;
     margin-right: auto;
     width: 0;
@@ -390,13 +390,11 @@ i.inline {
 
 .icon,
 a .icon {
-    font-size: 14px;
+    font-size: 0.4em;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     width: 40px;
-    height: 40px;
-    line-height: 40px;
     color: #ffffff;
     background: #1a1a1a;
     margin: auto 3px;
@@ -572,5 +570,14 @@ a .icon:hover {
         font-size: 36px;
         line-height: 48px;
         text-align: center;
+    }
+}
+
+@media only all and (max-width: 1000px) {
+    #padder {
+        display:none;
+    }
+    body {
+        padding-top: 0;
     }
 }
