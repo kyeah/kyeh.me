@@ -122,8 +122,22 @@ blockquote {
     font-weight: 400;
     text-shadow: 2px 2px 0 rgba(0,0,0,.15);
 }
+.am-hero-cover h1 {
+    display: table;
+    margin: auto;
+}
 .am-hero-cover h1, .am-hero-cover h2 {
     text-shadow: 2px 2px 3px #141414;
+}
+.am-hero-cover hr {
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 0;
+    transition: width 1s;
+    -webkit-transition: width 1s;
+    -moz-transition: width 1s;
+    -o-transition: width 1s;
 }
 .lb-image {
     max-width:inherit;  /* Allow lightbox images to expand when clicked on */
@@ -171,6 +185,7 @@ a:hover {
 }
 h1 {
     font-family:'Bitter';
+    letter-spacing: 0.2em;
 }
 h1-alt {
     font-family:helvetica;
