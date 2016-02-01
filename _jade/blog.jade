@@ -15,15 +15,8 @@ block cover-text
   h2
     include ./social_layout.jade
 
-block scripts
-  script(src='/js/blog.js')
-
 block content
   section#blog
-    #posts_anchor
-    .blog-nav
-      include ./blog_nav.jade
-
     .content: .am-content-container: .content-wrapper
       .pure-g.hcentered
         .pure-u-md-1-12
