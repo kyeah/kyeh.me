@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Getting Cozy with Android Studio
+summary: "Android Studio's early-access preview: still better than Eclipse."
 ---
 
 I recently switched over to Android Studio after months of frustratingly sitting back in my chair while Eclipse plinked around, cleaning and building the project every time I changed a few lines of code.

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Hardware Hacking
+summary: "Win hackathon prizes with marketing and hardware."
+
 excerpt: "
 
 Ever notice an odd trend when watching hackathon closing ceremonies? Hardware hacks dominate the domain. With four of the top five hacks at BoilerMake ‘14 involving a heavy dosage of physical hardware, along with the majority of the HackTX top 10 winners, it seems more and more people are looking at mobile and wearables as the next pervasive technology of the future -- finding ways to take the experience out of the screen and have users interact with the physical world around them.

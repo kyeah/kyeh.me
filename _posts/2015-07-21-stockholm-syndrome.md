@@ -3,6 +3,8 @@ layout: post
 title: Stockholm Syndrome
 subtitle: Falling in Love with a Compiler
 
+summary: "Falling in love with the Rust compiler."
+
 excerpt: "To those interested in a quick, concurrent language that won't take any of your unsafe shit, this is for you."
 ---
 

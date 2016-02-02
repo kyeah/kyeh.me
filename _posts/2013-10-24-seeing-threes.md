@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Seeing Threes at the End of the Road
+summary: "
+
+Redesigning, rebuilding, and rejuvenating Blastro's signature apps.
+
+"
+
 excerpt: "
 
 We made it. It's happening. Blastro Networks is finally ready to release their redesigned, rejuvenated android apps, due in large part to the work I did over the summer, and also to the less frequent work I've done over the last few school months. Although I have my reservations about a few of the design choices made by the company, I understand the immense amount of planning that occurs behind the scenes to keep all of their web and mobile apps behaving homogeneously and at a high level of polish. Nevertheless, they put a lot of faith in my ability as a novice Android developer at the time of my hiring, and I was blessed with an opportunity to lead the redesign and rebuilding of their three flagship apps as their sole developer.

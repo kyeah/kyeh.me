@@ -2,6 +2,8 @@
 layout: post
 title: The Road to hackNY
 
+summary: "Essays are hard. Read my hackNY application to make it easy."
+
 excerpt: "Hi everyone! I talked quite a bit about why I chose to be a hackNY fellow back in 2014, and almost a full year after the fact, I'm happy to say that being a hackNY fellow was, and continues to be, a much more wonderful experience than I could ever express in words."
 ---
 

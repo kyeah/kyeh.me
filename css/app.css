@@ -364,6 +364,26 @@ blockquote {
     padding-left: 20px;
     padding-right: 20px;
 }
+#blog-archive h3-dark {
+    display: table-caption;
+    width: 300%;
+}
+#blog-archive h5-dark {
+    display: table-caption;
+    width: 350%;
+}
+#blog-archive a div:hover {
+    background: rgba(0,0,0,0.02);
+}
+#blog-archive a div:hover h3-dark {
+    color: #DB6837 !important;
+}
+#blog-archive a div:hover h4-dark {
+    color: #DB6837 !important;
+}
+#blog-archive h4-dark {
+    font-size: 14px;
+}
 #talks {
     padding: 20px;
 }
@@ -527,6 +547,19 @@ a .icon:hover {
     video {
         preload: none;
         autoplay:false;
+    }
+    #blog-archive h3-dark {
+        display: inline-block;
+        width: 100%;
+    }
+    #blog-archive h5-dark {
+        display: inline-block;
+        width: 100%;
+    }
+    #blog-archive a div {
+        border: 1px solid #3776DB;
+        margin-top: 1em;
+        margin-bottom: 1em;
     }
 }
 

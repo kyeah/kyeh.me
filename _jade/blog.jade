@@ -16,26 +16,28 @@ block cover-text
     include ./social_layout.jade
 
 block content
-  section#blog
+  section#blog-archive
     .content: .am-content-container: .content-wrapper
       .pure-g.hcentered
-        .pure-u-md-1-12
-        .pure-u-1.pure-u-md-5-6
-          br
+        .pure-u-1-12.pure-u-md-1-6
+        .pure-u-5-6.pure-u-md-2-3(style="padding-top: 2em")
           | {% for post in site.posts %}
-          | <a href="{{ post.url }}">
-          div
-            h3-dark.blue
-              | {{ post.title }}
-            br
-            h4-dark.blue
-              | Posted 
-              time.timeago(datetime="{{ post.date }}")
-              |  on {{ post.date | date: '%b %d, %Y' }}
-            br
-            h5-dark.dark-gray(style='text-align:justify')
-              | <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
-          | </a>
-          hr
-          br
+          | {% assign loopindex = forloop.index | modulo: 2 %}
+          | {% if loopindex == 1 %}
+          | <div class="pure-g">
+          | {% endif %}
+          .pure-u-1.pure-u-md-1-2
+            | <a href="{{ post.url }}">
+            div(style="padding-top: 1em; padding-bottom: 1em; padding-left:2em; padding-right:2em")
+              h3-dark.blue: u
+                | {{ post.title }}
+              h4-dark.blue
+                |  {{ post.date | date: '%b %d, %Y' }}
+              br
+              h5-dark.dark-gray(style='margin-top: 1em')
+                i {{ post.summary }}
+            | </a>
+          | {% if loopindex == 0 %}
+          | </div>
+          | {% endif %}
           | {% endfor %}

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Evolving Fractals
+summary: "Explorations in beauty, genetics, and mathematics."
 ---
 
 In the Spring of 2013, I took a research course on Computational Intelligence in Games as part of the Freshman Research Initiative program at UT. Recently, I was invited back by the professor to present as a guest speaker, showing off a project my partner and I started in the advanced course and have continued developing over the last few months. I say invited, because I ended up in class on the other side of campus while my partner presented to a room full of young, impressionable college freshmen. Nevertheless, the reception of our research was reportedly positive, and the first-year students were eager to ask questions about our motivations for the project, as well as implementation decisions regarding its structure. 
