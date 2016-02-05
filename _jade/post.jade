@@ -37,8 +37,21 @@ block content
         .content-wrapper
           | {% assign post = page %}
           include ./post_content.jade
-          .pure-g.hcentered
-            .pure-u-md-1-6
-            nav.pure-u-1.pure-u-md-2-3
-              #share(style='float:left; padding-top:10px')
-                a.twitter-share-button(href="https://twitter.com/share" data-via="kyeahokay") Tweet
+
+  section#foot
+    footer
+      .content
+        .am-content-container(style="margin-top:0;padding-top:0")
+          .content-wrapper
+            .pure-g
+              .pure-u-1.pure-u-md-1-6
+              .pure-u-1.pure-u-md-1-3
+                | {% if page.previous.url %}
+                p: strong: a(href="{{page.previous.url}}" style="float: left;padding-left:10px;padding-right:10px").
+                 < {{ page.previous.title }}
+                | {% endif %}
+              .pure-u-1.pure-u-md-1-3
+                | {% if page.next.url %}
+                p: strong: a(href="{{page.next.url}}" style="float: right;padding-left:10px;padding-right:10px").
+                 {{ page.next.title }} >
+                | {% endif %}

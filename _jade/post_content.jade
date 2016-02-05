@@ -9,5 +9,13 @@
     h5-dark.dark-gray(style='text-align:justify;')
       | {{ content }}
     | {% capture url %}{{ site.url }}{{ post.url }}{% endcapture %}
-    br
+    table(style="margin-bottom: 5px")
+      tr
+        td(rowspan="2")
+          img.about-avatar(src='/img/personal/avatar.png')
+        td(style="vertical-align:bottom;padding-left:10px")
+          a#home(href="/") Kevin Yeh
+      tr
+        td(style="vertical-align:top")
+          include ./social_layout.jade
     hr

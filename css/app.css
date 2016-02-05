@@ -321,6 +321,11 @@ blockquote {
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
 }
+#blog .about-avatar {
+    width: 80px;
+    height: 80px;
+    margin-top: 0;
+}
 .top-aligned {
     vertical-align:top;
 }
@@ -402,6 +407,76 @@ blockquote {
   width:96%;
 }
 
+/* Footer */
+/* Footer */
+
+section footer {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+section footer p {
+  font-size: 12px;
+  text-align: center;
+  padding-top: 0;
+  margin-top: 0.5em;
+}
+
+section footer p strong {
+  font-size: 14px;
+  font-family: 'Open Sans', Helvetica, Arial, 'sans-serif';
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+section footer a {
+  color: inherit;
+  border-bottom: #e5e5e5 1px solid;
+  padding-bottom: 2px;
+  -webkit-transition: border-bottom 0.15s cubic-bezier(0.54, 0.24, 0.35, 0.68);
+  -moz-transition: border-bottom 0.15s cubic-bezier(0.54, 0.24, 0.35, 0.68);
+  -o-transition: border-bottom 0.15s cubic-bezier(0.54, 0.24, 0.35, 0.68);
+}
+
+section footer a:hover {
+  border-bottom: #030303 1px solid;
+  cursor: pointer;
+  -webkit-transition: border-bottom 0.15s cubic-bezier(0.54, 0.24, 0.35, 0.68);
+  -moz-transition: border-bottom 0.15s cubic-bezier(0.54, 0.24, 0.35, 0.68);
+  -o-transition: border-bottom 0.15s cubic-bezier(0.54, 0.24, 0.35, 0.68);
+}
+
+#home {  
+  text-align: center;
+  padding-top: 0;
+  margin-top: 0.5em;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  -webkit-transition: border-bottom 0.15s cubic-bezier(0.54, 0.24, 0.35, 0.68);
+  -moz-transition: border-bottom 0.15s cubic-bezier(0.54, 0.24, 0.35, 0.68);
+  -o-transition: border-bottom 0.15s cubic-bezier(0.54, 0.24, 0.35, 0.68);
+  font-family: Palatino, "freight-text-pro",Georgia,Cambria,"Times New Roman",Times,serif;
+  line-height: 1.8em;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+  letter-spacing: 0.01rem;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: none;
+  color: #585858 !important;
+}
+
+#home:hover {
+  border-bottom: #030303 1px solid;
+  cursor: pointer;
+  -webkit-transition: border-bottom 0.15s cubic-bezier(0.54, 0.24, 0.35, 0.68);
+  -moz-transition: border-bottom 0.15s cubic-bezier(0.54, 0.24, 0.35, 0.68);
+  -o-transition: border-bottom 0.15s cubic-bezier(0.54, 0.24, 0.35, 0.68);
+}
+
 /* Social Media icons */
 i.inline {
 	margin-left: 5px;
@@ -426,6 +501,11 @@ a .icon:hover {
     text-decoration: none;
     color: #ffffff;
     background: #bba454;
+}
+
+#blog .icon, #blog a.icon {
+    font-size: 0.8em;
+    color: #000;
 }
 
 .icon.small {
