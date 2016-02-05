@@ -10,11 +10,8 @@ block meta
   meta(property="og:description" content="{{ page.excerpt }}")
   meta(property="og:url" content="http://kyeh.me{{ page.url }}")
 
-block extra-menu
-  li.pure-menu-item: a(href='/films') Film Journal
-
 block cover
-  +cover()(class='am-hero-med photon')
+  +cover()(class='am-hero-small')
 
 block cover-text
   a(href='/blog')
@@ -25,8 +22,6 @@ block cover-text
     | {{ page.subtitle }}
     br
     | {% endif %}
-  h2
-    include ./social_layout.jade
 
 block scripts
   script(src="/js/blog.js")
@@ -47,10 +42,3 @@ block content
             nav.pure-u-1.pure-u-md-2-3
               #share(style='float:left; padding-top:10px')
                 a.twitter-share-button(href="https://twitter.com/share" data-via="kyeahokay") Tweet
-                a.twitter-follow-button(href="https://twitter.com/kyeahokay" data-show-count="false") Follow @kyeahokay
-              #footermenu.home-menu.pure-menu.pure-menu-open.pure-menu-horizontal
-                ul.pure-menu-list
-                  li.pure-menu-item: a(href='/blog') Blog
-                  block extra-menu
-                  li.pure-menu-item: a(href='/') About
-                br

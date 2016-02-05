@@ -3,17 +3,15 @@ extends layout
 block title 
   title Blog | Kevin Yeh
 
-block extra-menu
-  li: a(href='/films') Film Journal
-
 block cover
-  +cover()(class='am-hero-med photon')
+  +cover()(class='am-hero-small')
 
 block cover-text
-  a(href='/blog')
-    h1.text-shadowed.white Questionable Hacks
-  h2
-    include ./social_layout.jade
+  a(href='/')
+    h1.text-shadowed.white 
+      | "
+      span.burnt-orange K
+      | , YEAH."
 
 block content
   section#blog-archive

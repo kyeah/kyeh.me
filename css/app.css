@@ -604,6 +604,9 @@ a .icon:hover {
         line-height: 48px;
         text-align: center;
     }
+    blockquote {
+        margin: 0;
+    }
 }
 
 @media only all and (max-width: 1000px) {
