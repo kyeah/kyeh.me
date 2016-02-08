@@ -6,7 +6,13 @@
 .postdate {
     color: #9EABB3;
     float: right;
-    padding-right: 30px;
+    margin-left: 10px;
+    margin-top: 1.6em;
+    margin-right: 30px;
+    margin-bottom: 15px;
+}
+.postdate td {
+    float: right;
 }
 #footermenu ul li {
     float: right;
@@ -422,6 +428,7 @@ section footer p {
   text-align: center;
   padding-top: 0;
   margin-top: 0.5em;
+  margin-bottom: 0;
 }
 
 section footer p strong {
@@ -432,6 +439,8 @@ section footer p strong {
 }
 
 section footer a {
+  margin-left: 10px;
+  margin-right: 10px;
   color: inherit;
   border-bottom: #e5e5e5 1px solid;
   padding-bottom: 2px;
@@ -620,6 +629,15 @@ a .icon:hover {
     }*/
     .am-hero, .am-hero>div, .am-hero.am-hero-cover {
         height:275px;
+    }
+    section footer {
+        margin-top: 1em;
+    }
+    section footer a {
+        float: none !important;
+    }
+    .postdate, .postdate td {
+        float: none;
     }
 }
 

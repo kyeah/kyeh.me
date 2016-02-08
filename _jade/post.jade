@@ -47,11 +47,11 @@ block content
               .pure-u-1.pure-u-md-1-6
               .pure-u-1.pure-u-md-1-3
                 | {% if page.previous.url %}
-                p: strong: a(href="{{page.previous.url}}" style="float: left;padding-left:10px;padding-right:10px").
+                p: strong: a(href="{{page.previous.url}}" style="float: left").
                  < {{ page.previous.title }}
                 | {% endif %}
               .pure-u-1.pure-u-md-1-3
                 | {% if page.next.url %}
-                p: strong: a(href="{{page.next.url}}" style="float: right;padding-left:10px;padding-right:10px").
+                p: strong: a(href="{{page.next.url}}" style="float: right").
                  {{ page.next.title }} >
                 | {% endif %}

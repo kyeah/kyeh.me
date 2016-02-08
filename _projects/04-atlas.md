@@ -4,7 +4,6 @@ title:     'Atlas'
 img-thumb: 'img/projects/thumb-watson.gif'
 img-large: 'img/projects/atlas.png'
 img-alt:   'Atlas Search'
-img-style: 'height:150px'
 anchorid:  '#cctv'
 li-style:  'margin-bottom: -1em'
 ---
