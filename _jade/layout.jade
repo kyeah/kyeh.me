@@ -41,7 +41,7 @@ html(lang='en')
 
   mixin cover()
     section#hero.am-hero.am-hero-cover.cover(data-stellar-background-ratio='0.5' class!=attributes.class)
-      div(style='background-color: rgba(0,0,0,0.2)')
+      div(style!=attributes.style)
         .am-content-container.valigned
           .pure-g.content-centered
             .pure-u

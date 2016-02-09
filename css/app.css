@@ -335,6 +335,9 @@ blockquote {
 .photon {
     background-image:url('../img/covers/cover-photon.png');
 }
+.yeah {
+    background-image:url('../img/covers/cover-yeah.png');
+}
 .about-avatar {
 	position: relative;
 	margin-top: -140px;
@@ -350,7 +353,7 @@ blockquote {
     margin-top: 0;
 }
 #blog-post h1 {
-    font-family: 'Source Sans Pro';
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 2.5em;
     font-weight: bold;
     letter-spacing: normal;
@@ -358,7 +361,7 @@ blockquote {
     margin-top: 0;
 }
 #blog-post #title h3-dark {
-    font-family: 'Source Sans Pro';
+    font-family: 'Source Sans Pro', sans-serif;
     font-style: italic;
     font-size: 1.2em;
 }
@@ -414,9 +417,24 @@ blockquote {
     display: table-caption;
     width: 300%;
 }
+#blog-archive a h4-dark {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+}
 #blog-archive h5-dark {
     display: table-caption;
     width: 350%;
+}
+#blog-archive #archive-link {
+    margin-top: 0.5em;
+    padding-top: 0.5em;
+    margin-bottom: 0.5em;
+    padding-bottom: 0.5em;
+    margin-left: 1em;
+    padding-left: 1em;
+    margin-right: 1em;
+    padding-right: 1em;
 }
 #blog-archive a div:hover {
     background: rgba(0,0,0,0.02);
