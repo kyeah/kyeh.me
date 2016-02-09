@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Stockholm Syndrome
-subtitle: Falling in Love with a Compiler
+subtitle: Falling in Love with a Compiler.
 
 summary: "Falling in love with the Rust compiler."
 
@@ -37,7 +37,6 @@ Another great fact? Rust is implemented in rust and is a bastion of great exampl
 I can't tell you why you should use Rust, but I can tell you why I use it, and why it's slowly becoming one of my favorite languages.
 
 <center>
-
 <b>WHY RUST?</b>
 </br>
 <a href="http://kyeh.me/img/projects/mongo-rust-driver.html">The New MongoDB Rust Driver @ Rust NYC (Extended)</a>

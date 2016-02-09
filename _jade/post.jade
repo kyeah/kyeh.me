@@ -10,19 +10,6 @@ block meta
   meta(property="og:description" content="{{ page.excerpt }}")
   meta(property="og:url" content="http://kyeh.me{{ page.url }}")
 
-block cover
-  +cover()(class='am-hero-small')
-
-block cover-text
-  a(href='/blog')
-    | {% capture title %}{{ page.title }}{% if page.subtitle %}:{% endif%}{% endcapture %}
-    | <h1 class="text-shadowed white"> {{ page.title }} </h1>
-  h3-dark.white.text-shadowed
-    | {% if page.subtitle %}
-    | {{ page.subtitle }}
-    br
-    | {% endif %}
-
 block scripts
   script(src="/js/blog.js")
   script.
@@ -31,7 +18,7 @@ block scripts
     !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
 
 block content
-  section#blog
+  section#blog-post
     .content
       .am-content-container
         .content-wrapper
@@ -45,12 +32,12 @@ block content
           .content-wrapper
             .pure-g
               .pure-u-1.pure-u-md-1-6
-              .pure-u-1.pure-u-md-1-3
+              .pure-u-1-2.pure-u-md-1-3
                 | {% if page.previous.url %}
                 p: strong: a(href="{{page.previous.url}}" style="float: left").
                  < {{ page.previous.title }}
                 | {% endif %}
-              .pure-u-1.pure-u-md-1-3
+              .pure-u-1-2.pure-u-md-1-3
                 | {% if page.next.url %}
                 p: strong: a(href="{{page.next.url}}" style="float: right").
                  {{ page.next.title }} >

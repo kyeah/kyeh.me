@@ -1,3 +1,13 @@
+#blog-post #header {
+    padding: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#blog-post #header #sep {
+    border-top: 2px solid #3d3d33;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
 .valigned {
   position: relative;
   top: 50%;
@@ -5,14 +15,21 @@
 }
 .postdate {
     color: #9EABB3;
-    float: right;
-    margin-left: 10px;
-    margin-top: 1.6em;
+    margin-top: 1.7em;
     margin-right: 30px;
-    margin-bottom: 15px;
 }
-.postdate td {
+.postdate h5-dark {
+    line-height: 1.8em;
+}
+#date-sm, #date-lg td {
+    text-align: right;
+}
+#date-lg {
     float: right;
+}
+#date-sm {
+    display: none;
+    padding-right: 20px;
 }
 #footermenu ul li {
     float: right;
@@ -327,10 +344,23 @@ blockquote {
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
 }
-#blog .about-avatar {
+#blog-post .about-avatar {
     width: 80px;
     height: 80px;
     margin-top: 0;
+}
+#blog-post h1 {
+    font-family: 'Source Sans Pro';
+    font-size: 2.5em;
+    font-weight: bold;
+    letter-spacing: normal;
+    margin-bottom: 0.2em;
+    margin-top: 0;
+}
+#blog-post #title h3-dark {
+    font-family: 'Source Sans Pro';
+    font-style: italic;
+    font-size: 1.2em;
 }
 .top-aligned {
     vertical-align:top;
@@ -375,6 +405,11 @@ blockquote {
     padding-left: 20px;
     padding-right: 20px;
 }
+#blog-post {
+    padding-top: 4em;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 #blog-archive h3-dark {
     display: table-caption;
     width: 300%;
@@ -412,7 +447,6 @@ blockquote {
   margin-left:15px;
   width:96%;
 }
-
 /* Footer */
 /* Footer */
 
@@ -421,6 +455,8 @@ section footer {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 section footer p {
@@ -512,7 +548,7 @@ a .icon:hover {
     background: #bba454;
 }
 
-#blog .icon, #blog a.icon {
+#blog-post .icon, #blog-post a.icon {
     font-size: 0.8em;
     color: #000;
 }
@@ -565,6 +601,9 @@ a .icon:hover {
 }
 .white {
     color: white !important;
+}
+.black {
+    color: black !important;
 }
 /* Fixing lineheights */
 .icon.outline {
@@ -633,11 +672,19 @@ a .icon:hover {
     section footer {
         margin-top: 1em;
     }
-    section footer a {
-        float: none !important;
-    }
     .postdate, .postdate td {
         float: none;
+    }
+    #blog-post #title {
+        border-left: 1px solid #000;
+        height: auto;
+        padding-left: 20px;
+    }
+    #date-sm {
+        display: block;
+    }
+    #date-lg {
+        display: none;
     }
 }
 

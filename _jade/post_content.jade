@@ -1,15 +1,7 @@
 .pure-g.hcentered
   .pure-u-1.pure-u-md-1-6
-    table.postdate
-      tr: td: h5-dark
-        | {{ post.date | date: '%d %b %Y' }}
-      tr: td: h5-dark
-        a(href="/blog") Back
-  .pure-u-1.pure-u-md-2-3(style='padding:10px; padding-top:0')
-    h5-dark.dark-gray(style='text-align:justify;')
-      | {{ content }}
-    | {% capture url %}{{ site.url }}{{ post.url }}{% endcapture %}
-    table(style="margin-bottom: 5px")
+  #header.pure-u-1.pure-u-md-2-3
+    table
       tr
         td(rowspan="2")
           img.about-avatar(src='/img/personal/avatar.png')
@@ -18,4 +10,32 @@
       tr
         td(style="vertical-align:top")
           include ./social_layout.jade
+    table.postdate
+      tr
+        td#date-sm: h5-dark
+          | {{ post.date | date: '%d %b %Y' }}
+          br
+          a(href="/blog") Back
+        td#title
+          | <h1 class="black"> {{ post.title }} </h1>
+          h3-dark.black
+            | {% if post.subtitle %}
+            | {{ post.subtitle }}
+            br
+            | {% endif %}
+
+    #sep
+
+.pure-g.hcentered
+  .pure-u-1.pure-u-md-1-6
+    table#date-lg.postdate
+      tr: td: h5-dark
+        | {{ post.date | date: '%d %b %Y' }}
+      tr: td: h5-dark
+        a(href="/blog") Back
+  .pure-u-1.pure-u-md-2-3(style='padding:10px; padding-top:0')
+    h5-dark.dark-gray(style='text-align:justify;')
+      | {{ content }}
+    | {% capture url %}{{ site.url }}{{ post.url }}{% endcapture %}
+    br
     hr
