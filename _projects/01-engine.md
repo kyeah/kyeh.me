@@ -1,10 +1,10 @@
 ---
-git:       'https://github.com/kyeah/3D-Engine'
 title:     '3D MDL Engine'
-img-thumb: 'img/projects/thumb-small-gouraud.gif'
+img-thumb: 'img/projects/gouraud.gif'
 img-large: 'http://fat.gfycat.com/EverlastingSereneImperatorangel.gif'
 img-alt:   'Java 3D Graphics Engine'
-anchorid:  '#cctv'
+grid-style: 'col-2'
+info: '2011 • <a href="https://github.com/kyeah/3D-Engine">git</a>'
 ---
 
 A 3D Graphics Engine and motion description scripting language built from scratch in Java.

@@ -1,3 +1,106 @@
+.image-info {
+    text-align: left;
+    padding: 1em;
+
+}
+.image-info .inner-info {
+    position: relative;
+    width: 100%;
+    height: calc(100% - 4em);
+    margin-top: 1.6em;
+}
+.image-info h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: normal;
+    margin-top: 0;
+    color: black !important;
+    padding-bottom: 0.05em;
+    border-bottom: 1px solid #000;
+    display: table;
+}
+.image-info a {
+  font-size: 0.8em;
+}
+.image-info p, .image-info h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: italic;
+  font-size: 0.9em;
+}
+.image-info p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.image-info .text {
+    position: absolute;
+    height: 100%;
+    overflow: overlay;
+    padding-right: 1em;
+}
+.image-info .text > :first-child {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+.image-info .text > :last-child {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+.image-info span {
+  font-family: sans-serif;
+  font-size: 0.8em;
+  color: #000 !important;
+}
+.image-info span a {
+    font-size: 1em;
+}
+.image-link {
+    -webkit-perspective: 1000;
+    transform: translateZ(0);
+    pointer-events:none;
+    position: relative;
+    z-index: 2;
+}
+.image-link .inner:hover {
+    transform: rotateY(180deg);
+    transition: 0.3s ease;
+}
+.image-link .inner {
+    pointer-events: all;
+    transform-style: preserve-3d;
+    transform: translateZ(0);
+    transition: 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    z-index: 2;
+}
+.bot {
+    margin: 0 10px 20px 10px;
+    pointer-events: all;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+}
+.image-link .inner img, .image-link .inner video, .image-link .inner source {
+    display: inline;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+}
+.image-info {
+    display: block;
+    transform: rotateY(180deg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #fff;
+}
 #blog-post #header {
     padding: 10px;
     padding-top: 0;
@@ -94,12 +197,6 @@ p h5 {
 .og-grid {
     padding:0;
 }
-.image-link a img {
-    object-fit:cover;
-    -moz-object-fit:cover;
-    -ms-object-fit:cover;
-    -o-object-fit:cover;     
-}
 a:hover {
     color: #DB6837 !important;
 }
@@ -193,7 +290,7 @@ p {
 
 p p-dark {
     color:#3776DB !important;
-    font-size:15px;
+    font-size:0.9em;
 }
 
 a:hover {
@@ -669,6 +766,7 @@ a .icon:hover {
   -o-transition: all 0.1s ease-out;
   transition: all 0.1s ease-out;
 }
+
 .image-link:hover {
   border: 4px solid #00bfa8;
 }
@@ -703,6 +801,10 @@ a .icon:hover {
     #date-lg {
         display: none;
     }
+    .grid-sizer, .grid-item, grid-item.col-2, .grid-item.col-3,
+    .grid-item.col-4, .grid-item.col-5, .grid-item.col-6 {
+        width: 100% !important;
+    }
 }
 
 @media only all and (max-device-width: 780px) {
@@ -722,6 +824,12 @@ a .icon:hover {
         border: 1px solid #3776DB;
         margin-top: 1em;
         margin-bottom: 1em;
+    }
+    .mountainside {
+        background-image:url('../img/covers/cover-mountainside-sm.png');    
+    }
+    .yeah {
+        background-image:url('../img/covers/cover-yeah-sm.png');
     }
 }
 
@@ -769,6 +877,31 @@ a .icon:hover {
     blockquote {
         margin: 0;
     }
+    .grid-sizer, .grid-item, grid-item.col-2, .grid-item.col-3,
+    .grid-item.col-4, .grid-item.col-5, .grid-item.col-6 {
+        width: 50%;
+    }
+}
+
+@media only all and (min-width: 980px) {
+.grid-sizer, .grid-item {
+    width: 16.667%;
+}
+.grid-item.col-2 {
+    width: 33%;
+}
+.grid-item.col-3 {
+    width: 50%;
+}
+.grid-item.col-4 {
+    width: 66.667%;
+}
+.grid-item.col-5 {
+    width: 83.334%;
+}
+.grid-item.col-6 {
+    width: 100%;
+}
 }
 
 @media only all and (max-width: 1000px) {

@@ -53,6 +53,26 @@
 
     $(document).ready(function() {
         react_to_window();
+
+        $('.grid').masonry({
+            // options
+            itemSelector: '.grid-item',
+            columnWidth: '.grid-sizer',
+            percentPosition: true
+        });
+
+        $('.grid').imagesLoaded().progress( function() {
+            $('.grid').masonry('layout');
+        });
+
+        
+        $('.bot').hover(function() {
+            $(this).siblings('.image-link').children('.inner').css('transform', 'rotateY(180deg)');
+            $(this).siblings('.image-link').children('.inner').css('transition', '0.3s ease');
+        }, function() {
+            $(this).siblings('.image-link').children('.inner').css('transform', '');
+            $(this).siblings('.image-link').children('.inner').css('transition', '');
+        });
     });
 
     //      only activate stellar for window widths above or equal to 1024

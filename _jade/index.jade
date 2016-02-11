@@ -41,23 +41,34 @@ block content
     .content
       .am-content-container
         .pure-g.hcentered
-          .pure-u.hcentered
+          .pure-u.hcentered(style='width: 97%')
             .image-row
-              ul#og-grid.og-grid.
+              .grid.
+                <div class='grid-sizer'></div>
                 {% for proj in site.projects %}
-                <li style='{{proj.li-style}}'>
-                  <a href='{{proj.link}}' data-git='{{proj.git}}' data-video='{{proj.video}}' data-largesrc='{{proj.img-large}}' data-title='{{proj.title}}' data-description='{{proj.content | markdownify}}' id='{{proj.id}}' data-anchorid='{{proj.anchorid}}'>
+                <div class='grid-item {{proj.grid-style}}'>
                     <div class='image-link'>
+                      <div class='inner'>
                       {% if proj.img-thumb %}
-                      <img src='{{proj.img-thumb}}' alt='{{proj.img-alt}}' style='{{proj.img-style}}'></img>
+                      <img src='{{proj.img-large}}' alt='{{proj.img-alt}}'></img>
                       {% else %}
-                      <video autoplay loop preload="auto" width="501px" height="278px" style="background:#000000;{{proj.vid-style}}" poster="{{proj.vid-poster}}">
+                      <video autoplay loop preload="auto" poster="{{proj.vid-poster}}">
                         <source src='{{proj.vid}}' type="video/webm"/>
                       </video>
                       {% endif %}
+                      <div class='image-info'>
+                        <h1>{{proj.title}}</h1>
+                        <span>
+                        {{proj.info}}
+                        </span>
+                        <div class='inner-info'>
+                          <div class='text'>{{proj.content}}</div>
+                        </div>
+                      </div>
+                        </div>
                     </div>
-                  </a>
-                </li>
+                    <div class='bot'></div>
+                </div>
                 {% endfor %}
 
             h3-dark.text-centered
