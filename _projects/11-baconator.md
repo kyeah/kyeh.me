@@ -1,5 +1,7 @@
 ---
 title:     'The Baconator'
+vid: 'https://zippy.gfycat.com/RedClassicKid.webm'
+vid-poster: 'https://thumbs.gfycat.com/RedClassicKid-poster.jpg'
 img-thumb: 'img/projects/thumb-bacon.png'
 img-large: 'img/projects/bacon.gif'
 img-alt:   'The Baconator'

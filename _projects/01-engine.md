@@ -1,5 +1,7 @@
 ---
 title:     '3D MDL Engine'
+vid: 'http://zippy.gfycat.com/EverlastingSereneImperatorangel.webm'
+vid-poster: 'http://thumbs.gfycat.com/EverlastingSereneImperatorangel-poster.jpg'
 img-thumb: 'img/projects/gouraud.gif'
 img-large: 'http://fat.gfycat.com/EverlastingSereneImperatorangel.gif'
 img-alt:   'Java 3D Graphics Engine'

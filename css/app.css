@@ -90,6 +90,10 @@
     -o-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
 }
+.image-link .inner video {
+    position: relative;
+    z-index: -1;
+}
 .image-info {
     display: block;
     transform: rotateY(180deg);
