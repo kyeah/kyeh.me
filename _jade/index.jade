@@ -49,12 +49,13 @@ block content
                 <div class='grid-item {{proj.grid-style}}'>
                     <div class='image-link'>
                       <div class='inner'>
-                      {% if proj.img-thumb %}
-                      <img src='{{proj.img-large}}' alt='{{proj.img-alt}}'></img>
-                      {% else %}
+                      {% if proj.vid %}
                       <video autoplay loop preload="auto" poster="{{proj.vid-poster}}">
                         <source src='{{proj.vid}}' type="video/webm"/>
                       </video>
+                      <img src='{{proj.vid-poster}}' class='hidden-vid-poster'></img>
+                      {% else %}
+                      <img src='{{proj.img-large}}' alt='{{proj.img-alt}}'></img>
                       {% endif %}
                       <div class='image-info'>
                         <h1>{{proj.title}}</h1>
@@ -82,7 +83,7 @@ block content
       .am-content-container
         .pure-g.hcentered
           .pure-u-1-12
-          .pure-u(style='margin-bottom:10px'): h3-dark.blue 
+          .pure-u-5-6(style='margin-bottom:10px'): h3-dark.blue 
             br
             | <a href='blog'>Newest Blog Post: {{ site.posts.first.title}} </a>
             br
@@ -100,7 +101,7 @@ block content
       .am-content-container
         .pure-g.hcentered
           .pure-u-1-12
-          .pure-u(style='margin-bottom:10px'): h3-dark.blue 
+          .pure-u-5-6(style='margin-bottom:10px'): h3-dark.blue 
             br
             | <a href='films'>Newest Film Post: {{ site.films.last.title }} </a>
             br
@@ -117,7 +118,7 @@ block content
       .am-content-container
         .pure-g.hcentered
           .pure-u-1-12
-          .pure-u(style='margin-bottom:10px'): h3-wide.blue
+          .pure-u-5-6(style='margin-bottom:10px'): h3-wide.blue
             br
             | Recent talks and papers.
             br

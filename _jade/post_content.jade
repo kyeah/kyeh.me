@@ -33,7 +33,7 @@
         | {{ post.date | date: '%d %b %Y' }}
       tr: td: h5-dark
         a(href="/blog") Back
-  .pure-u-1.pure-u-md-2-3(style='padding:10px; padding-top:0')
+  .pure-u-1.pure-u-md-2-3#blog-content
     h5-dark.dark-gray(style='text-align:justify;')
       | {{ content }}
     | {% capture url %}{{ site.url }}{{ post.url }}{% endcapture %}

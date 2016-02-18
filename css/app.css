@@ -1,7 +1,14 @@
+#blog-content {
+    padding: 10px;
+    padding-top: 1.6em;
+}
+#blog-content h5-dark > :first-child {
+    margin-top: 0;
+    padding-top: 0;
+}
 .image-info {
     text-align: left;
     padding: 1em;
-
 }
 .image-info .inner-info {
     position: relative;
@@ -814,7 +821,8 @@ a .icon:hover {
 @media only all and (max-device-width: 780px) {
     video {
         preload: none;
-        autoplay:false;
+        autoplay: false;
+        display: none !important;
     }
     #blog-archive h3-dark {
         display: inline-block;
@@ -834,6 +842,15 @@ a .icon:hover {
     }
     .yeah {
         background-image:url('../img/covers/cover-yeah-sm.png');
+    }
+    h1-alt {
+        line-height: 0.8em;
+    }
+}
+
+@media only all and (min-device-width: 781px) {
+    .hidden-vid-poster {
+        display: none !important;
     }
 }
 
