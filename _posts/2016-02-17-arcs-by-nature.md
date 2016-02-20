@@ -26,7 +26,7 @@ We’ve systemized our communication, but our thoughts have never been as ration
 
 <h3-dark style="color: #DB6837">Following the Arc</h3-dark>
 
-I’ve become increasingly focused on one thing over the past few years: improving my grasp of technology, in all its forms. It feels easy, now — to consider a project and visualize the components I need to actualize it. But I look back on the things I dabbled in years ago — illustration, design, writing, percussion — and they were no less difficult than coding at the time — just different. Technology became second nature, but it easily could have been film, photography, drumming. I placed myself securely in tech, but it feels limiting — like I’ve enclosed myself in a box. 
+I’ve become increasingly focused on one thing over the past few years: improving my grasp of technology, in all its forms. It feels easy, now — to consider a project and visualize the components I need to actualize it. But I look back on the things I dabbled in years ago — illustration, design, writing, percussion — and they were no less difficult than coding at the time — just different. Technology became second nature, when it easily could have been film, journalism, photography. I placed myself securely in tech, but it feels limiting — like I’ve enclosed myself in a box. 
 
 It seems like I’m distracted from that which my skills exist to best serve. Humanity has always been a triumph of creativity, a mushy bag of irrationality  and emotion, and to give in to logic for the purpose of building reasoning systems is to ignore what humans do best: think, dream, and provoke in a more primitive and expressive language than any logical language could express — to evoke emotions, prompt reactions, and start conversations with other human beings.
 
@@ -46,17 +46,17 @@ I’m only now finding the freedom and control of movement that comes with holdi
 
 When you’ve been doing something for years, when something has been ingrained into your system, when you don’t even consider the possibility of uprooting your habits and making a change in your mechanics, it can be hard to resist complacency and explore new territories.
 
-I’ve always been good at following an arc. To get better, I need to go off the rails.
+I’ve always been good at following the arc. To get better, I need to find new lines of expression.
 
 <h3-dark style="color: #DB6837">A Better Conversation</h3-dark>
 
-I’ve known artists and filmmakers and screenwriters, dancers and musicians and photographers. It’s been a long time since I’ve really talked to any of them. It’s been a long time since I’ve picked their brains. It’s been a long time since I’ve felt connected to them. 
+I’ve known artists and filmmakers and screenwriters, dancers and musicians and photographers and philosophers, but it’s been a long time since I’ve really talked to any of them. It’s been a long time since I’ve picked their brains. It’s been a long time since I’ve felt connected to them. 
 
-But I still get glimpses of them through their work. I view their art and feel an emotional force. I make my own interpretations of what they put out. I understand it in the context of my own mental state, my own memories and feelings and experiences and lives. It evokes something primal, and another small piece of my world view is carved out. I have small, personal conversations with them through the things they create, and those conversations change in the same way that I change every single day.
+Yet I still get glimpses of them through their work. I view their art and get a feel for where they are — I take the things they put out and make my own interpretations of them. I understand it in the context of my own mental state, my own memories and feelings and experiences and lives. It evokes something primal, and another small piece of my world view is carved out. I have small, personal conversations with them through the things they create, and those conversations change in the same way that I change every single day.
 
-When I was younger, I had a lot of different paths to draw from. I grew complacent with one, but computers haven’t made the best company, and certainly haven’t inspired meaningful thoughts or dialogue of their own philosophical initiative. There are no alternative interpretations of code. You read code to understand the logic and intentions of its creator.
+When I was younger, I had a lot of different paths to draw from. I grew complacent with one, but computers haven’t made the best company, and certainly haven’t inspired meaningful thoughts or dialogue of their own philosophical initiative. There are no alternative interpretations of code; you read code to understand the logic and intentions of its creator.
 
-I’ve learned to communicate logically and diagraphically, but beautiful code still makes for terrible conversation.
+I've learned to communicate logically and diagraphically, but beautiful code still makes for terrible conversation.
 
 With graduation coming up, it feels like the perfect time to revisit those paths — to stray from my arc as a technologist and focus on my arc as a human being.
 
