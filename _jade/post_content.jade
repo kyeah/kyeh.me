@@ -19,8 +19,8 @@
         td#title
           | <h1 class="black"> {{ post.title }} </h1>
           h3-dark.black
-            | {% if post.subtitle %}
-            | {{ post.subtitle }}
+            | {% if post.summary %}
+            | {{ post.summary }}
             br
             | {% endif %}
 

@@ -806,6 +806,9 @@ a .icon:hover {
         height: auto;
         padding-left: 20px;
     }
+    #blog-post #title h3-dark {
+        display: none;
+    }
     #date-sm {
         display: block;
     }

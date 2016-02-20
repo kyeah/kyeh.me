@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Coming Home
-subtitle: Why I Turned Down Google.
 summary: "
 On the morning of December 18th, I sent my hackNY acceptance email to a little virtual mailbox in NYC.
 "
