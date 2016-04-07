@@ -5,7 +5,8 @@ title: Lines in Motion
 summary: "A rambling line of thought from that gaseous abyss of the mind."
 
 excerpt: "I’ve been learning to use a pen, lately.
-
+<br>
+<br>
 I thought I knew how to use one, but years of trembling lines and toppled letters proved otherwise. The pencil smears should have tipped me off, long before the smears shaped words and the words shaped thoughts, but instead of fixing the method of construction, I internalized the sloppiness of my results. 
 "
 ---
