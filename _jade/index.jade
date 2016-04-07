@@ -9,16 +9,7 @@ block cover
       header.pure-g-r
         div.pure-u-1-3
 
-  +cover(class='mountainside am-hero-med' style='background-color: rgba(0,0,0,0.2)')
-
-block cover-text
-  h1
-    .animated.fadeInDown
-      span.burnt-orange(style='margin-left: 16px; padding-left: 15px') K
-      span(style='margin-right: 16px') YEAH.
-    hr
-    .animated.fadeInUp(style="line-height: 0.3em")
-      include social_layout.jade
+  +cover(class='mountainside am-hero-small' style='background-color: rgba(0,0,0,0.2)')
 
 block content
   section#intro.content-wrapper
@@ -26,11 +17,15 @@ block content
       .am-content-container
         .pure-g.hcentered
           .pure-u.hcentered
+            h1
+              .animated.fadeInDown
+                span.burnt-red(style='margin-left: 16px; padding-left: 15px') K
+                span.burnt-orange(style='margin-right: 16px') YEAH.
+            hr
+              .animated.fadeInUp(style="line-height: 0.5em")
+                include social_layout.jade
             img.about-avatar(src='img/personal/avatar.png')
-            h1-alt.burnt-orange: i "How do I love thee? Let me count the ways,
-            h3.spaced.text-upper: i
-              a(href='kyehresume.pdf' target='_blank') that I may dissect thy resume."
-            h4.text-centered.light-gray
+            h4.text-justified.gray
               br
               | {{ site.about | markdownify | remove: '<p>' | remove: '</p>' }}
 

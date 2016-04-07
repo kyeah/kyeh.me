@@ -252,14 +252,25 @@ blockquote {
     font-weight: 400;
     text-shadow: 2px 2px 0 rgba(0,0,0,.15);
 }
-.am-hero-cover h1 {
+#intro h1 {
     display: table;
     margin: auto;
+    padding: 1em 0;
+}
+#intro span {
+    font-weight: normal;
+    font-size: 2em;
+    /* letter-spacing: 1px; */
+    /* line-height: 2em; */
+    margin: 0;
+    text-align: center;
+    text-shadow: 2px 2px 0 #f5f5f5, 4px 4px 0 #ccc;
+    text-transform: uppercase;
 }
 .am-hero-cover h1, .am-hero-cover h2 {
     text-shadow: 2px 2px 3px #141414;
 }
-.am-hero-cover hr {
+#intro hr {
     margin-bottom: 0.3em;
     margin-left: auto;
     margin-right: auto;
@@ -364,6 +375,9 @@ h3-wide {
 }
 h4 {
     text-transform:none;
+    font-weight: 300;
+    line-height: 1.8em;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 h4-dark {
     font-size:16px;
@@ -502,13 +516,19 @@ blockquote {
 }
 #intro {
     text-align: center;
-    background: #141414;
+    background: #f5f5f5;
     padding: 40px;
+}
+#intro h4 {
+    padding: 0px 10% 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 0.9em;
 }
 #code {
     text-align: center;
     padding: 40px;
-    background: #EEEEEE;
+    background: #f5f5f5;
 }
 #blog {
     padding-top: 20px;
@@ -654,16 +674,17 @@ i.inline {
 
 .icon,
 a .icon {
-    font-size: 0.4em;
+    font-size: 0.6em;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     width: 40px;
-    color: #ffffff;
+    color: #db6837;
     background: #1a1a1a;
-    margin: auto 3px;
+    margin: auto 0.4em;
     -webkit-border-radius: 50%;
     border-radius: 50%;
+    text-shadow: 1px 1px 0 #f5f5f5, 2px 2px 0 #ccc;
 }
 
 a .icon:hover {
@@ -708,6 +729,9 @@ a .icon:hover {
 .burnt-orange {
     color: #DB6837 !important;
 }
+.burnt-red {
+    color: #ee4c4c !important;
+}
 .blue {
     color: #3776DB !important;
 }
@@ -719,6 +743,9 @@ a .icon:hover {
 }
 .dark-gray {
     color: #363636 !important;
+}
+.gray {
+    color: #777 !important;
 }
 .golden {
     color: #bba454 !important;
