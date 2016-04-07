@@ -5,7 +5,7 @@
     Modernizr = window.Modernizr;
 
     $(document).ready(function() {
-        $('.am-hero-cover hr').css('width', '100%');
+        $('#intro hr').css('width', '100%');
         $.fn.foundationAlerts           ? $doc.foundationAlerts() : null;
         $.fn.foundationButtons          ? $doc.foundationButtons() : null;
         $.fn.foundationAccordion        ? $doc.foundationAccordion() : null;

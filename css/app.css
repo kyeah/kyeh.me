@@ -271,7 +271,7 @@ blockquote {
     text-shadow: 2px 2px 3px #141414;
 }
 #intro hr {
-    margin-bottom: 0.3em;
+    margin: 0.5em;
     margin-left: auto;
     margin-right: auto;
     width: 0;
@@ -485,6 +485,14 @@ blockquote {
     font-family: 'Source Sans Pro', sans-serif;
     font-style: italic;
     font-size: 1.2em;
+}
+#blog-post p {
+  text-transform: none;
+  font-weight: 300;
+  line-height: 1.8em;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  color: #777 !important;
 }
 .top-aligned {
     vertical-align:top;

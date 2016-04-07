@@ -17,14 +17,14 @@ block content
       .am-content-container
         .pure-g.hcentered
           .pure-u.hcentered
+            img.about-avatar(src='img/personal/avatar.png')
             h1
               .animated.fadeInDown
                 span.burnt-red(style='margin-left: 16px; padding-left: 15px') K
                 span.burnt-orange(style='margin-right: 16px') YEAH.
-            hr
+              hr
               .animated.fadeInUp(style="line-height: 0.5em")
                 include social_layout.jade
-            img.about-avatar(src='img/personal/avatar.png')
             h4.text-justified.gray
               br
               | {{ site.about | markdownify | remove: '<p>' | remove: '</p>' }}
