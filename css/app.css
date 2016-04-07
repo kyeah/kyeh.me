@@ -528,7 +528,6 @@ blockquote {
     padding: 40px;
 }
 #intro h4 {
-    padding: 0px 10% 20px;
     margin-top: 0;
     margin-bottom: 0;
     font-size: 0.9em;
@@ -959,6 +958,9 @@ a .icon:hover {
 }
 .grid-item.col-6 {
     width: 100%;
+}
+#intro h4 {
+    padding: 0 1.2em;
 }
 }
 

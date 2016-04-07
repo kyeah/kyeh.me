@@ -25,6 +25,9 @@ block content
               hr
               .animated.fadeInUp(style="line-height: 0.5em")
                 include social_layout.jade
+        .pure-g.hcentered
+          .pure-u-1.pure-u-md-1-12
+          .pure-u-1.pure-u-md-5-6
             h4.text-justified.gray
               br
               | {{ site.about | markdownify | remove: '<p>' | remove: '</p>' }}
