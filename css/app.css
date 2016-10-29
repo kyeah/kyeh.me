@@ -474,6 +474,7 @@ blockquote {
 	height: 180px;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
+        content:url('../img/personal/avatar-lg.png');
 }
 #blog-post .about-avatar {
     width: 80px;
@@ -886,6 +887,9 @@ a .icon:hover {
     .yeah {
         background-image:url('../img/covers/cover-yeah-sm.png');
     }
+    .about-avatar {
+        content:url('../img/personal/avatar-sm.png');
+    }
     h1-alt {
         line-height: 0.8em;
     }
@@ -894,6 +898,12 @@ a .icon:hover {
 @media only all and (min-device-width: 781px) {
     .hidden-vid-poster {
         display: none !important;
+    }
+}
+
+@media only all and (max-device-width: 1200px) {
+    .about-avatar {
+        content:url('../img/personal/avatar-md.png');
     }
 }
 
