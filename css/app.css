@@ -474,7 +474,7 @@ blockquote {
 	height: 180px;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
-        content:url('../img/personal/avatar-lg.png');
+        content:url('../img/personal/avatar-hny.png');
 }
 #blog-post .about-avatar {
     width: 80px;
@@ -903,6 +903,12 @@ a .icon:hover {
 
 @media only all and (max-device-width: 1200px) {
     .about-avatar {
+        content:url('../img/personal/avatar-hny-md.png');
+    }
+}
+
+@media only all and (max-device-width: 979px) {
+    .about-avatar {
         content:url('../img/personal/avatar-md.png');
     }
 }
@@ -951,6 +957,9 @@ a .icon:hover {
     }
     .bm {
         background-image:url('../img/covers/cover-mountainside.png');    
+    }
+    .about-avatar {
+        content:url('../img/personal/avatar.png');
     }
     #padder {
         display: none;
