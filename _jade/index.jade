@@ -79,9 +79,10 @@ block content
         .pure-g.hcentered
           .pure-u-1-12
           .pure-u-5-6(style='margin-bottom:10px'): h3-dark.blue 
-            br
-            | <a href='blog'>Newest Blog Post: {{ site.posts.first.title}} </a>
-            br
+              br
+              | <a href='blog'>Newest Blog Post: {{ site.posts.first.title}} </a>
+              br
+
         .pure-g.hcentered
           .pure-u-1-12
           .pure-u-5-6
@@ -96,10 +97,15 @@ block content
       .am-content-container
         .pure-g.hcentered
           .pure-u-1-12
-          .pure-u-5-6(style='margin-bottom:10px'): h3-dark.blue 
-            br
-            | <a href='films'>Newest Film Post: {{ site.films.last.title }} </a>
-            br
+          .pure-u-5-6(style='margin-bottom:10px')
+            h3-dark.blue
+              br
+              | <a href='films'>Newest Film Post: {{ site.films.last.title }} </a>
+            h5(style='font-weight:bold').med-gray
+              br
+              | I've moved! Find my thoughts on <a href='https://letterboxd.com/kyeah'>Letterboxd.</a>
+              br
+
         .pure-g.hcentered
           .pure-u-1-12
           .pure-u-5-6
