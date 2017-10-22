@@ -1,10 +1,10 @@
 build:
-	jade -o _layouts _jade/post.jade _jade/index.jade _jade/blog.jade _jade/film.jade _jade/films.jade _jade/film_post.jade
+	pug -o _layouts _pug/post.pug _pug/index.pug _pug/blog.pug _pug/film.pug _pug/films.pug _pug/film_post.pug
 	jekyll build
 	rm _site/Makefile _site/README.md
 
 serve:
-	jade -o _layouts _jade/post.jade _jade/index.jade _jade/blog.jade _jade/film.jade _jade/films.jade _jade/film_post.jade
+	pug -o _layouts _pug/post.pug _pug/index.pug _pug/blog.pug _pug/film.pug _pug/films.pug _pug/film_post.pug
 	jekyll serve -w
 	rm _site/Makefile _site/README.md
 
