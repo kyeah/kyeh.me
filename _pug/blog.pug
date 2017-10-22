@@ -1,0 +1,43 @@
+extends layout
+
+block title 
+  title Blog | Kevin Yeh
+
+block cover
+  #padder.am-content-header-container.am-light
+    div.am-content-container
+      header.pure-g-r
+        div.pure-u-1-3
+
+  +cover()(class='am-hero-med yeah')
+
+block content
+  section#blog-archive
+    .content: .am-content-container: .content-wrapper
+      .pure-g.hcentered
+        .pure-u-1-12.pure-u-md-1-6
+        .pure-u-5-6.pure-u-md-2-3(style="padding-top: 2em; padding-left: 2em")
+          a(href="/"): h4-dark.blue ← Go home.
+      .pure-g.hcentered
+        .pure-u-1-12.pure-u-md-1-6
+        .pure-u-5-6.pure-u-md-2-3
+          | {% for post in site.posts %}
+          | {% assign loopindex = forloop.index | modulo: 2 %}
+          | {% if loopindex == 1 %}
+          | <div class="pure-g">
+          | {% endif %}
+          .pure-u-1.pure-u-md-1-2
+            | <a href="{{ post.url }}">
+            div#archive-link
+              h3-dark.blue: u
+                | {{ post.title }}
+              h4-dark.blue
+                |  {{ post.date | date: '%b %d, %Y' }}
+              br
+              h4.gray(style='margin-top: 1em; padding-right: 10px; font-size: 0.9em')
+                i {{ post.summary }}
+            | </a>
+          | {% if loopindex == 0 %}
+          | </div>
+          | {% endif %}
+          | {% endfor %}

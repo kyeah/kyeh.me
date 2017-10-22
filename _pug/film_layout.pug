@@ -1,0 +1,75 @@
+doctype html
+html
+  head
+    //
+      Citizen Theme
+      by Jonathon Toon
+      www.jonathontoon.com
+      Made for scriptogr.am
+    title   Kevin Yeh
+    meta(name='description', content='A movie journal to reflect on all the films that I hate and admire.')
+    meta(name='viewport', content='width=device-width; initial-scale=1; maximum-scale=1.0;')
+    meta(name='apple-mobile-web-app-capable', content='yes')
+    meta(name='ROBOTS', content='INDEX,FOLLOW')
+    meta(http-equiv='Content-Type', content='text/html; charset=utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(charset='utf-8')
+    meta(property='og:title', content='Kevin Yeh')
+    meta(property='og:site_name', content='Kevin Yeh')
+    link(href='http://fonts.googleapis.com/css?family=Open+Sans:700,800', rel='stylesheet', type='text/css')
+    link(href='/css/film-style.css', rel='stylesheet', type='text/css')
+  body(lang='en')
+    // Like Button
+    #fb-root
+    script.
+      (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    #wrapper
+      section#head
+        // Header
+        header
+          #head-container
+            // Description
+            #description
+              h3 A movie journal to reflect on all the films that I hate and admire.
+            // Menu
+            nav
+              ul
+                li
+                  a(href='/films') Home
+                li
+                  a(href='/blog') Personal Blog
+                li
+                  a(href='http://letterboxd.com/kyeah') Letterboxd
+                li
+                  a(href='/film') Archive
+
+      section
+        block content
+
+      // Footer
+      section#foot
+        footer
+          p
+            | {% if paginator.total_pages != paginator.page %}
+            strong: a(href="{{paginator.next_page_path}}") <
+            | {% endif %}
+            | {% if paginator.total_pages != paginator.page and paginator.previous_page_path %}
+            strong •
+            | {% endif %}
+            | {% if paginator.previous_page_path %}
+            strong: a(href="{{paginator.previous_page_path}}") >
+            | {% endif %}
+            br
+            br
+            strong: a(href="/") Kevin Yeh
+    // Return To Top Button
+    a#return-button
+      img(src='/img/blog/film-return-button.png', width='33', height='32', alt='Return button')
+    script(type='text/javascript', src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js')
+    script(type='text/javascript', src='/js/film-app.js')

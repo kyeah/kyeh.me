@@ -1,0 +1,17 @@
+extends film_layout
+
+block content
+  | {% for film in paginator.films %}
+  article.index
+    .content
+      .title
+        .date
+          | {{ film.date | date: '%b %d, %Y' }}
+          br
+          | —
+        // Post Title
+        h1: a(href='{{film.url}}') {{ film.title }}
+      #body
+        img(src='{{film.img}}')
+        | {{ film.content | markdownify }}
+  | {% endfor %}
