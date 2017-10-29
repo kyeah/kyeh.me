@@ -7,9 +7,6 @@ grid-style: 'col-3'
 info: '2013-14 • <a href="http://tyler-yates.github.io/AestheticFractals">website</a>, <a href="https://github.com/kyeah/genetic-fractals">git</a>'
 ---
 
-Genetic Reproduction and Evolution of Aesthetically-Pleasing Attractor Fractals.
-
-
 Independent understudy research on the genetic evolution of aesthetically-pleasing fractals using crowd-sourced demonstrations, CNNs, and observable mathematical structures in strange attractor equations.
 
 
