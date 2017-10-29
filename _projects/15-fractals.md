@@ -10,7 +10,7 @@ info: '2013-14 • <a href="http://tyler-yates.github.io/AestheticFractals">webs
 Genetic Reproduction and Evolution of Aesthetically-Pleasing Attractor Fractals.
 
 
-A research tool studying the generation and evolution of aesthetically-pleasing fractals. It uses crowd-sourced testing along with observational patterns in the mathematical structure of attractor fractals to find optimal constants and equations.
+Independent understudy research on the genetic evolution of aesthetically-pleasing fractals using crowd-sourced demonstrations, CNNs, and observable mathematical structures in strange attractor equations.
 
 
 <p-dark>With Tyler Yates (UT Freshman Research Initiative: Computational Intelligence)</p-dark>
