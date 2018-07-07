@@ -1,6 +1,6 @@
 ---
 layout: film_post
-title: "The Tin Drum (1979) +<br/> Pan's Labyrinth (2006)"
+title: "The Tin Drum (1979) + Pan's Labyrinth (2006)"
 slug: tin-drum-1979-pans-labyrinth-2006
 date: 2018-07-06 00:00
 img: "http://unsoloclic.info/wp-content/uploads/2018/02/TheTinDrum4.jpg"
@@ -12,9 +12,9 @@ excerpt: "Magical Realism: Exploring Reality and Agency in the Coming-of-Age Sto
 __Magical Realism: Exploring Reality and Agency in the Coming-of-Age Story__<br>
 _Adapted from an essay written in 2015._
 
-The traditional coming-of-age story is a well-known and oft-relatable narrative tale detailing a time
-of trials and triumphs in a young adolescent’s early life. Told across numerous artistic mediums
-and throughout a vast variety of cultures and civilizations, the traditional story centers around the
+The coming-of-age story is well-known and universal. Detailing a time
+of trials and triumphs in a young adolescent’s early life, it's been told across numerous artistic mediums
+and throughout a vast variety of cultures and civilizations. The traditional story centers around the
 growth of an adolescent at a pivotal point in their lifetime, when they learn the cultural norms and
 expectations of the world, are shaped by the events that occur at a personal and worldwide scale,
 and begin to understand the realities of the world they live in and how to find their place within it.
@@ -26,14 +26,14 @@ As young inhabitants of the society that they live in, the main subjects of a co
 often powerless to affect the world around them at any meaningful scale. Although they may form
 their own social cliques and standards at a local scale with other adolescents, they must always
 grow older and face the inevitable coming of change, the structures of adult society, and the
-responsibilities they must take on as members within it. The transition from youth to adulthood
+responsibilities they take on as members within it. The transition from youth to adulthood
 often comes with the acceptance of societal expectations and realities, and, as many films have
 explored, the dilution, repression, or outright abandonment of creativity, imagination, and
 “childish” optimism in the face of personal or political events and tribulations.
 
-Many films have explored the traditional coming-of-age story, covering everything from high-school and college relations (_The Breakfast Club_ [1985], _The Sandlot_ [1993], _Can’t Hardly Wait_ [1998], _An Education_ [2009]), parental relations (_Stand by Me_ [1986], _Short Term 12_ [2013]), sexual identity (_Get Real_ [1998], _Blue is the Warmest Color_ [2013]), and political and philosophical ideologies, and spanning every genre of film, including comedy, horror, musical, fantasy, science fiction, and documentary. Although the ubiquitous experience of growing older enables artists to adhere to a safe story structure, easily-relatable themes of personal growth and acceptance, and clear narrative guidelines, there are films that opt to take the experience of transitioning into adulthood and give it an alternative representation.
+Many films have explored the traditional coming-of-age story, covering everything from high-school and college relations (_The Breakfast Club_ [1985], _The Sandlot_ [1993], _Can’t Hardly Wait_ [1998], _An Education_ [2009]), parental relations (_Stand by Me_ [1986], _Short Term 12_ [2013]), sexual identity (_Get Real_ [1998], _Blue is the Warmest Color_ [2013]), and political and philosophical ideologies. They span every genre of film, including comedy, horror, musical, fantasy, science fiction, and documentary. Although the ubiquitous experience of growing older enables artists to adhere to safe story structures, easily-relatable themes of personal growth and acceptance, and clear narrative guidelines, there are films that opt to take the experience of transitioning into adulthood and give it an alternative representation.
 
-The following analysis seeks to illuminate the inner workings of two films in particular — _The Tin Drum_ and _Pan’s Labyrinth_ — in order to appreciate the visual and audial artistry of magical realist elements as applied within their respective settings, and to examine the roots of subjective agency and its effects on adolescence during pivotal transitional periods from youth to adulthood.
+The following analysis seeks to illuminate the inner workings of two films in particular — _The Tin Drum_ (1979) and _Pan’s Labyrinth_ (2006) — in order to appreciate the visual and audial artistry of magical realist elements as applied within their respective settings, and to examine the roots of subjective agency and its effects on adolescence during pivotal transitional periods from youth to adulthood.
 
 Though explored briefly as an alternative to German expressionist artwork in the 1920’s, magical
 realism as a novelistic and cinematic genre has its emergent roots in Latin-American and Hispanic
@@ -41,16 +41,18 @@ fiction, with the critic Angel Flores identifying Jorge Luis Borges as the first
 in his 1955 essay, _“Magical Realism in Spanish American Fiction."_ The extent to which the variety
 of magical realist characteristics apply to a given magic realist text or film varies from one work to
 another, but all works succeed in achieving the overarching desired portrayal of common reality in
-the context of an existing, magical realist world. The style is closely related to surrealism, with a
+the context of an existing, magical realist world. 
+
+The style is closely related to surrealism, with a
 focus on the material object and the actual existence of fantastical elements in the real world, as
 opposed to surrealism’s more psychological and subconscious representation of reality. The
-essence of magical realism, as observed in this paper, is that of “fantasy with a straight face,”
+essence of magical realism, as observed in this analysis, is that of “fantasy with a straight face,”
 portraying a world that is, at its core, neither fundamentally different from the reality that we live
 in, as in true fantasy works, nor internally-expressed and tainted by the point of view of the
 protagonist, as in surrealist works.
 
 The transition from literature to video media and film introduces a challenge for magical realism.
-Unlike fantasy or surrealist works, magical realism is adamantly against escapism — the retreat of the viewer into a world wholly different from their own. In film, there is a fundamental realism that is difficult to convey accurately with a touch of fantasy without becoming a fully-blown, controlled, world-building fantasy. The difficulty of expressing a world that is convincingly familiar and natural, while at the same time introducing believable pockets of magic, is increased dramatically by the addition of sight and sound, and the balance between the commonplace and fantastical relies heavily on the interplay between visuals, audio cues, and the portrayal of subjectivity.
+Unlike fantasy or surrealist works, magical realism is adamantly against escapism — the retreat of the viewer into a world wholly different from their own. In film, there is a fundamental realism that is difficult to convey accurately with a touch of fantasy without becoming a full-blown, world-building fantasy. The difficulty of expressing a world that is convincingly familiar and natural, while at the same time introducing believable pockets of magic, is increased dramatically by the addition of sight and sound, and the balance between the commonplace and fantastical relies heavily on the interplay between visuals, audio cues, and the portrayal of subjectivity.
 
 #### The Poetics of Magical Realism: Visual Duality
 
