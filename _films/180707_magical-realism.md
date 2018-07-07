@@ -1,7 +1,7 @@
 ---
 layout: film_post
 title: "The Tin Drum (1979) + Pan's Labyrinth (2006)"
-slug: tin-drum-1979-pans-labyrinth-2006
+slug: magical-realism
 date: 2018-07-06 00:00
 img: "http://unsoloclic.info/wp-content/uploads/2018/02/TheTinDrum4.jpg"
 
@@ -12,7 +12,7 @@ excerpt: "Magical Realism: Exploring Reality and Agency in the Coming-of-Age Sto
 __Magical Realism: Exploring Reality and Agency in the Coming-of-Age Story__<br>
 _Adapted from an essay written in 2015._
 
-The coming-of-age story is well-known and universal. Detailing a time
+The coming-of-age story is a well-known and oft-relatable narrative tale. Detailing a time
 of trials and triumphs in a young adolescent’s early life, it's been told across numerous artistic mediums
 and throughout a vast variety of cultures and civilizations. The traditional story centers around the
 growth of an adolescent at a pivotal point in their lifetime, when they learn the cultural norms and
@@ -137,8 +137,8 @@ of the magical realm — from the frog’s lair to the Pale Man’s hall.
 **Fig 4 — Del Toro exhibits striking visual contrasts between the muddied, monotone settings of
 war-torn Spain and the warm, vibrant, and animated settings of the magical realm.**
 
-Like the frightening, piercing gaze that Oskar comes to utilize throughout _The Tin Drum_
-, the magical element in _Pan’s Labyrinth_ is presented with a straight face by del Toro and inspires more
+Like the frightening, piercing gaze that Oskar comes to utilize throughout _The Tin Drum_, 
+the magical element in _Pan’s Labyrinth_ is presented with a straight face by del Toro and inspires more
 nightmarish disgust than wonderment. In many ways, the fantastical world that Ofelia discovers
 parallels the cold, war-torn setting that she trudges through. Though the Faun is a relatively safer
 alternative to the villainous Vidal, who smokes, drinks, treats his wife like a farm animal, threatens
