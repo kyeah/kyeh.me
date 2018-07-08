@@ -12,7 +12,7 @@ excerpt: "Magical Realism: Exploring Reality and Agency in the Coming-of-Age Sto
 __Magical Realism: Exploring Reality and Agency in the Coming-of-Age Story__<br>
 _Adapted from an essay written in 2015._
 
-The coming-of-age story is a well-known and oft-relatable narrative tale. Detailing a time
+The coming-of-age story is a well-traveled and oft-relatable narrative tale. Detailing a time
 of trials and triumphs in a young adolescent’s early life, it's been told across numerous artistic mediums
 and throughout a vast variety of cultures and civilizations. The traditional story centers around the
 growth of an adolescent at a pivotal point in their lifetime, when they learn the cultural norms and
@@ -70,7 +70,7 @@ younger. His young appearance allowed him to deliver a unique, eerie performance
 small man possessing the body of a three-year-old child, and the striking visual appearance of
 Oskar from the moment he’s born gives _The Tin Drum_ an easy visual disconnect between the
 reality of German life in mid-1900s and the surreal anomaly of a self-made gnome. Though the film
-is made of a sequence of set pieces, the one thing that remains constant throughout all of them,
+is arranged as a sequence of distinct set pieces, the one thing that remains constant throughout all of them,
 even before the pivotal moment where Oskar throws himself down the stairs and refuses to grow,
 is the distinct separation of the gnome from his adulterous, perverted, and argumentative
 surroundings.
@@ -121,7 +121,7 @@ _The Tin Drum_ cannot resist their sexual temptations or their desire for coffee
 **Fig 3 — Many characters in _The Tin Drum_ exhibit a childish lack of self-control and awareness,
 giving into their most immediate desires in the face of horrific danger.**
 
-In _Pan’s Labyrinth_, as well, the magical element comes into play when visually portraying the
+In _Pan’s Labyrinth_, the magical element comes into play when visually portraying the
 distinction between the perverted, war-torn world of the mid-1900s and the fantastical world
 inhabited by Ofelia. Here, the visual distinction between the magical and commonplace is a result
 of colors and tones — something that is central to all of del Toro’s films. Muted grays and
@@ -141,8 +141,8 @@ Like the frightening, piercing gaze that Oskar comes to utilize throughout _The 
 the magical element in _Pan’s Labyrinth_ is presented with a straight face by del Toro and inspires more
 nightmarish disgust than wonderment. In many ways, the fantastical world that Ofelia discovers
 parallels the cold, war-torn setting that she trudges through. Though the Faun is a relatively safer
-alternative to the villainous Vidal, who smokes, drinks, treats his wife like a farm animal, threatens
-her doctor, and murders people in cold blood, the Faun is just one piece of a fantasy setting that is
+alternative to the villainous Vidal — who smokes, drinks, treats his wife like a farm animal, threatens
+her doctor, and murders others in cold blood — the Faun is just one piece of a fantasy landscape that is
 ripe with aggressive characters such as the greedy frog, lusting for the consumption of all bugs, and
 the Pale Man, lusting for the consumption of children. In the striking sequence of the Pale Man
 awakening from his slumber at the head of the table, a familiarity arises with an earlier shot of
@@ -281,7 +281,7 @@ further her escape from Vidal through the shifting maze.
 
 #### Thematics and the Refusal of Adulthood
 
-The magical realism of _The Tin Drum_ and _Pan’s Labyrinth_ allows them to explore the
+The magical realism of _The Tin Drum_ and _Pan’s Labyrinth_ allows the films to explore the
 blindly-optimistic, perhaps misguided, ideologies of a protagonist with the power to reject and
 manipulate the society that they inhabit. Unlike other coming-of-age narratives, the protagonist is
 not obligated to work within the constructs of their society. For protagonists of traditional
