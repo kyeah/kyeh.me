@@ -268,6 +268,20 @@ blockquote {
     text-shadow: 2px 2px 0 #f5f5f5, 4px 4px 0 #ccc;
     text-transform: uppercase;
 }
+#talks h1 {
+    display: table;
+    margin: auto;
+    padding: 1em 0;
+}
+#talks span {
+    font-weight: normal;
+    font-size: 2em;
+    margin: 0;
+    text-align: left;
+    text-shadow: 2px 2px 0 #f5f5f5, 4px 4px 0 #ccc;
+    text-transform: uppercase;
+}
+
 .am-hero-cover h1, .am-hero-cover h2 {
     text-shadow: 2px 2px 3px #141414;
 }
@@ -534,9 +548,24 @@ blockquote {
     text-align: center;
     background: #f5f5f5;
     padding: 40px;
-    padding-bottom: 80px;
+    padding-bottom: 20px;
 }
 #intro h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 0.9em;
+}
+#talks {
+    text-align: left;
+    background: #f5f5f5;
+    padding: 2.4em 0em;
+}
+#talks h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 0.9em;
+}
+#code h4 {
     margin-top: 0;
     margin-bottom: 0;
     font-size: 0.9em;
@@ -544,7 +573,7 @@ blockquote {
 #code {
     text-align: center;
     padding: 40px;
-    padding-top: 80px;
+    padding-top: 20px;
     padding-bottom: 60px;
     background: #141414;
 }
@@ -592,9 +621,6 @@ blockquote {
 }
 #blog-archive h4-dark {
     font-size: 14px;
-}
-#talks {
-    padding: 20px;
 }
 #hello-slider {
     padding-left:15px;
@@ -987,6 +1013,12 @@ a .icon:hover {
 }
 #intro h4 {
     padding: 0 1.2em;
+}
+#code h4 {
+    padding: 1.2em 1.2em;
+}
+#talks {
+    padding: 2.4em 1.2em;
 }
 }
 
