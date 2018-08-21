@@ -9,22 +9,22 @@ block cover
       header.pure-g-r
         div.pure-u-1-3
 
-  +cover(class='bm am-hero-small' )
+  +cover(class='bm am-hero-small')
 
 block content
   section#intro.content-wrapper
     .content
       .am-content-container
         .pure-g.hcentered
-          .pure-u.hcentered
-            img(src="img/personal/avatar-hny.png").about-avatar
+          .pure-u-1.pure-u-md-1-12
+          .pure-u-1.pure-u-md-2-3
+            div
+              img(src="img/personal/avatar-hny.png").about-avatar
             h1
               .animated.fadeInDown
-                span.burnt-red(style='margin-left: 16px; padding-left: 15px') K
-                span.burnt-orange(style='margin-right: 16px') YEAH.
+                span.burnt-red K
+                span.burnt-orange YEAH.
               hr
-              .animated.fadeInUp(style="line-height: 0.5em")
-                include social_layout.pug
         .pure-g.hcentered
           .pure-u-1.pure-u-md-1-12
           .pure-u-1.pure-u-md-2-3
@@ -151,4 +151,4 @@ block content
               a(href='https://github.com/kyeah') github:kyeah 
               | for an in-depth look at my recent and ongoing projects.
   
-  section.am-content-container(style='padding:6px')
+  section(style='padding:3px;background-color:#1980E3')

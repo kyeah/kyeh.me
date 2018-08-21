@@ -257,8 +257,9 @@ blockquote {
 }
 #intro h1 {
     display: table;
-    margin: auto;
-    padding: 1em 0;
+    text-align: left;
+    padding: 0 0.4em;
+    margin: 0;
 }
 #intro span {
     font-weight: normal;
@@ -286,9 +287,8 @@ blockquote {
     text-shadow: 2px 2px 3px #141414;
 }
 #intro hr {
-    margin: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
     width: 0;
     transition: width 1s;
     -webkit-transition: width 1s;
