@@ -31,6 +31,16 @@ block content
             h4.text-justified.gray
               br
               | {{ site.intro | markdownify | remove: '<p>' | remove: '</p>' }}
+              br
+              br
+              ul
+                li
+                  a(href="http://letterboxd.com/kyeah") Letterboxd
+                  |  — retros on film.
+                li
+                  a(href="https://buttondown.email/kyeah/archive") Newsletter
+                  |  — retros on the internet.
+
         #talks
           .pure-g.hcentered
             .pure-u-1.pure-u-md-1-12
@@ -38,7 +48,7 @@ block content
               | Film
           .pure-g
             .pure-u-1.pure-u-md-1-12
-            .pure-u-1.pure-u-md-5-6: h4-dark(style='font-size:15px')
+            .pure-u-1.pure-u-md-5-6: h4-dark
               a(href="/films/magical-realism") Magical Realism: 
               | Exploring Reality and Agency in the Coming-of-Age Story
               br
@@ -52,7 +62,7 @@ block content
               | CS
           .pure-g
             .pure-u-1.pure-u-md-1-12
-            .pure-u-1.pure-u-md-5-6: h4-dark(style='font-size:15px')
+            .pure-u-1.pure-u-md-5-6: h4-dark
               | The New MongoDB Rust Driver @ Rust NYC [
               a(href="/img/projects/mongo-rust-driver.html") Slides
               |  | 
@@ -75,6 +85,23 @@ block content
               br
               a(href="/img/projects/nao-final.pdf") The NAO Robot: 
               | A Gravity Compensation Controller and Keyframe Behavior for Motion Development
+          .pure-g.hcentered
+            .pure-u-1.pure-u-md-1-12
+            .pure-u-1.pure-u-md-5-6(style='margin-bottom:5px'): h3-wide.blue
+              br
+              | Journal
+          .pure-g
+            .pure-u-1.pure-u-md-1-12
+            .pure-u-1.pure-u-md-5-6: h4-dark
+            
+              a(href="/2016/03/01/lines-in-motion/") Lines in Motion
+              | : I've been learning to use a pen, lately.
+              br
+              a(href="/2015/01/03/why-i-turned-down-google/") Coming Home
+              | : On the morning of December 18th, I sent my hackNY acceptance email to a little virtual mailbox in NYC.
+              br
+              a(href="/2014/04/04/evolving-fractals/") Evolving Fractals
+              | : Explorations in beauty, genetics, and mathematics.
 
   section#code.content-wrapper
     .content
@@ -123,21 +150,3 @@ block content
               | Visit 
               a(href='https://github.com/kyeah') github:kyeah 
               | for an in-depth look at my recent and ongoing projects.
-
-  section#blog.content-wrapper
-    .content
-      .am-content-container
-        .pure-g.hcentered
-          .pure-u-1-12
-          .pure-u-5-6(style='margin-bottom:10px'): h3-dark.blue 
-              br
-              | <a href='blog'>Newest Blog Post: {{ site.posts.first.title}} </a>
-              br
-
-        .pure-g.hcentered
-          .pure-u-1-12
-          .pure-u-5-6
-            p(style='margin:0;')
-              h4-dark
-                | {{ site.posts.first.excerpt | remove: '<p>' | remove: '</p>' }}
-                | <a href='{{ site.posts.first.url }}'>&nbsp→</a>
