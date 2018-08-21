@@ -12,28 +12,18 @@ excerpt: "Magical Realism: Exploring Reality and Agency in the Coming-of-Age Sto
 __Magical Realism: Exploring Reality and Agency in the Coming-of-Age Story__<br>
 _Adapted from an essay written in 2015._
 
-The coming-of-age story is a well-traveled and oft-relatable narrative tale. Detailing a time
-of trials and triumphs in a young adolescent’s early life, it's been told across numerous artistic mediums
-and throughout a vast variety of cultures and civilizations. The traditional story centers around the
-growth of an adolescent at a pivotal point in their lifetime, when they learn the cultural norms and
-expectations of the world, are shaped by the events that occur at a personal and worldwide scale,
-and begin to understand the realities of the world they live in and how to find their place within it.
-The crux of such narratives often rely heavily on the protagonist’s psychological and moral growth,
-examining how the unrelenting passage of time in the temporal and spatial setting affects and
-manipulates the personal growth of its inhabitants and their philosophical developments.
-
 As young inhabitants of the society that they live in, the main subjects of a coming-of-age story are
-often powerless to affect the world around them at any meaningful scale. Although they may form
-their own social cliques and standards at a local scale with other adolescents, they must always
+often powerless to affect the world around them at any meaningful scale. They form
+their own social cliques and standards at a local scale with other adolescents, but must always
 grow older and face the inevitable coming of change, the structures of adult society, and the
 responsibilities they take on as members within it. The transition from youth to adulthood
 often comes with the acceptance of societal expectations and realities, and, as many films have
 explored, the dilution, repression, or outright abandonment of creativity, imagination, and
 “childish” optimism in the face of personal or political events and tribulations.
 
-Many films have explored the traditional coming-of-age story, covering everything from high-school and college relations (_The Breakfast Club_ [1985], _The Sandlot_ [1993], _Can’t Hardly Wait_ [1998], _An Education_ [2009]), parental relations (_Stand by Me_ [1986], _Short Term 12_ [2013]), sexual identity (_Get Real_ [1998], _Blue is the Warmest Color_ [2013]), and political and philosophical ideologies. They span every genre of film, including comedy, horror, musical, fantasy, science fiction, and documentary. Although the ubiquitous experience of growing older enables artists to adhere to safe story structures, easily-relatable themes of personal growth and acceptance, and clear narrative guidelines, there are films that opt to take the experience of transitioning into adulthood and give it an alternative representation.
+Many films have explored the traditional coming-of-age story, covering everything from high-school and college relations (_The Breakfast Club_ [1985], _The Sandlot_ [1993], _Can’t Hardly Wait_ [1998], _An Education_ [2009]), parental relations (_Stand by Me_ [1986], _Short Term 12_ [2013]), sexual identity (_Get Real_ [1998], _Blue is the Warmest Color_ [2013]), and political and philosophical ideologies. They span every genre of film, including comedy, horror, musical, fantasy, science fiction, and documentary. The crux of such narratives often rely heavily on the protagonist’s psychological and moral growth, examining how the unrelenting passage of time in the temporal and spatial setting affects and manipulates the personal growth of its inhabitants and their philosophical developments.
 
-The following analysis seeks to illuminate the inner workings of two films in particular — _The Tin Drum_ (1979) and _Pan’s Labyrinth_ (2006) — in order to appreciate the visual and audial artistry of magical realist elements as applied within their respective settings, and to examine the roots of subjective agency and its effects on adolescence during pivotal transitional periods from youth to adulthood.
+Although the ubiquitous experience of growing older enables artists to adhere to safe story structures, relatable themes of personal growth and acceptance, and clear narrative guidelines, there are films that opt to take the experience of transitioning into adulthood and give it an alternative representation. The following seeks to illuminate the inner workings of two films in particular — _The Tin Drum_ (1979) and _Pan’s Labyrinth_ (2006) — in order to appreciate the visual and audial artistry of magical realist elements as applied within their respective settings, and to examine the roots of subjective agency and its effects on adolescence during pivotal transitional periods from youth to adulthood.
 
 Though explored briefly as an alternative to German expressionist artwork in the 1920’s, magical
 realism as a novelistic and cinematic genre has its emergent roots in Latin-American and Hispanic
