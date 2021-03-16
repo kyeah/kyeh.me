@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Questionable Hacks</title>
+		<description>by Kevin Yeh</description>
+                <author>kevinyeah@utexas.edu</author>
+
+		<link>http://kyeh.me</link>
+		<atom:link href="http://kyeh.me/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Lines in Motion</title>
+				
+					<description>I’ve been learning to use a pen, lately. &lt;br&gt; &lt;br&gt; I thought I knew how to use one, but years of trembling lines and toppled letters proved otherwise. The pencil smears should have tipped me off, long before the smears shaped words and the words shaped thoughts, but instead of fixing the method of construction, I internalized the sloppiness of my results. </description>
+				
+                        	<pubDate>Tue, 01 Mar 2016 00:00:00 -0500</pubDate>
+				<link>http://kyeh.me/2016/03/01/lines-in-motion/</link>
+				<guid isPermaLink="true">http://kyeh.me/2016/03/01/lines-in-motion/</guid>
+			</item>
+		
+			<item>
+				<title>The Road to hackNY</title>
+				
+					<description>Hi everyone! I talked quite a bit about why I chose to be a hackNY fellow back in 2014, and almost a full year after the fact, I'm happy to say that being a hackNY fellow was, and continues to be, a much more wonderful experience than I could ever express in words.</description>
+				
+                        	<pubDate>Thu, 29 Oct 2015 00:00:00 -0400</pubDate>
+				<link>http://kyeh.me/2015/10/29/the-road-to-hackny/</link>
+				<guid isPermaLink="true">http://kyeh.me/2015/10/29/the-road-to-hackny/</guid>
+			</item>
+		
+			<item>
+				<title>Stockholm Syndrome</title>
+				
+					<description>To those interested in a quick, concurrent language that won't take any of your unsafe shit, this is for you.</description>
+				
+                        	<pubDate>Tue, 21 Jul 2015 00:00:00 -0400</pubDate>
+				<link>http://kyeh.me/2015/07/21/stockholm-syndrome/</link>
+				<guid isPermaLink="true">http://kyeh.me/2015/07/21/stockholm-syndrome/</guid>
+			</item>
+		
+			<item>
+				<title>Coming Home</title>
+				
+					<description>
+A few weeks ago, I received an offer to work on GCP's Docker and Kubernetes team for the summer. For those unfamiliar with Docker, it's a lightweight, open-source virtualization technology for distributed applications that was released less than two years ago and has seen a massive adoption rate among companies, both small and large, that are looking to scale their applications and contribute back to the project.
+</description>
+				
+                        	<pubDate>Sat, 03 Jan 2015 00:00:00 -0500</pubDate>
+				<link>http://kyeh.me/2015/01/03/why-i-turned-down-google/</link>
+				<guid isPermaLink="true">http://kyeh.me/2015/01/03/why-i-turned-down-google/</guid>
+			</item>
+		
+			<item>
+				<title>Elective Freedoms</title>
+				
+					<description>
+I've reached the Promised Land. I've seen the skies at the top of the mountain and felt the eager sun on my skin, where once there lay only the cold.  I've climbed the peaks and looked down from where I fought, finding nothing but heavy hearts and sorrowed minds from those who now follow in my footsteps. &lt;/br&gt; &lt;/br&gt; I've reached the last year of my bachelor's degree.
+</description>
+				
+                        	<pubDate>Sun, 14 Dec 2014 00:00:00 -0500</pubDate>
+				<link>http://kyeh.me/2014/12/14/elective-freedoms/</link>
+				<guid isPermaLink="true">http://kyeh.me/2014/12/14/elective-freedoms/</guid>
+			</item>
+		
+			<item>
+				<title>Hardware Hacking</title>
+				
+					<description>
+Ever notice an odd trend when watching hackathon closing ceremonies? Hardware hacks dominate the domain. With four of the top five hacks at BoilerMake ‘14 involving a heavy dosage of physical hardware, along with the majority of the HackTX top 10 winners, it seems more and more people are looking at mobile and wearables as the next pervasive technology of the future -- finding ways to take the experience out of the screen and have users interact with the physical world around them.
+</description>
+				
+                        	<pubDate>Sun, 19 Oct 2014 00:00:00 -0400</pubDate>
+				<link>http://kyeh.me/2014/10/19/hardware-hacking/</link>
+				<guid isPermaLink="true">http://kyeh.me/2014/10/19/hardware-hacking/</guid>
+			</item>
+		
+			<item>
+				<title>Evolving Fractals</title>
+				
+					<description>&lt;p&gt;In the Spring of 2013, I took a research course on Computational Intelligence in Games as part of the Freshman Research Initiative program at UT. Recently, I was invited back by the professor to present as a guest speaker, showing off a project my partner and I started in the advanced course and have continued developing over the last few months. I say invited, because I ended up in class on the other side of campus while my partner presented to a room full of young, impressionable college freshmen. Nevertheless, the reception of our research was reportedly positive, and the first-year students were eager to ask questions about our motivations for the project, as well as implementation decisions regarding its structure.&lt;/p&gt;
+</description>
+				
+                        	<pubDate>Fri, 04 Apr 2014 00:00:00 -0400</pubDate>
+				<link>http://kyeh.me/2014/04/04/evolving-fractals/</link>
+				<guid isPermaLink="true">http://kyeh.me/2014/04/04/evolving-fractals/</guid>
+			</item>
+		
+			<item>
+				<title>Seeing Threes at the End of the Road</title>
+				
+					<description>
+We made it. It's happening. Blastro Networks is finally ready to release their redesigned, rejuvenated android apps, due in large part to the work I did over the summer, and also to the less frequent work I've done over the last few school months. Although I have my reservations about a few of the design choices made by the company, I understand the immense amount of planning that occurs behind the scenes to keep all of their web and mobile apps behaving homogeneously and at a high level of polish. Nevertheless, they put a lot of faith in my ability as a novice Android developer at the time of my hiring, and I was blessed with an opportunity to lead the redesign and rebuilding of their three flagship apps as their sole developer.
+</description>
+				
+                        	<pubDate>Thu, 24 Oct 2013 00:00:00 -0400</pubDate>
+				<link>http://kyeh.me/2013/10/24/seeing-threes/</link>
+				<guid isPermaLink="true">http://kyeh.me/2013/10/24/seeing-threes/</guid>
+			</item>
+		
+			<item>
+				<title>Getting Cozy with Android Studio</title>
+				
+					<description>&lt;p&gt;I recently switched over to Android Studio after months of frustratingly sitting back in my chair while Eclipse plinked around, cleaning and building the project every time I changed a few lines of code.&lt;/p&gt;
+</description>
+				
+                        	<pubDate>Fri, 24 May 2013 00:00:00 -0400</pubDate>
+				<link>http://kyeh.me/2013/05/24/getting-cozy-with-android-studio/</link>
+				<guid isPermaLink="true">http://kyeh.me/2013/05/24/getting-cozy-with-android-studio/</guid>
+			</item>
+		
+			<item>
+				<title>HELLO, BLOG</title>
+				
+					<description>&lt;p&gt;Early morning nonsense post; ignore. thank you.&lt;/p&gt;
+</description>
+				
+                        	<pubDate>Tue, 14 May 2013 00:00:00 -0400</pubDate>
+				<link>http://kyeh.me/2013/05/14/hello-blog/</link>
+				<guid isPermaLink="true">http://kyeh.me/2013/05/14/hello-blog/</guid>
+			</item>
+		
+	</channel>
+</rss>
