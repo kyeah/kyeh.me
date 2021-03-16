@@ -1,0 +1,28 @@
+name: GH Pages deploy
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+
+env:
+  python-version: 3.8
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v1
+        with:
+          python-version: ${{ env.python-version }}
+
+      - name: Install ghp-import
+        run: pip install ghp-import
+
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Deploy
+        run: ghp-import -p -f -m "Update docs to ${{ github.sha }}" _site
