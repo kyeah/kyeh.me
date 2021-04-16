@@ -1,24 +1,25 @@
 <!DOCTYPE html><html lang="en"><head><!--meta(charset='utf-8')--><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><title> Evolving Fractals </title><!-- Set the viewport width to device width for mobile--><meta name="viewport" content="width=device-width, initial-scale=1"><link href="http://kyeh.me/feed.xml" rel="alternate" title="Questionable Hacks" type="application/atom+xml"><meta name="twitter:card" content="summary"><meta property="og:type" content="article"><meta property="og:title" content="Evolving Fractals"><meta property="og:description" content="<p>In the Spring of 2013, I took a research course on Computational Intelligence in Games as part of the Freshman Research Initiative program at UT. Recently, I was invited back by the professor to present as a guest speaker, showing off a project my partner and I started in the advanced course and have continued developing over the last few months. I say invited, because I ended up in class on the other side of campus while my partner presented to a room full of young, impressionable college freshmen. Nevertheless, the reception of our research was reportedly positive, and the first-year students were eager to ask questions about our motivations for the project, as well as implementation decisions regarding its structure.</p>
+
 "><meta property="og:url" content="http://kyeh.me/2014/04/04/evolving-fractals/"><!-- Included CSS Files--><link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300italic"><link rel="stylesheet" href="/css/default.css"><link rel="stylesheet" href="/css/screen.css"><link rel="stylesheet" href="/css/longform.css"><link rel="stylesheet" href="/css/animate.min.css"><link rel="stylesheet" href="/css/app.css"><link rel="stylesheet" href="/css/pure.css"><style>[ng-cloak] {display: none}
 </style></head><body id="main"><section id="blog-post"><div class="content"><div class="am-content-container"><div class="content-wrapper"><div class="pure-g hcentered"><div class="pure-u-1 pure-u-md-1-6"></div><div class="pure-u-1 pure-u-md-2-3" id="header"><table><tr><td rowspan="2"><img class="about-avatar" src="img/personal/avatar-hny.png"></td><td style="vertical-align:bottom;padding-left:10px"><a id="home" href="/">Kevin Yeh</a></td></tr><tr><td style="vertical-align:top"><a href="https://github.com/kyeah"><i class="fa fa-github icon transparent"></i></a><a href="https://twitter.com/kyeahok"><i class="fa fa-twitter icon transparent"></i></a><a href="http://letterboxd.com/kyeah"><i class="fa fa-video-camera icon transparent"></i></a><a href="http://www.last.fm/user/k-yeah/"><i class="fa fa-music icon transparent"></i></a><a href="https://buttondown.email/kyeah/"><i class="fa fa-newspaper-o icon transparent"></i></a></td></tr></table><table class="postdate"><tr><td id="date-sm"><h5-dark>04 Apr 2014<br><a href="/blog">Back</a></h5-dark></td><td id="title"><h1 class="black"> Evolving Fractals </h1><h3-dark class="black">
 Explorations in beauty, genetics, and mathematics.<br></h3-dark></td></tr></table><div id="sep"></div></div></div><div class="pure-g hcentered"><div class="pure-u-1 pure-u-md-1-6"><table class="postdate" id="date-lg"><tr><td><h5-dark>04 Apr 2014</h5-dark></td></tr><tr><td><h5-dark><a href="/blog">Back</a></h5-dark></td></tr></table></div><div class="pure-u-1 pure-u-md-2-3" id="blog-content"><h5-dark class="dark-gray" style="text-align:justify;"><p>In the Spring of 2013, I took a research course on Computational Intelligence in Games as part of the Freshman Research Initiative program at UT. Recently, I was invited back by the professor to present as a guest speaker, showing off a project my partner and I started in the advanced course and have continued developing over the last few months. I say invited, because I ended up in class on the other side of campus while my partner presented to a room full of young, impressionable college freshmen. Nevertheless, the reception of our research was reportedly positive, and the first-year students were eager to ask questions about our motivations for the project, as well as implementation decisions regarding its structure.</p>
 
-<p>But what was the project? Well, let's back up a bit.</p>
+<p>But what was the project? Well, let’s back up a bit.</p>
 
-<p><h3-dark style="color: #DB6837">Human-Guided Evolution of Aesthetically-Pleasing Fractals</h3-dark></p>
+<h3-dark style="color: #DB6837">Human-Guided Evolution of Aesthetically-Pleasing Fractals</h3-dark>
 
 <p><img src="/img/blog/fractal-1.png" alt="Fractal GUI 1" />
 <img src="/img/blog/fractal-2.png" alt="Fractal GUI 2" /></p>
 
-<p>This is the current state of our research. In essence, it is an evolutionary fractal selector and part-time mating simulator. Tyler Yates and I starting building this system from scratch about six months ago, and we are finally starting to realize a smooth, efficient system for guiding the evolution of aesthetically-pleasing fractals. If you've ever had wet mathematical dreams of owning your own pet fractal, this is your chance to breed it.</p>
+<p>This is the current state of our research. In essence, it is an evolutionary fractal selector and part-time mating simulator. Tyler Yates and I starting building this system from scratch about six months ago, and we are finally starting to realize a smooth, efficient system for guiding the evolution of aesthetically-pleasing fractals. If you’ve ever had wet mathematical dreams of owning your own pet fractal, this is your chance to breed it.</p>
 
-<p>We started off with a desire to correlate mathematical structures and subjective beauty, zoning in on a particularly simple and elegant family of fractals: the <a href="http://paulbourke.net/fractals/clifford/">Clifford Attractor</a>. Now, modifying constants is cool and all, but we're looking for something bigger. Let's see if we can't evolve the structure of our fractals; to do that, we're going to need a working knowledge of how our fractals are represented.</p>
+<p>We started off with a desire to correlate mathematical structures and subjective beauty, zoning in on a particularly simple and elegant family of fractals: the <a href="http://paulbourke.net/fractals/clifford/">Clifford Attractor</a>. Now, modifying constants is cool and all, but we’re looking for something bigger. Let’s see if we can’t evolve the structure of our fractals; to do that, we’re going to need a working knowledge of how our fractals are represented.</p>
 
-<p><h3-dark style="color: #DB6837">The Genetics of a Fractal</h3-dark></p>
+<h3-dark style="color: #DB6837">The Genetics of a Fractal</h3-dark>
 
 <p>Fractals are all defined by the iterative evaluation of their equations, each of which describe how their XYZ position values and RGB color values will change over time in relation to previous evaluations. Our equations are parsed and represented as large expression trees with different types of nodes available for use: the most high-level types being terminals (values) and non-terminals (operators). One could imagine basic unary and binary operators like trigonometric and algebraic functions, but dream a little bigger and the possibilities start to flourish; start defining fractals in a programmatic way, and ternary if-then-else nodes become possible, integrating conditional behaviors into a visual medium.</p>
 
-<p>With each operator and value incorporated into its own node, it's easy to see how one could start evolving equations. There are three basic methods of evolution that we use to create new equations for fractal children: cross-over along operators, mutation along constants, and introduction. These three methods serve different purposes in the grand scheme of making fractal babies, all of which are important in generating a wide variety of possible fractals that could be pleasing to the user at hand.</p>
+<p>With each operator and value incorporated into its own node, it’s easy to see how one could start evolving equations. There are three basic methods of evolution that we use to create new equations for fractal children: cross-over along operators, mutation along constants, and introduction. These three methods serve different purposes in the grand scheme of making fractal babies, all of which are important in generating a wide variety of possible fractals that could be pleasing to the user at hand.</p>
 
 <p>Mutation along constants is the safest of the evolutionary methods; the equation form is kept intact, and constants are modified by a small, random displacement. The result is a fractal that holds the same iterative behavior, with accentuation on certain curvatures of its shape.</p>
 
@@ -28,15 +29,17 @@ Explorations in beauty, genetics, and mathematics.<br></h3-dark></td></tr></tabl
 
 <p>With these evolutionary methods, users start tending towards fractals with certain shapes that are pleasing to their own personal taste; but how varied can these fractals get, and how many are truly interesting?</p>
 
-<p><h3-dark style="color: #DB6837">Wading through a Sea of Sparsity</h3-dark></p>
+<h3-dark style="color: #DB6837">Wading through a Sea of Sparsity</h3-dark>
 
 <p><img src="/img/blog/fractal-sparse.png" alt="Sparse Fractal Diagram" /></p>
 
 <p>This is a sparse fractal. We define a sparse fractal to be one whose visual representation is aesthetically unappealing due to its lack of density or form, like specks of paint on a large canvas. We incorporate a number of varied operations in our system, all of which can be introduced repeatedly and combined haphazardly; the consequence of our mayhem is the enormous sample space for our fractals, which makes sparse fractals a near certainty. In fact, we observed 10 generations of fractals in our program and found 80% of them to be what we considered sparse fractals.</p>
 
-<p>In approaching the problem of filtering, we established two criteria on what constitutes a non-sparse fractal:
-  1.    A sufficiently large number of distinct points
-  2.    The presence of non-linear figures (e.g. curves)</p>
+<p>In approaching the problem of filtering, we established two criteria on what constitutes a non-sparse fractal:</p>
+<ol>
+  <li>A sufficiently large number of distinct points</li>
+  <li>The presence of non-linear figures (e.g. curves)</li>
+</ol>
 
 <p>In explaining our thought process for filtering, Tyler says it best:</p>
 
@@ -44,31 +47,28 @@ Explorations in beauty, genetics, and mathematics.<br></h3-dark></td></tr></tabl
 
 "Initially, our first approach was to create a set of point objects representing all the distinct pixels drawn on the fractal's image. The final size of the set after all points had been drawn was then used to determine if the fractal was sparse or not. This method worked well for determining the first criterion because all that is needed is a numeric threshold for determining the minimum number of distinct points in a non-sparse fractal. This method was not very useful in determining the second criterion however as there was no efficient way to determine the linearity of the figure from just the set of points.  
 
-</br></br>
+&lt;/br&gt;&lt;/br&gt;
 
   Our next approach was to divide the image into square regions and count how many regions the fractal intersected. This method worked well for determining the second criterion as curves would intersect more regions than a straight line. Determining the first criterion however was difficult as a sparse fractal could have few points but still intersect many regions if the points were far enough apart.
 
-</br></br>
+&lt;/br&gt;&lt;/br&gt;
 
   The final method we devised was able to determine both criterion with a high rate of success and did not require much computation. Rather than look at the individual pixels in the image of a fractal, the program looks at the image file itself, specifically at how large the image file is in bytes. To understand this methodology, we need to describe the format of the images created by the program.
 
-</br></br>
+&lt;/br&gt;&lt;/br&gt;
 
   Our program uses the PNG image format for saving images of the generated fractals. PNG is a lossless image format, meaning no data is lost when saving the image (compare this to the JPG image format where data can be lost for the sake of smaller image sizes). Thus, the only way PNG encoders can reduce the sizes the output file is to perform lossless compression techniques. One technique that PNG encoders use is to find large regions of one color and reduce that region to a single block of information in the output. This technique works remarkably well for reducing the sizes of images that are composed only of lines because the encoder only needs to save the endpoints of each line in the output file. This compression technique also works well for images that have very few points that are different in color than the background as only a few points need to be saved in the output. 
 
-</br></br>
+&lt;/br&gt;&lt;/br&gt;
   
   Thus, PNG encoders are able to compress sparse fractal images very well because they are well suited to the lossless compression algorithms used in encoding PNG images. Exploiting this fact, we were able to define a size threshold for the PNG files of sparse fractals. For fractals rendered at a resolution of 640x360 pixels we defined the cutoff as 1 kilobyte, such that any fractal whose PNG file was smaller than this cutoff was marked as sparse. Thus, any fractal whose image file has a size of less than 1 kilobyte is marked as sparse and is not shown to the user. Instead, a new fractal is generated to replace it. Through manual testing we have found that this size threshold has a high rate of success for correctly determining the sparsity of a fractal."
 </blockquote>
 
+<h3-dark style="color: #DB6837">A Beautiful World</h3-dark>
 
-<p></p>
+<p>Great! Now we have a system for generating and evolving fractals in a large, vast sample space, and we don’t have to deal with all the junk to get there. It works well, it works fast, you can go back into your history and retry generations, you can save your entire family history and load them up in an instant. But you can’t <i>appreciate</i> your fractals. Your fractal takes up, at best, 1/9th of your screen, they’re drawn with a small number of points to expedite the evolution process, and you can’t tweak them to your liking. What did we come all this way for?</p>
 
-<p><h3-dark style="color: #DB6837">A Beautiful World</h3-dark></p>
-
-<p>Great! Now we have a system for generating and evolving fractals in a large, vast sample space, and we don't have to deal with all the junk to get there. It works well, it works fast, you can go back into your history and retry generations, you can save your entire family history and load them up in an instant. But you can't <i>appreciate</i> your fractals. Your fractal takes up, at best, 1/9th of your screen, they're drawn with a small number of points to expedite the evolution process, and you can't tweak them to your liking. What did we come all this way for?</p>
-
-<p>...oh? Hello, beautiful.</p>
+<p>…oh? Hello, beautiful.</p>
 
 <p><img src="http://giant.gfycat.com/RadiantDeliciousDuckbillcat.gif" alt="Fractal Result" /></p>
 
