@@ -4,7 +4,7 @@ author: kevinyeah@utexas.edu
 
 url: http://kyeh.me
 
-markdown: rdiscount
+markdown: kramdown
 permalink: pretty
 pagination:
   limit: false
