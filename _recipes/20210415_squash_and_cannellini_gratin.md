@@ -3,7 +3,7 @@ layout: film_post
 title: "Squash & Cannellini Gratin"
 slug: squash-and-cannellini-gratin
 date: 2021-04-15 00:00
-img: ""
+img: "http://annajones.co.uk/cms/wp-content/uploads/2017/11/Gratin-760x443.jpg"
 
 excerpt: "A sweet, buttery bake with crispy pockets of cheese and savory bread."
 
@@ -13,7 +13,7 @@ A sweet, buttery bake with crispy pockets of cheese and savory bread. Simple and
 
 From: [Anna Jones](http://annajones.co.uk/recipe/butternut-cannellini-gratin)
 
-SERVES 6 / 30min prep / 40min bake
+SERVES 3 / 30min prep / 40min bake
 
 - 1 large red onion
 - 400-500g squash (about half a veg)
