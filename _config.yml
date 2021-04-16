@@ -6,8 +6,6 @@ url: http://kyeh.me
 
 markdown: kramdown
 permalink: pretty
-pagination:
-  limit: false
 
 collections:
   projects:
@@ -15,6 +13,13 @@ collections:
   films:
     output: true
     permalink: /:collection/:title/
+
+pagination:
+  enabled: true
+  collection: films
+  sort_reverse: true
+
+gems: [jekyll-paginate-v2]
 
 intro: "
 
