@@ -189,13 +189,13 @@ i {
 
 /* line 96, ../sass/screen.sass */
 pre {
-  background: rgba(0, 0, 0, 0.4);
+  /* background: rgba(0, 0, 0, 0.4); */
   color: #e7931a;
   font: 14px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
   line-height: 1.5;
   margin: 20px 0 20px 0;
   overflow: auto;
-  padding: 1em;
+  /* padding: 1em; */
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -229,7 +229,8 @@ pre code {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
-  padding: 0;
+  padding: 2em;
+  padding-left: 1.5em;
 }
 
 /* Links */
