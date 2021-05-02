@@ -299,7 +299,7 @@ blockquote {
     max-width:inherit;  /* Allow lightbox images to expand when clicked on */
 }
 body {
-    background: white;  
+    background: rgb(244,242,240); 
 }
 img {
     max-width:100%;
@@ -528,9 +528,9 @@ blockquote {
   text-transform: none;
   font-weight: 300;
   line-height: 1.8em;
-  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-  font-size: 0.93em;
-  color: #777 !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1.1em;
+  color: rgb(40, 40, 40) !important;
 }
 .top-aligned {
     vertical-align:top;
