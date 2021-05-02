@@ -229,8 +229,8 @@ pre code {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
-  padding: 2em;
-  padding-left: 1.5em;
+  padding: 2em !important;
+  padding-left: 1.5em !important;
 }
 
 /* Links */
