@@ -32,10 +32,11 @@ New Relic recommends waiting 3 minutes for data; the exact value of the recommen
 Some example combinations of AW/EO and their resultant queries:
 
 |Aggregation Window (AW)|Evaluation Offset (EO)|Query|
-1 minute | 1 | TIMESERIES 1 MINUTE <br> SINCE 2 MINUTES AGO <br> UNTIL 1 MINUTE AGO
-1 minute | 2 | TIMESERIES 1 MINUTE <br> SINCE 3 MINUTES AGO <br> UNTIL 2 MINUTE AGO
-10 minute | 1 | TIMESERIES 10 MINUTES <br> SINCE 20 MINUTES AGO <br> UNTIL 10 MINUTES AGO
-10 minute | 2 | TIMESERIES 10 MINUTES <br> SINCE 30 MINUTES AGO <br> UNTIL 20 MINUTES AGO
+|--------|---|---|
+|1 minute | 1 | TIMESERIES 1 MINUTE <br> SINCE 2 MINUTES AGO <br> UNTIL 1 MINUTE AGO|
+|1 minute | 2 | TIMESERIES 1 MINUTE <br> SINCE 3 MINUTES AGO <br> UNTIL 2 MINUTE AGO|
+|10 minute | 1 | TIMESERIES 10 MINUTES <br> SINCE 20 MINUTES AGO <br> UNTIL 10 MINUTES AGO|
+|10 minute | 2 | TIMESERIES 10 MINUTES <br> SINCE 30 MINUTES AGO <br> UNTIL 20 MINUTES AGO|
 
 ## Warning and Critical Thresholds
 
@@ -66,6 +67,7 @@ Keep in mind how quickly an alarm starts and resolves based on the occurrence se
 Some examples:
 
 |Aggregation Window|Condition|Alarm sounds when...|Alarm resolves when...|
+|---|---|----|---|
 |15 min|Query equals 100 for at least 60 minutes|Query equals 100 every 15 minutes for 60 minutes (4 windows)|Query is not equal to 100 in the last 15 minutes|
 |1 min|Query above 5% for at least 5 minutes|Query above 5% every minute for 5 minutes (5 windows)|Query is below 5% once in the last minute|
 |5 min|Query above 5% at least once in 5 minutes|Query is above 5% once in the last 5 minutes (1 window)|Query is below 5% once in the last 5 minutes|
