@@ -17,7 +17,7 @@ Aggregation windows (AW) describe how often the query runs, and on how large of 
 
   `TIMESERIES 5 MINUTES` for a window of 5 minutes.
 
-<img src="/img/blog/2021-05-1-building-new-relic-alarms/nr-alarm-1.png" style="display: block; max-width: 500px;margin: 0 auto;"/>
+<img src="/img/blog/2021-05-1-building-new-relic-alarms/nr-alarm-1.png" style="display: block; max-width: min(500px, 100%);margin: 0 auto;"/>
 
 ## Evaluation Offset
 
@@ -25,7 +25,7 @@ The evaluation offset (EO) of an alarm describes the number of aggregation windo
 
   `SINCE 10 MINUTES AGO UNTIL 5 MINUTES AGO`.
   
-<img src="/img/blog/2021-05-1-building-new-relic-alarms/nr-alarm-2.png" style="display: block; max-width: 500px;margin: 0 auto;"/>
+<img src="/img/blog/2021-05-1-building-new-relic-alarms/nr-alarm-2.png" style="display: block; max-width: min(500px, 100%);margin: 0 auto;"/>
   
 New Relic recommends waiting 3 minutes for data; the exact value of the recommended EO will depend on your aggregation window.
 
@@ -44,11 +44,11 @@ The **threshold**, **threshold duration** and **threshold occurrences** define t
 
 - The **threshold** is a value that is compared to a single aggregation window’s query value. This determines whether a single window has violated the condition, in conjunction with the **operator** (describing whether violations are “above” or “below” the threshold.)
 
-<img src="/img/blog/2021-05-1-building-new-relic-alarms/nr-alarm-4.png" style="display: block; max-width: 500px;margin: 0 auto;"/>
+<img src="/img/blog/2021-05-1-building-new-relic-alarms/nr-alarm-4.png" style="display: block; max-width: min(500px, 100%);margin: 0 auto;"/>
 
 - The **threshold duration** determines how many aggregation windows are evaluated at once.
 
-<img src="/img/blog/2021-05-1-building-new-relic-alarms/nr-alarm-5.png" style="display: block; max-width: 500px;margin: 0 auto;"/>
+<img src="/img/blog/2021-05-1-building-new-relic-alarms/nr-alarm-5.png" style="display: block; max-width: min(500px, 100%);margin: 0 auto;"/>
 
 - The **threshold occurrences** determine how all of the aggregation window violations, together, combine into a single alarm violation. This can either be:
   - **at_least_once** - If any window is violating the condition, the alarm sounds.
