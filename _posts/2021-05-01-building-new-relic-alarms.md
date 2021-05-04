@@ -54,7 +54,10 @@ The **threshold**, **threshold duration** and **threshold occurrences** define t
   - **at_least_once** - If any window is violating the condition, the alarm sounds.
   - **all** - If all windows violate the condition, the alarm sounds.
 
-|<img src="/img/blog/2021-05-1-building-new-relic-alarms/nr-alarm-6.png"/>|<img src="/img/blog/2021-05-1-building-new-relic-alarms/nr-alarm-7.png"/>|
+<div style="display:flex">
+    <div class="flex-2"><img src="/img/blog/2021-05-1-building-new-relic-alarms/nr-alarm-6.png"></div>
+      <div class="flex-2"><img src="/img/blog/2021-05-1-building-new-relic-alarms/nr-alarm-7.png"></div>
+</div>
 
 These values map directly to this UI:
 
