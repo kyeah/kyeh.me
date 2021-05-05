@@ -5,11 +5,15 @@ title: Building New Relic Alarms
 summary: "How alarms work in New Relic."
 ---
 
-# The Basics
+In recent months, New Relic has made leaps and bounds in supporting the observability features that users have requested for years. Their unified product, New Relic One, has seen constant iterations and improvements, and they're slowly shedding away their market identity as part of the old and outdated guard of monitoring tools.
 
-A New Relic alarm is built on top of a New Relic data query, written in NRQL, which outputs a single value. This query is run on a periodic basis, and when the conditions of an alarm are met, the alarm notifies PagerDuty.
+At the same time, their tooling often appears with quirks and missing gaps, glaring for folks who have come from other tools like Grafana or Splunk. Building alerts in New Relic, to me, has always been a bit clunky — with lots of barriers and snags in the way of the metrics I care about.
+
+In order to properly approach the design of a New Relic alert, I've found that it's important to understand the way it's been built. A lot of concepts are familiar to other monitoring and alerting systems, but subtle nuances can make an outsized impact on the overall behavior of an alert, affecting how quickly your team can triage and respond to issues. And some limitations mean that certain types of alerts, for certain types of systems, aren't feasible at all.
 
 # Anatomy of an Alarm
+
+A New Relic alarm is built on top of a New Relic data query, written in NRQL, which outputs a single value. This query is run on a periodic basis, and when the conditions of an alarm are met, the alarm notifies PagerDuty.
 
 ## Aggregation Windows
 
@@ -51,12 +55,12 @@ The **threshold**, **threshold duration** and **threshold occurrences** define t
 <img src="/img/blog/2021-05-1-building-new-relic-alarms/nr-alarm-5.png" style="display: block; max-width: min(500px, 100%);margin: 0 auto;"/>
 
 - The **threshold occurrences** determine how all of the aggregation window violations, together, combine into a single alarm violation. This can either be:
-  - **at_least_once** - If any window is violating the condition, the alarm sounds.
+  - **at\_least\_once** - If any window is violating the condition, the alarm sounds.
   - **all** - If all windows violate the condition, the alarm sounds.
 
 <div style="display:flex">
-    <div class="flex-2"><img src="/img/blog/2021-05-1-building-new-relic-alarms/nr-alarm-6.png"></div>
-      <div class="flex-2"><img src="/img/blog/2021-05-1-building-new-relic-alarms/nr-alarm-7.png"></div>
+    <div style="flex:1"><img src="/img/blog/2021-05-1-building-new-relic-alarms/nr-alarm-6.png"></div>
+      <div style="flex:1"><img src="/img/blog/2021-05-1-building-new-relic-alarms/nr-alarm-7.png"></div>
 </div>
 
 These values map directly to this UI:
@@ -79,7 +83,7 @@ Some examples:
 
 Two notable limitations exist here:
 
-- The maximum aggregation window is 15 minutes.
+- The maximum aggregation window is [15 minutes](https://discuss.newrelic.com/t/alerting-on-spotty-metrics-possible-to-increase-aggregation-window-times/117331/2).
 - The maximum threshold duration is two hours.
 
 This means that New Relic alarms, out of the box, can only manage queries that work on data from within **the last two hours**, and data aggregation (e.g. averages, percentages) for a single window can only aggregate up to **15 minutes at a time**. 
@@ -88,7 +92,7 @@ This makes New Relic Alerts a useful tool for **spikes** and **short-term trends
 
 An example of a bad use case for the out-of-the-box functionality would be detecting an elevated error rate over the weekend. An application that receives much less activity over the weekend results in data that is more spotty and alarms that are subsequently less reliable. 
 
-One may consider trying to collect data over a larger period of time to compensate — however, you would only be able to collect data over 2 hours, and would need to rely on consistent patterns across a series of 15 minute intervals.
+One may consider trying to collect data over a larger period of time to compensate. However, you would only be able to collect data over 2 hours, and would need to rely on consistent patterns across a series of 15 minute intervals.
 
 In order to alarm on larger aggregated queries (e.g. over the last 12 hours), we would need to implement an out-of-band solution to run NRQL queries periodically and insert the results as custom New Relic events, which could then be used as the data source for alarms. e.g.
 
@@ -98,7 +102,7 @@ In order to alarm on larger aggregated queries (e.g. over the last 12 hours), we
 
 By default, any aggregation window that is missing data will return a NULL value. A NULL value will not cause the New Relic alarm to close automatically. **This is important to consider when designing your query**.
 
-Notably, “missing data” also applies to any NRQL query that returns a count, percentage, etc. _if there is no data after the WHERE query_. For example, given this query:
+Notably, “missing data” [also applies](https://discuss.newrelic.com/t/relic-solution-how-can-i-figure-out-when-to-use-gap-filling-and-loss-of-signal/120401) to any NRQL query that returns a count, percentage, etc. _if there is no data after the WHERE query_. For example, given this query:
 
 ```SQL
 SELECT count(*) FROM TransactionError 
@@ -134,3 +138,50 @@ To decide the duration, consider how often you expect the alarm to go off and ho
 
 - If an issue is temporary, like elevated error counts, someone should take a look quickly. Keep a smaller duration so we can be alerted if it happens again. 
 - If an issue is ongoing, like a specific error has occurred, someone should remediate eventually. Use a longer duration.
+
+# Recommendations
+
+## Pick your aggregation window
+
+The aggregation window you choose will impact the rest of your alarm configuration. In common scenarios, smaller is better — but only if your data is frequent enough to be meaningful in small intervals at all hours of the day. If you only receive 5 requests a minute during U.S. off-hours, you may consider:
+
+- increasing your aggregation window to evaluate more data at once
+- creating two separate alarms — one with a high threshold for a small amount of data, and one with a smaller threshold for a larger amount of data.
+
+## Clamp spotty metrics
+
+When data is inconsistent or low at certain periods of the day, you may consider requiring a minimum amount of data for your alarm to trigger. Unfortunately, [it's not currently possible](https://discuss.newrelic.com/t/alerting-based-upon-multiple-related-conditions/30184) to define an alert based on multiple conditions.
+
+Instead, a clever (and somewhat confusing) workaround is to clamp your metric to zero when it doesn't meet the minimum threshold of data:
+
+Normally:
+```
+SELECT error_rate FROM ...
+```
+
+With Clamping:
+```
+SELECT (
+  error_rate *
+  clamp_max(
+    floor(uniq_session_count / minimum_threshold), 
+    1
+  )
+) FROM ...
+```
+
+This bit of math flattens out any spikes that exist due to a small number of data points within a given aggregation window. The line in blue below indicates the data points kept:
+
+![](/img/blog/2021-05-1-building-new-relic-alarms/nr-overlay.gif)
+
+## Consider out-of-band workflows
+
+With clamping, you may solve the issue of noisy alerts, but miss certain patterns that were previously captured in periods of low or inconsistent traffic.
+
+In these cases, the only option available is to build out an out-of-band workflow. An example use case is to generate error-rate alarms for low-traffic APIs, where a single endpoint may have only a few requests per minute or hour.
+
+An out-of-band workflow might generate custom New Relic events every 10-15 minutes via a scheduler like Github Actions, calculating the error rate for the last 30-100 requests. In this way, you can build a "sliding-window" indicator that can be graphed and alerted on if it ever rises above an abnormal amount.
+
+## Keep experimenting
+
+At the end of the day, alarms are only as good as the results you get out of them. Knowing the tools that you're working with is only one part of creating and tuning alarms — the other is knowing your system and being able to express what you need to monitor in human terms.

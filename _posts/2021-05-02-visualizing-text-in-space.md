@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Visualizing Text in Space
+title: Custom Leading and Tracking with textToPoints
 
-summary: "Tips for text in p5."
+summary: "Recreating common functionality with p5 textToPoints."
 ---
 
 The textToPoints feature of p5.js is a powerful and accessible feature for breaking text paths down into individual points. It can be used in many different, interesting ways, from multi-agent environments to slit-scan effects. 
 
-However, when compared to the versatility of normal text functionality, both in p5 and in raw HTML/CSS, two features are glaring ommissions: multiline rendering and vertical + horizontal spacing (leading and tracking.)
+However, when compared to the versatility of normal text functionality, both in p5 and in raw HTML/CSS, two features are glaring omissions: multiline rendering and vertical + horizontal spacing (leading and tracking.)
 
-<h3-dark style="color: #DB6837">Multiline Text</h3-dark>
+# Multiline Text
 
 Out of the box, textToPoints does not support multiline text. When a multiline string is provided, newlines are interpreted as spaces:
 
@@ -62,7 +62,7 @@ Now with leading after calculating the points for a line:
 yOffset += leading
 ```
 
-<h3-dark style="color: #DB6837">Tracking</h3-dark>
+# Tracking
 
 Out of the box, textToPoints will return us text points as defined by the text attributes:
 
