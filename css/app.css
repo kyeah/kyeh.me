@@ -424,10 +424,10 @@ h5-dark {
     font-size:15px;
     text-shadow: none;
 }
-ul {
+/* ul {
     font-family: "freight-text-pro",Georgia,Cambria,"Times New Roman",Times,serif;
     line-height: 1.8em;
-}
+} */
 nav ul {
     font-family: inherit;
     line-height: inherit;
